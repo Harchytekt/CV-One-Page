@@ -15,8 +15,9 @@ The website had to :
 1. the sites are compatible with Safari and make use of the CSS _backdrop-filter_ which is only comatible with this one;
 2. the present sites could contain some error in the [W3C HTML Validator][1] and [W3C CSS Validator][2] due to the myriad of favicons.
 
+
+<center>![Logo](Previews/favicon.png "Logo")</center>
+
+
 [1]: https://validator.w3.org
 [2]: https://jigsaw.w3.org/css-validator/
-
-
-![Logo](Previews/favicon.png "Logo")
