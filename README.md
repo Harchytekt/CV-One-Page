@@ -16,7 +16,7 @@ The website had to :
 2. the present sites could contain some error in the [W3C HTML Validator][1] and [W3C CSS Validator][2] due to the myriad of favicons.
 
 
-<center>![Logo](Previews/favicon.png "Logo")</center>
+<span style="width: 512px; margin: 0 auto;"> ![Logo](Previews/favicon.png "Logo") </span>
 
 
 [1]: https://validator.w3.org
