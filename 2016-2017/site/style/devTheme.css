@@ -1,0 +1,27 @@
+body {
+    background-color: #232323;
+    background-image: url('../img/bgs/black-background.png');
+}
+
+.vCardItem {
+    color: #fff77e;
+}
+.wikiItem, .wikitext ul li:before {
+    color: #0089D6;
+}
+.htmlItem {
+    color: grey;
+}
+.htmlInsideItem {
+    color: #BE0412;
+}
+.latexItem {
+    color: #FA1170;
+}
+#md h3, #md h4, #md .mdtext ul li:before, .mdItem {
+    color: #C139CE;
+}
+
+.vignette {
+    box-shadow: 4px 4px 2px rgba(158, 158, 158, 0.52);
+}

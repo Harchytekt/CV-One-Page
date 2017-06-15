@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if lte IE 8]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script>
+            document.createElement('nav');
+            document.createElement('footer');
+        </script>
+    <![endif]-->
+    <!--[if gte IE 8]>
+        <style type="text/css">
+            .fixed-bg {
+                background-attachment: scroll;
+            }
+        </style>
+    <![endif]-->
+    <style type="text/css">
+        /* For IE 10 and IE 11 */
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            .fixed-bg {
+                background-attachment: scroll;
+            }
+        }
+	</style>
+    <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
+    <meta name="description" lang="en" content="This is the personnal website of
+    Alexandre Ducobu - student in Computer Science.">
+    <meta name="keywords" lang="en" content="Alexandre, Ducobu, computer science,
+    UMons, HeH, ISIMs, technical campus, Mons, Hainaut, high school, Python,
+    Java, C, C#, object, object-oriented, programming, programming language,
+    project, network, telecommunication">
+    <meta name="robots" content="index, noimageindex">
+    <meta name="geo.placename" content="Mons, Hainaut">
+    <meta name="geo.region" content="BE-WHT">
+    <meta name="author" content="Ducobu Alexandre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandre Ducobu</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- js -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- For old IEs -->
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+    <!-- For new browsers - multisize ico  -->
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="images/favicons/favicon.ico">
+    <!-- For Safari's Pinned Tab -->
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#2cc185">
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicons/favicon-144.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicons/favicon-114.png">
+    <!-- For iPhone 6+ -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/favicons/favicon-180.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/favicon-72.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="images/favicons/favicon-57.png">
+    <!-- For Old Chrome -->
+    <link rel="icon" href="images/favicons/favicon-32.png" sizes="32x32">
+    <!-- For IE10 Metro -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicons/favicon-144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Chrome for Android -->
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="icon" sizes="192x192" href="images/favicons/favicon-192.png">
+  </head>
+  <body>
+    <nav>
+      <!-- <div class="link" id="current"> -->
+      <div class="link home" id="current">
+        <a href="#PartHome" title="Home">
+            <!--[if IE 8]>
+                <img src="images/nav/Home.png" class="icns" alt="Home" height="25" width="25">
+			<![endif]--> <!--[if !IE 8]> -->
+                <img src="images/nav/Home.svg" class="icns" alt="Home" height="25" width="25">
+            <!-- <![endif]-->
+          Alexandre Ducobu</a>
+      </div><div class="link infos">
+        <a href="#PartInfos" title="Presentation">
+            <!--[if IE 8]>
+                <img src="images/nav/Infos.png" class="icns" alt="Presentation" height="25" width="25">
+			<![endif]--> <!--[if !IE 8]> -->
+                <img src="images/nav/Infos.svg" class="icns" alt="Presentation" height="25" width="25">
+            <!-- <![endif]-->
+          Personal Details</a>
+      </div><div class="link exp">
+        <a href="#PartExp" title="Background">
+            <!--[if IE 8]>
+                <img src="images/nav/Exp.png" class="icns" alt="Background" height="25" width="25">
+			<![endif]--> <!--[if !IE 8]> -->
+                <img src="images/nav/Exp.svg" class="icns" alt="Background" height="25" width="25">
+            <!-- <![endif]-->
+          Background</a>
+      </div><div class="link projets">
+        <a href="#PartProjets" title="Projects">
+            <!--[if IE 8]>
+                <img src="images/nav/Projets.png" class="icns" alt="Projects" height="25" width="25">
+			<![endif]--> <!--[if !IE 8]> -->
+                <img src="images/nav/Projets.svg" class="icns" alt="Projects" height="25" width="25">
+            <!-- <![endif]-->
+          Projects</a>
+      </div><!-- <div class="link contact">
+        <a href="#PartContact" title="Contact">
+          <img src="images/nav/Contact.svg" class="icns" alt="Contact" height="25" width="25">
+          Contact</a>
+      </div> Until the Contact Section added --><div class="link" id="lang" onMouseOver="overArea(this);" onMouseOut="outArea(this);">
+        <a href="index.html" title="In French">
+            <!--[if IE 8]>
+                <img src="images/nav/EnFr.png" class="icns" id="langICNS" alt="In French" height="25" width="25"></a>
+			<![endif]--> <!--[if !IE 8]> -->
+                <img src="images/nav/EnFr.svg" class="icns" id="langICNS" alt="In French" height="25" width="25"></a>
+            <!-- <![endif]-->
+      </div>
+    </nav>
+
+    <main>
+      <div class="fixed-bg section Home" id="PartHome">
+        <div id="content">
+          <img src="images/Moi.png" id="imgMe" alt="A picture of me"
+            title="A picture of me" height="150" width="150">
+          <div id="me">
+            <h1>Alexandre Ducobu</h1>
+            <h2>Computer Science student</h2>
+          </div>
+          <div id="social">
+            <a href="https://www.facebook.com/ducobu.alexandre"
+              title="Mon Facebook" target="_blank">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/Facebook.png" class="social" alt="Facebook" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/Facebook.svg" class="social" alt="Facebook" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+            <a href="https://twitter.com/AlexandreDucobu" title="Mon Twitter"
+              target="_blank">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/Twitter.png" class="social" alt="Twitter" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/Twitter.svg" class="social" alt="Twitter" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+            <a href="https://www.linkedin.com/in/alexandre-ducobu"
+              title="Mon LinkedIn" target="_blank">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/LinkedIn.png" class="social" alt="LinkedIn" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/LinkedIn.svg" class="social" alt="LinkedIn" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+            <a href="mailto:alexandre.ducobu@yahoo.be" title="M'envoyer un mail">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/Mail.png" class="social" alt="Mail" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/Mail.svg" class="social" alt="Mail" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+            <a href="https://bitbucket.org/Harchytekt/" title="Mon BitBucket"
+              target="_blank">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/BitBucket.png" class="social" alt="BitBucket" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/BitBucket.svg" class="social" alt="BitBucket" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+            <a href="https://github.com/Harchytekt" title="Mon Github"
+              target="_blank">
+              <!--[if IE 8]>
+                  <img src="images/icons/social/Github.png" class="social" alt="Github" height="40" width="40">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/social/Github.svg" class="social" alt="Github" height="40" width="40">
+              <!-- <![endif]-->
+            </a>
+          </div>
+          <div class="btnBottom">
+            <a href="#PartInfos" title="Let's go !">
+              <!--[if IE 8]>
+                  <img src="images/icons/Bottom.png" id="bottom" alt="Let's go !" height="50" width="50">
+              <![endif]--> <!--[if !IE 8]> -->
+                  <img src="images/icons/Bottom.svg" id="bottom" alt="Let's go !" height="50" width="50">
+              <!-- <![endif]-->
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-bg section" id="PartInfos">
+        <div class="content">
+          <h1>Personal Details</h1>
+          <h2>Who am I ?</h2>
+          <div class="secondaryLine"></div><!--
+          --><div class="mainLine"></div><!--
+          --><p>
+            Born June the 21st, 1994 in Mons, Belgium, I grew up surrounded by
+            my five siblings along with my parents. <br>
+            Despite my taste for reading and my attitude homebody, I practiced
+            many activities including tennis, swimming, gymnastics, judo and
+            even dancing.
+          </p>
+          <p>
+            It is around 15 years that I discovered the world of computers:
+            Windows was not the only operating system, sites and programs were
+            written by means of specialized languages. <br>
+            Then I started using Ubuntu, and I created my first website and some
+            basic programs in C, Python and Perl. <br>
+            This experience made me realize what the world of computers and what
+            it would be possible for me to accomplish with good knowledge.
+          </p>
+          <p>
+            After high school, having decided to turn to computer science,
+            I choose to go to <a title="Link to UMons" href="http://portail.umons.ac.be/FR/universite/facultes/fs/enseignement/informatique/Pages/info.aspx" target="_blank">
+            Science Faculty of the University of Mons in Computer Science section</a>
+            where we were encouraged to use Unix (mainly Linux).
+            I learned there how computers work and the basics of programming
+            through two high-level languages (Python and Java) and a low level
+            (MIPS). <br>
+            Physics, mathematics and projects allowed me to improve the
+            designing of complex algorithms as well as my time management.
+          </p>
+          <p>
+            After two years, I redirected myself to network, completely unknown
+            field for me. So I began a
+            <a title="Link to HEH" href="https://www.heh.be/formation-4-8-Bachelier-en-Informatique-et-Systemes-Finalite-Reseaux-et-Telecommunications" target="_blank">bachelor in Computer Science and Systems with Professional
+            Focus in Networks and Telecommunications at the Haute École en Hainaut</a>,
+            where I am currently studying. <br>
+            Besides learning network functioning in partnership with Cisco, I
+            also reinforces my bases in the working of computers as well as in
+            programming through learning the C and C# languages.
+          </p>
+        </div>
+      </div>
+      <div class="fixed-bg section Exp" id="PartExp">
+        <div class="content">
+          <h1>Background</h1>
+          <h2>What are my abilities ?</h2>
+          <div class="secondaryLine"></div><!--
+          --><div class="mainLine"></div><!--
+          --><h3>Education</h3>
+          <ul class="yearList">
+            <li><span class="year1">2015 - Present :</span> Bachelor in Computer Science and Systems at HEH</li>
+            <li><span class="year1">2013 - 2015 :</span> Bachelor in Computer Science at UMons</li>
+            <li>
+              <span class="year1">2006 - 2013 :</span> High school at Athénée Royal Marguerite Bervoets
+              <ul>
+                <li><span class="year2">2010 - 2013 :</span> Scientific Section</li>
+                <li><span class="year2">2006 - 2010 :</span> Latin-Math-Science Section</li>
+              </ul>
+            </li>
+            <li>
+              <span class="year1">2000 - 2006 :</span> Primary school
+              <ul>
+                <li><span class="year2">2002 - 2006 :</span> Athénée Royal Marguerite Bervoets</li>
+                <li><span class="year2">2000 - 2002 :</span> École communale des Cannoniers</li>
+              </ul>
+            </li>
+          </ul>
+          <div id="thirdLine"></div><!--
+          --><h3>Skills</h3>
+          <div id="expTable">
+            <table id="leftCell">
+              <tr><th colspan="5">Programming languages</th></tr>
+              <tr>
+                <td class="titleCell">Assembler</td>
+                <td><span class="known">MIPS</span></td>
+                <td colspan="3"></td>
+              </tr>
+              <tr>
+                <td class="titleCell">Databases</td>
+                <td><span class="known">SQL (MySQL)</span></td>
+                <td colspan="3"></td>
+              </tr>
+              <tr>
+                <td class="titleCell">Edition</td>
+                <td><span class="known">Beamer</span></td>
+                <td><span class="known">LaTeX</span></td>
+                <td colspan="2"></td>
+              </tr>
+              <!-- <tr>
+              	<td class="titleCell">Functional</td>
+              	<td><span class="known">Lisp (bases)</span>
+              	<td colspan="3"></td>
+              </tr> -->
+              <tr>
+                <td class="titleCell">Imperative</td>
+                <td><span class="known">Bash</span></td>
+                <td><span class="known">C</span></td>
+                <!-- <td><span class="known">Perl (bases)</span></td> -->
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="titleCell">Object-Oriented</td>
+                <td><span class="known">C++</span></td>
+                <td><span class="known">C#</span></td>
+                <td><span class="known">Java</span></td>
+                <td><span class="known">Python</span></td>
+                <!-- <td><span class="known">Swift</span></td> -->
+              </tr>
+              <tr>
+                <td class="titleCell">Web</td>
+                <td><span class="known">CSS3</span></td>
+                <td><span class="known">HTML5</span></td>
+                <!-- <td><span class="known">PHP</span></td> -->
+                <td colspan="2"></td>
+              </tr>
+            </table>
+            <table id="rightCell">
+              <tr><th colspan="5">Languages</th></tr>
+              <tr>
+                <td class="titleCell">Native</td>
+                <td><span class="known">French</span></td>
+                <td colspan="3"></td>
+              </tr>
+              <tr>
+                <td class="titleCell">Other</td>
+                <td><span class="known">Dutch</span></td>
+                <td><span class="known">English</span></td>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <th colspan="5" class="rightTitles">Tools</th>
+              </tr>
+              <tr>
+                <td><span class="known">Cisco Packet Tracer</span></td>
+                <td><span class="known">Git</span></td>
+                <td><span class="known">Nano</span></td>
+                <td><span class="known">Vim</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th colspan="5" class="rightTitles">Operating Systems</th>
+              </tr>
+              <tr>
+                <td><span class="known">GNU/Linux</span></td>
+                <td><span class="known">macOS</span></td>
+                <td></td>
+                <td><span class="known">Windows</span></td>
+                <td></td>
+              </tr>
+            </table>
+            <hr id="clear">
+          </div>
+        </div>
+      </div>
+      <div class="scroll-bg section" id="PartProjets">
+        <div class="content">
+          <h1>Projects</h1>
+          <h2>What are my works ?</h2>
+          <div class="secondaryLine"></div><!--
+          --><div class="mainLine"></div><!--
+          --><ul class="yearList" id="projects">
+                <li>
+                    <span class="year1">2016 - 2017 :</span>
+                    <ul>
+                        <li>
+                            Creation, in english, of
+                            <a href="http://toolkit.esy.es"
+                                title="Towards the online manual" target="_blank">an
+                                online manual written in <i>Markdown</i></a>. <br>
+                            The subjects are Cisco IOS, Java, SQL, Windows Server,...
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                  <span class="year1">2015 - 2016 :</span>
+                  <ul>
+                    <li>
+                      Implementation of a Connect Four game in C for the Terminal. <br>
+                      It proposes colored &ldquo;pawns&rdquo;.
+                    </li>
+                    <li>
+                      The programming project is a movie library in C#. <br>
+                      It proposes a backup and search system.
+                    </li>
+                    <li>
+                       A duet presentation about &lsquo;The different Operating
+                       Systems&rsquo;. <br>
+                       The report is in LaTeX and the presentation in Beamer.
+                    </li>
+                    <li>
+                      Last project of the year:
+                      <a href="http://incomments.esy.es" title="Towards the project"
+                        target="_blank">
+                        an HTML5 and CSS3 website</a>.
+                      <br>
+                      It's responsive, compatible up to IE 8 and available in two languages.
+                    </li>
+                    <li>
+                      Outside of school, I trained in HTML and CSS. <br>
+                      I thus created a small website about MUSE and this site.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="year1">2014 - 2015 :</span>
+                  <ul>
+                    <li>
+                      A Tic Tac Toe in Python 2.7 in Terminal during practical work. <br>
+                      It is available with a single game mode: one against one.
+                    </li>
+                    <li>
+                      Duet year-end project:
+                      <a href="https://github.com/elmimille6/projetba1"
+                        title="Towards the project" target="_blank">implement the
+                        Stratego game in Java 6</a>.
+                      <br>
+                      It provides two levels of artificial intelligences and a neat GUI. <br>
+                      There are different game modes and an online game mode.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="year1">2013 - 2014 :</span>
+                  <ul>
+                    <li>
+                      The programming project is a box of games in Java 6. <br>
+                      The games are:
+                      <span class="it">Tic Tac Toe, Connect Four</span> and
+                      <span class="it">Reversi</span>. <br>
+                      Each game provides two artificial intelligences.
+                    </li>
+                  </ul>
+                </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="fixed-bg section Contact" id="PartContact">
+        <div id="contact">
+          <div id="contentContact">
+            <h1>Contact</h1>
+            <h2>What can I do for you ?</h2>
+            <div class="secondaryLine"></div> --><!--
+            --><!-- <div class="mainLine"></div> --><!--
+            --><!-- <form action="mailto:alexandre.ducobu@yahoo.be" method="post">
+              <div class="divContact">
+                <table>
+                  <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" title="Please enter your name."></td>
+                  </tr>
+                  <tr>
+                    <td>Adress:</td>
+                    <td><input type="text" name="emailaddress" title="Please enter your address."></td>
+                  </tr>
+                  <tr>
+                    <td>Object:</td>
+                    <td><input type="text" name="object" title="Please enter the object."></td>
+                  </tr>
+                  <tr id="Message">
+                    <td style="width: 20px;">message:</td>
+                    <td><textarea name="Message" rows="5" title="Please enter your message."></textarea></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>
+                      <input type="submit" value="Send" id="Send">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> -->
+
+      <footer>
+        <div id="center"><p> Copyright &copy; 2016 - 2017 </p></div>
+      </footer>
+    </main>
+
+        <script src="js/scriptImages.js"></script>
+  </body>
+</html>

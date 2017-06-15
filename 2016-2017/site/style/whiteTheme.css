@@ -1,0 +1,8 @@
+body {
+    background-color: #E4E4E4;
+    background-image: url('../img/bgs/white-background.png');
+}
+
+.vignette {
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
+}

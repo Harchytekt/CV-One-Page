@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="style/defaultStyle.css">
+        <link rel="stylesheet" id="theme" href="style/devTheme.css">
+        <!--[if lte IE 8]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>
+                document.createElement('header');
+                document.createElement('main');
+                document.createElement('div');
+                document.createElement('footer');
+            </script>
+            <link rel="stylesheet" href="style/styleIE8.css">
+        <![endif]-->
+        <!--[if !lte IE 8]>-->
+            <link rel="stylesheet" href="style/style.css">
+        <!--<![endif]-->
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:100" rel="stylesheet">
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/progressbar.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" lang="en" content="This is the personnal website of
+        Alexandre Ducobu - student in Computer Science.">
+        <meta name="keywords" lang="en" content="Alexandre, Ducobu, computer science,
+        UMons, HeH, ISIMs, technical campus, Mons, Hainaut, high school, Python,
+        Java, C, C#, object, object-oriented, programming, programming language,
+        project, network, telecommunication">
+        <meta name="robots" content="index, noimageindex">
+        <meta name="geo.placename" content="Mons, Hainaut">
+        <meta name="geo.region" content="BE-WHT">
+        <meta name="author" lang="en" content="Ducobu Alexandre">
+
+        <title>Alexandre Ducobu</title>
+
+        <!-- For old IEs -->
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" />
+        <!-- For new browsers - multisize ico  -->
+        <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="img/favicons/favicon.ico">
+        <!-- For Safari's Pinned Tab -->
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#2cc185">
+        <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/favicon-152.png">
+        <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/favicon-144.png">
+        <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/favicon-120.png">
+        <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/favicon-114.png">
+        <!-- For iPhone 6+ -->
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicons/favicon-180.png">
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/favicon-72.png">
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/favicon-57.png">
+        <!-- For Old Chrome -->
+        <link rel="icon" href="img/favicons/favicon-32.png" sizes="32x32">
+        <!-- For IE10 Metro -->
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="img/favicons/favicon-144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Chrome for Android -->
+        <link rel="manifest" href="img/favicons/manifest.json">
+        <link rel="icon" sizes="192x192" href="img/favicons/favicon-192.png">
+    </head>
+
+    <body>
+        <header>
+            <div class="leftInBar">
+                <div class="social">
+                    <a href="https://www.facebook.com/ducobu.alexandre" target="_blank">
+                        <!--[if IE 8]>
+                            <img src="img/social/Facebook.png" alt="Facebook" title="Towards my Facebook" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/Facebook.svg" alt="Facebook" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        ducobu.alexandre
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/AlexandreDucobu" target="_blank">
+                        <!--[if IE 8]>
+                            <img src="img/social/Twitter.png" alt="Twitter" title="Towards my Twitter" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/Twitter.svg" alt="Twitter" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        @AlexandreDucobu
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/alexandre-ducobu" target="_blank">
+                        <!--[if IE 8]>
+                            <img src="img/social/LinkedIn.png" alt="LinkedIn" title="Towards my LinkedIn" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/LinkedIn.svg" alt="LinkedIn" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        Alexandre Ducobu
+                    </div>
+                </div>
+            </div>
+            <div class="centerInBar">
+                <h1>Alexandre Ducobu</h1>
+            </div>
+            <div class="rightInBar">
+                <div class="social">
+                    <a href="mailto:alexandre.ducobu@yahoo.be">
+                        <!--[if IE 8]>
+                            <img src="img/social/Mail.png" alt="Mail" title="Send me a mail" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/Mail.svg" alt="Mail" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        alexandre.ducobu@std.heh.be
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/Harchytekt" target="_blank">
+                        <!--[if IE 8]>
+                            <img src="img/social/GitHub.png" alt="GitHub" title="Towards my GitHub" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/GitHub.svg" alt="GitHub" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        Harchytekt
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://bitbucket.org/Harchytekt/" target="_blank">
+                        <!--[if IE 8]>
+                            <img src="img/social/BitBucket.png" alt="BitBucket" title="Towards my BitBucket" height="30" width="30">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img src="img/social/BitBucket.svg" alt="BitBucket" height="30" width="30">
+                        <!-- <![endif]-->
+                    </a>
+                    <div class="hiddenFeature">
+                        Harchytekt
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2>Computer Science student</h2>
+            <div class="vignette large">
+                <div class="languageContainer">
+                    <div class="languageLabel">
+                        vCard
+                    </div>
+                </div>
+                <div class="insideText" id="vcard">
+                    <h3><span class="vCardItem">Who_am_I.vcf</span></h3>
+                    <p id="imgP">
+                        <!--[if IE 8]>
+                        <img src="img/Moi.png" id="imgMe" alt="A picture of me"
+                            title="A picture of me" height="90" width="90">
+                        <![endif]--> <!--[if !IE 8]> -->
+                        <img src="img/Moi.svg" id="imgMe" alt="A picture of me"
+                            title="A picture of me" height="90" width="90">
+                        <!-- <![endif]-->
+                    </p>
+                    <div class="vCardtext">
+                        <div id="vCardLeft">
+                            <span class="vCardItem">ADR;TYPE=HOME:;;</span>Rue Jules Cornet, 28<br>
+                            <span class="vCardItem">;</span>Mons<span
+                            class="vCardItem">;</span>7000<span class="vCardItem">;</span>Belgique
+                        </div>
+                        <div id="vCardRight">
+                            <span class="vCardItem">TEL;TYPE=HOME;VOICE:</span>0492 85 91 73<br>
+                            <span class="vCardItem">BDAY:</span>1994<span
+                            class="vCardItem">-</span>06<span class="vCardItem">-</span>21
+                            <span class="vCardItem">(</span><!--[if IE 8]>22<![endif]--><!--[if !IE 8]> --><span id="age"></span><!-- <![endif]--> years<span class="vCardItem">)</span>
+                        </div>
+                        <div class="clear"></div>
+                        <br>
+                    </div>
+                    <div class="hidden">
+                        <div class="vCardtext">
+                            <span class="vCardItem">NOTE:</span>It is around 15
+                            years that I discovered the world of computers:
+                            Windows was not the only operating system, sites and
+                            programs were written by means of specialized
+                            languages.<span class="vCardItem">\n</span><br>
+                            Then I started using Ubuntu, and I created my first
+                            website and some basic programs in C, Python and
+                            Perl.<span class="vCardItem">\n</span><br>
+                            This experience made me realize what the world of
+                            computers and what it would be possible for me to
+                            accomplish with good knowledge.
+                        </div>
+                        <br>
+                        <a href="img/Alexandre_Ducobu.vcf" target="_blank" id="vcardDiv">
+                            Download the vCard:
+                        <img src="img/vCard.png" id="vCard" alt="Download the vCard"
+                            title="Download the vCard" height="92" width="110"></a>
+                    </div>
+                </div>
+                <div class="arrowContainer down">
+                    <div class="arrowLabel"></div>
+                </div>
+            </div>
+            <div class="vignette left">
+                <div class="languageContainer">
+                    <div class="languageLabel">
+                        wikicode
+                    </div>
+                </div>
+                <div class="insideText" id="wiki">
+                    <h3>
+                        <span class="wikiItem">==</span>My cursus<span
+                        class="wikiItem">==</span>
+                    </h3>
+                    <div class="wikitext">
+                        <ul class="yearList">
+                          <li>
+                              <span class="year1">2015 - 2018 :</span>
+                              Bachelor in Computer Science &amp; Systems;
+                              Networks &amp; Telecommunications Orientation
+                              <i>(development)</i> at HEH
+                          </li>
+                      </ul>
+                    </div>
+                    <div class="hidden">
+                        <div class="wikitext" id="studies">
+                            <ul class="yearList">
+                                <li><span class="year1">2013 - 2015 :</span>
+                                    Bachelor in Computer Science at UMons</li>
+                                <li>
+                                  <span class="year1">2006 - 2013 :</span>
+                                      High school at Athénée Royal Marguerite Bervoets
+                                  <ul>
+                                    <li><span class="year2">2010 - 2013 :</span>
+                                        Scientific Section</li>
+                                    <li><span class="year2">2006 - 2010 :</span>
+                                        Latin-Math-Science Section</li>
+                                </ul>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrowContainer down">
+                    <div class="arrowLabel"></div>
+                </div>
+            </div>
+            <div class="vignette right">
+                <div class="languageContainer">
+                    <div class="languageLabel">
+                        HTML
+                    </div>
+                </div>
+                <div class="insideText" id="html">
+                    <h3><span class="htmlItem">&lt;<span
+                        class="htmlInsideItem">h1</span>&gt;</span>What I master<span
+                        class="htmlItem">&lt;&frasl;<span
+                        class="htmlInsideItem">h1</span>&gt;
+                        </span>
+                    </h3>
+                    <p>
+                        <span class="htmlItem">&lt;<span
+                            class="htmlInsideItem">p</span>&gt;</span><br>
+                            Throughout my studies, I have learned to use many
+                            programming languages, tools and technologies. <br>
+                        <span class="htmlItem">&lt;&frasl;<span
+                            class="htmlInsideItem">p</span>&gt;</span><br>
+                    </p>
+                    <div class="hidden">
+                        <div id="leftBars">
+                            <div id="progressbars">
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Database<span class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                                <div class="left pBar" id="sqlBar">MySQL</div>
+                                <div class="clear"></div>
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Edition<span
+                                        class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                                <div class="left pBar" id="beamerBar">Beamer</div>
+                                <div class="pBar" id="latexBar">LaTeX</div>
+                                <div class="clear"></div>
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Programming<span
+                                        class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                                <div class="left pBar" id="bashBar">Bash</div>
+                                <div class="pBar" id="cBar">C</div>
+                                <div class="left pBar" id="cppBar">C++</div>
+                                <div class="pBar" id="csBar">C#</div>
+                                <div class="left pBar" id="javaBar">Java</div>
+                                <div class="pBar" id="mipsBar">MIPS32</div>
+                                <div class="left pBar" id="pythonBar">Python</div>
+                                <div class="clear"></div>
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Web<span
+                                        class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                                <div class="left pBar" id="htmlBar">HTML5</div>
+                                <div class="pBar" id="cssBar">CSS3</div>
+                                <div class="left pBar" id="jqBar">jQuery</div>
+                                <div class="pBar" id="jsBar">JavaScript</div>
+                                <div class="left pBar" id="mdBar">Markdown</div>
+                                <div class="pBar" id="phpBar">PHP</div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div id="rightBars">
+                            <h4>
+                                <span class="htmlItem">&lt;<span
+                                    class="htmlInsideItem">h3</span>&gt;</span>Languages<span
+                                    class="htmlItem">&lt;⁄<span
+                                    class="htmlInsideItem">h3</span>&gt;
+                                </span>
+                            </h4>
+                                <ul>
+                                    <li>
+                                        <span class="lang">Native</span>
+                                        <ul>
+                                            <li>French</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="lang">Other</span>
+                                        <ul>
+                                            <li>Dutch</li>
+                                            <li>English</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            <div class="clear"></div>
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Tools<span
+                                        class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                                <ul>
+                                    <li>Cisco Packet Tracer</li>
+                                    <li>Git</li>
+                                    <li>Nano</li>
+                                    <li>Vim</li>
+                                </ul>
+                            <div class="clear"></div>
+                                <h4>
+                                    <span class="htmlItem">&lt;<span
+                                        class="htmlInsideItem">h3</span>&gt;</span>Operating Systems<span
+                                        class="htmlItem">&lt;⁄<span
+                                        class="htmlInsideItem">h3</span>&gt;
+                                    </span>
+                                </h4>
+                            <ul>
+                                <li>GNU/Linux</li>
+                                <li>macOS</li>
+                                <li>Windows</li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="expTable">
+                          <table id="leftCell">
+                            <tr><th colspan="5">Programming languages</th></tr>
+                            <tr>
+                              <td class="titleCell">Assembler</td>
+                              <td><span class="known">MIPS</span></td>
+                              <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Database</td>
+                              <td><span class="known">SQL (MySQL)</span></td>
+                              <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Edition</td>
+                              <td><span class="known">Beamer</span></td>
+                              <td><span class="known">LaTeX</span></td>
+                              <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Imperative</td>
+                              <td><span class="known">Bash</span></td>
+                              <td><span class="known">C</span></td>
+                              <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Object-Oriented</td>
+                              <td><span class="known">C++</span></td>
+                              <td><span class="known">C#</span></td>
+                              <td><span class="known">Java</span></td>
+                              <td><span class="known">Python</span></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Web</td>
+                              <td><span class="known">CSS3</span></td>
+                              <td><span class="known">HTML5</span></td>
+                              <td><span class="known">Markdown</span></td>
+                              <td><span class="known">PHP</span></td>
+                            </tr>
+                          </table>
+                          <table id="rightCell">
+                            <tr><th colspan="5">Languages</th></tr>
+                            <tr>
+                              <td class="titleCell">Native</td>
+                              <td><span class="known">French</span></td>
+                              <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                              <td class="titleCell">Other</td>
+                              <td><span class="known">Dutch</span></td>
+                              <td><span class="known">English</span></td>
+                              <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                              <th colspan="5" class="rightTitles">Tools</th>
+                            </tr>
+                            <tr>
+                              <td><span class="known">Cisco Packet Tracer</span></td>
+                              <td><span class="known">Git</span></td>
+                              <td><span class="known">Nano</span></td>
+                              <td><span class="known">Vim</span></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th colspan="5" class="rightTitles">Operating Systems</th>
+                            </tr>
+                            <tr>
+                              <td><span class="known">GNU/Linux</span></td>
+                              <td><span class="known">macOS</span></td>
+                              <td><span class="known">Windows</span></td>
+                              <td colspan="2"></td>
+                            </tr>
+                          </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrowContainer down">
+                    <div class="arrowLabel"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="vignette left">
+                <div class="languageContainer">
+                    <div class="languageLabel">
+                        LaTeX
+                    </div>
+                </div>
+                <div class="insideText" id="latex">
+                    <h3><span class="latexItem">\section{</span>My experience<span class="latexItem">}</span></h3>
+                    <p>
+                        In order to perfect our training, we carried out various
+                        electricity, programming and network laboratories.<span
+                        class="latexItem">\\</span><br>
+                        In addition to this, there have been many projects...<span
+                        class="latexItem">\\</span>
+                    </p>
+                    <div class="hidden">
+                        <p>
+                            Here is a list of then:<span class="latexItem">\\</span>
+                        </p>
+                        <div id="projects">
+                            <ul class="yearList">
+                                <li>
+                                  <span class="year1">2016 - 2017 :</span>
+                                  <ul>
+                                    <li>
+                                        Creation, in english, of
+                                        <span class="latexItem">\url{</span><a
+                                        href="http://toolkit.esy.es"
+                                        title="Towards the online manual" target="_blank">an
+                                        online manual written in <i>Markdown</i></a><span
+                                        class="latexItem">}</span>. <br>
+                                        The subjects are Cisco IOS, Java, SQL, Windows Server,...
+                                    </li>
+                                    <li>
+                                        Programming of <span class="latexItem">\url{</span><a
+                                        href="https://github.com/rememberYou/PyPong"
+                                        title="Towards the project"
+                                        target="_blank">a Python 3 Pong for the
+                                        Raspberry Pi and the Sense HAT</a><span
+                                        class="latexItem">}</span>. <br>
+                                        This game, developed by two, allows to
+                                        play against a wall or against a weak
+                                        artificial intelligence.
+                                    </li>
+                                    <li>
+                                        Creation of this site in HTML5, CSS3 and
+                                        JavaScript.
+                                    </li>
+                                    <li>
+                                        Creating a <span
+                                        class="latexItem">\url{</span><a
+                                        href="https://github.com/Harchytekt/drugstore"
+                                        title="Towards the project"
+                                        target="_blank">site in PHP based on a database</a><span
+                                        class="latexItem">}</span>. <br>
+                                        It gives access to a list of medicines
+                                        and allows everyone to create an account
+                                        to list their medicines.
+                                    </li>
+                                    <li>
+                                        Creation of a <span
+                                        class="latexItem">\url{</span><a
+                                        href="https://github.com/Harchytekt/codIT"
+                                        title="Towards the project"
+                                        target="_blank">learning site for the
+                                        programming in Python</a><span
+                                        class="latexItem">}</span>.
+                                    </li>
+                                    <li>
+                                        Setup of <span
+                                        class="latexItem">\url{</span><a
+                                        href="https://github.com/rememberYou/Debian-server"
+                                        title="Towards the project"
+                                        target="_blank">a Linux server
+                                        <i>(Debian)</i> by groups of two</a><span
+                                        class="latexItem">}</span>. <br>
+                                        It contains an NFS and Samba share;
+                                        serves as a Web server, FTP server,
+                                        MySQL and DNS; and is synchronized by
+                                        the NTP protocol.
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <span class="year1">2015 - 2016 :</span>
+                                    <ul>
+                                      <li>
+                                          Implementation of a <span
+                                          class="latexItem">\url{</span><a
+                                          href="https://bitbucket.org/Harchytekt/four-in-a-row"
+                                          title="Towards the project"
+                                          target="_blank">Connect Four game
+                                          in C for the Terminal</a><span
+                                          class="latexItem">}</span>. <br>
+                                          It proposes colored &ldquo;pawns&rdquo;.
+                                      </li>
+                                      <li>
+                                          The programming project is a <span
+                                          class="latexItem">\url{</span><a
+                                          href="https://bitbucket.org/Harchytekt/movie-library"
+                                          title="Towards the project"
+                                          target="_blank">movie
+                                          library in C#</a><span
+                                          class="latexItem">}</span>. <br>
+                                          It proposes a backup and search system.
+                                      </li>
+                                      <li>
+                                          A duet presentation about &lsquo;The
+                                          different Operating Systems&rsquo;. <br>
+                                          The report is in LaTeX and the presentation
+                                          in Beamer.
+                                      </li>
+                                      <li>
+                                        Last project of the year: <span
+                                        class="latexItem">\url{</span><a
+                                        href="http://incomments.esy.es" title="Towards the project"
+                                        target="_blank">an HTML5 and CSS3
+                                        website</a><span class="latexItem">}</span>. <br>
+                                        It's responsive, compatible up to IE 8
+                                        and available in two languages.
+                                      </li>
+                                      <li>
+                                          Outside of school, I trained in HTML
+                                          and CSS. <br>
+                                          I thus created a small website about
+                                          MUSE and as well as <span
+                                         class="latexItem">\url{</span><a
+                                         href="http://alexandre-ducobu.esy.es/other/indexEn.html"
+                                         title="Towards the project"
+                                         target="_blank">a one-page CV draft</a><span
+                                         class="latexItem">}</span>.
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <span class="year1">2014 - 2015 :</span>
+                                    <ul>
+                                      <li>
+                                          A Tic Tac Toe in Python 2.7 in Terminal
+                                          during practical work. <br>
+                                          It is available with a single game
+                                          mode: one against one.
+                                      </li>
+                                      <li>
+                                          Duet year-end project:<span
+                                          class="latexItem">\url{</span><a href="https://github.com/elmimille6/projetba1"
+                                          title="Towards the project"
+                                          target="_blank">implement the Stratego
+                                          game in Java 6</a><span class="latexItem">}</span>. <br>
+                                          It provides two levels of artificial
+                                          intelligences and a neat GUI. <br>
+                                          There are different game modes and an
+                                          online game mode.
+
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <span class="year1">2013 - 2014 :</span>
+                                    <ul>
+                                      <li>
+                                          The programming project is a box of
+                                          games in Java 6. <br>
+                                          The games are:
+                                          <span class="it">Tic Tac Toe, Connect Four</span> and
+                                          <span class="it">Reversi</span>. <br>
+                                          Each game provides two artificial intelligences.
+                                      </li>
+                                    </ul>
+                                  </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrowContainer down">
+                    <div class="arrowLabel"></div>
+                </div>
+            </div>
+            <div class="vignette right">
+                <div class="languageContainer">
+                    <div class="languageLabel">
+                        Markdown
+                    </div>
+                </div>
+                <div class="insideText" id="md">
+                    <h3>#<span id="insideTitle">My assets</span></h3>
+                    <div class="mdtext">
+                        <ul>
+                            <li>I am born June the 21st, 1994 in Mons, Belgium, I
+                                grew up surrounded by my five siblings along
+                                with my parents.</li>
+                            <li>Despite my taste for reading and my attitude
+                                homebody, I practiced many activities including
+                                tennis, swimming, gymnastics, judo and even
+                                dancing.</li>
+                        </ul>
+                    </div>
+                    <div class="hidden">
+                        <div class="mdtext">
+                            <ul>
+                                <li>Through these activities, I developed
+                                    interpersonal skills:<br>
+                                    <ul>
+                                        <li>Sport gave me a team spirit, useful
+                                            during teamwork, and a spirit of
+                                            competition that pushes me to surpass
+                                            myself.
+                                        </li>
+                                        <li>Even if I do not like to express
+                                            myself in front of an assembly,
+                                            competitions and performances in the
+                                            theater allow me to hide it and to
+                                            express myself clearly.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>Given my curiosity and my taste for reading,
+                                    I turned to computer science during my high
+                                    school.
+                                </li>
+                                <li>So I learned the basics of programming in a
+                                    self-taught way by consulting sites, forums
+                                    and books.
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>After high school, having decided to turn to
+                                    computer science, I choose to go to
+                                    <span class="mdItem">[</span><a
+                                    href="http://portail.umons.ac.be/FR/universite/facultes/fs/enseignement/informatique/Pages/info.aspx" title="Link to UMons"
+                                    target="_blank">Science Faculty of the
+                                    University of Mons in Computer Science section</a><span
+                                    class="mdItem">]</span><span class="mdItem">[</span>umons<span
+                                    class="mdItem">]</span> where we were encouraged
+                                    to use Unix (mainly Linux). I learned there
+                                    how computers work and the basics of programming
+                                    through two high-level languages (Python and
+                                    Java) and a low level (MIPS).</li>
+                                <li>Physics, mathematics and projects allowed me
+                                    to improve the designing of complex algorithms
+                                    as well as my time management.</li>
+                            </ul>
+                            <ul>
+                                <li>After two years, I redirected myself to network,
+                                    completely unknown field for me. So I began a
+                                    <span class="mdItem">[</span><a
+                                    href="https://www.heh.be/formation-4-8-Bachelier-en-Informatique-et-Systemes-Finalite-Reseaux-et-Telecommunications" title="Link to HEH"
+                                    target="_blank">bachelor in Computer Science
+                                    and Systems with Professional Focus in Networks
+                                    and Telecommunications <i>(development option)</i>
+                                    at the Haute École en Hainaut</a><span class="mdItem">]</span><span
+                                    class="mdItem">[</span>heh<span
+                                    class="mdItem">]</span>, where I am currently
+                                    studying.</li>
+                                <li>Besides learning network functioning in
+                                    partnership with Cisco, I also reinforces my
+                                    bases in the working of computers, the web
+                                    development as well as in programming through
+                                    learning the C, C# languages and several
+                                    <i>design patterns</i> in Java.</li>
+                            </ul>
+                            <ul>
+                                <li>My relatives have little knowledge in computer
+                                    science, so I usually summarize and popularize
+                                    my words throughout conversations.
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>During projects, the pressure is, at times,
+                                    beneficial, but over a long period it becomes
+                                    a handicap.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrowContainer down">
+                    <div class="arrowLabel"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </main>
+        <footer>
+            <div class="leftInBar" id="changeStyle">
+                <img class="img-zoom" id="sun" src="img/footer/sun.svg" alt="" height="20" width="20">
+            </div>
+            <div class="centerInBar" id="centerFooter"><p> Copyright &copy; 2016 - 2017 </p></div>
+            <div class="rightInBar">
+                <div id="changeLang">
+                    <div class="hiddenFeature">
+                        Vers la version française
+                    </div>
+                    <a href="index.html" id="lang">
+                        <!--[if IE 8]>
+                            <img class="img-zoom" src="img/footer/Fr.png" title="Vers la version française" alt="Vers la version française" height="20" width="20">
+                        <![endif]--> <!--[if !IE 8]>-->
+                            <img class="img-zoom" src="img/footer/Fr.svg" alt="Vers la version française" height="20" width="20">
+                        <!-- <![endif]-->
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!--[if !lte IE 8]>-->
+            <script src="js/myScripts.js"></script>
+        <!--<![endif]-->
+    </body>
+
+</html>

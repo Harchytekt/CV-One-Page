@@ -1,0 +1,95 @@
+/* HEADER */
+
+header, footer {
+    width: 100%;
+}
+header {
+    display: block;
+    position: fixed;
+        top: 0;
+        left: 0;
+    background-image: url('../img/bgs/black-background.png');
+}
+.hiddenFeature {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 100px;
+    display: block;
+}
+.vignette.left, .vignette.right {
+    display: block;
+    width: 100%;
+}
+.insideText {
+    padding: 20px;
+}
+.insideText #imgMe {
+    margin-top: -200px;
+}
+#leftBars, #rightBars {
+    display: none;
+}
+
+/* Begin table */
+
+#expTable {
+    margin: 0 auto;
+}
+#expTable #leftCell, #expTable #rightCell {
+    margin: 0 auto;
+}
+#expTable #leftCell {
+	padding-bottom: 20px;
+}
+#clear {
+	clear: both;
+	border: 0;
+}
+#expTable th {
+	font-weight: 500;
+	padding-bottom: 5px;
+	border-bottom: 0.5px solid #000;
+}
+#expTable th.rightTitles {
+	padding-top: 10px;
+}
+#expTable #leftCell .titleCell, #expTable #rightCell .titleCell {
+	border-right: 1px dashed #000;
+    color: inherit;
+}
+#expTable #leftCell td, #expTable #rightCell td {
+	padding: 10px 10px 0 10px;
+    color: #208F62;
+}
+
+/* End table */
+#projects ul.yearList a {
+    color: #E47405;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    margin: 0;
+    margin-top: 40px;
+    background-image: url("../img/bgs/black-background.png");
+}
+#changeStyle {
+    display: none;
+}
+#changeLang {
+    position: fixed;
+        bottom: 10px;
+        right: 7%;
+}
+footer .centerInBar {
+    width: 100%;
+}
+footer .rightInBar {
+    width: auto;
+}

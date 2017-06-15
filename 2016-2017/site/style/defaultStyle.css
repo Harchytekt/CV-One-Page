@@ -1,0 +1,213 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Monaco, Menlo, Consolas, Calibri, Arial, sans-serif;
+}
+body {
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+/* HEADER */
+
+header, footer {
+    z-index: 4;
+}
+header {
+    padding-top: 20px;
+    border-bottom: 2.5px solid #2AB77E;
+}
+header div {
+    margin: 0;
+    margin-bottom: 5px;
+}
+footer .leftInBar, footer .centerInBar, footer .rightInBar {
+    margin: 0;
+    margin-top: 15px;
+}
+div.leftInBar {
+    float: left;
+    width: 32.5%;
+}
+div.centerInBar {
+    float: left;
+    width: 35%;
+}
+div.centerInBar h4 {
+    float: left;
+    width: 35%;
+    font-weight: lighter;
+}
+div.rightInBar {
+    float: right;
+    direction:rtl;
+    width: 32.5%;
+}
+div.leftInBar > *, div.rightInBar > * {
+    padding: 0 10px;
+}
+div.social {
+    display: inline-block;
+    position: relative;
+        top: 0;
+        left: 0;
+}
+a img {
+    /* For IE */
+    border:none;
+    outline:none;
+}
+h1, footer #centerFooter  {
+    text-align:center;
+    font-family: 'Helvetica Neue', 'Exo 2', sans-serif;
+    color: #FD8002;
+    margin: 0;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+h1#firstname {
+    float: left;
+}
+h1#lastname {
+    float: right;
+}
+
+/* MAIN */
+
+main {
+    padding-bottom: 100px;
+    width: 65%;
+    margin: 0 auto;
+}
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #FD8002;
+    text-align: center;
+}
+.vignette {
+    justify-content: space-between;
+}
+.large {
+    width: 100%;
+}
+.vignette {
+    background-color: #C8C8C8;
+    margin-top: 2%;
+}
+.languageContainer {
+    padding: 0;
+    position: relative;
+}
+.languageLabel {
+    color: #FF8100;
+    background-color: #575757;
+    display: inline-block;
+    position: absolute;
+        bottom: auto;
+        left: auto;
+        top: 0;
+        right: 0;
+    width: auto;
+    height: auto;
+    font-size: 0.9em;
+    padding: 10px 15px;
+}
+.insideText p#imgP {
+    text-align: center;
+}
+.insideText .hidden {
+	padding-bottom: 10px
+}
+div#vCardLeft {
+    float: left;
+    width: 50%;
+}
+div#vCardRight {
+    float: right;
+    width: 50%;
+}
+#vcardDiv {
+    display: table;
+    margin: 0 auto;
+}
+img#vCard {
+    vertical-align: middle;
+}
+#md #insideTitle {
+    font-style: italic;
+}
+.mdtext ul, .wikitext ul {
+    list-style: none;
+}
+.mdtext ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.mdtext ul li, .wikitext ul li {
+    text-indent: -1em;
+}
+.mdtext ul li {
+    padding-left: 1em;
+}
+.mdtext ul li:before, .wikitext ul li:before {
+    padding-right: 5px;
+}
+.mdtext ul li:before {
+    content: ">";
+}
+.mdtext ul li li:before, .wikitext ul li:before {
+    content: "∗";
+}
+.wikitext ul li li:before {
+    content: "∗∗";
+}
+ul.yearList {
+    display: table;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+ul.yearList {
+	word-spacing: -2px;
+}
+ul.yearList .year1, ul .lang {
+	font-weight: bolder;
+    color: #208F62
+}
+ul.yearList .year2 {
+	font-weight: bolder;
+    color: #E47405;
+}
+ul.yearList .it {
+	font-style: italic;
+}
+ul.yearList > li {
+	padding-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover, a:focus {
+	color: #2ab77e;
+}
+a:active {
+	color: #74777b;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 2.5px solid #2AB77E;
+    position: fixed;
+        bottom: 0;
+        left: 0;
+}
+
+footer #centerFooter {
+    font-size: 1rem;
+}

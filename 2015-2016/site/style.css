@@ -1,0 +1,664 @@
+body, html, main {
+	/* important */
+	height: 100%;
+  width: 100%;
+	min-width: 320px;
+  margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  font-family: Helvetica Neue, Calibri, Arial, sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+	Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Calibri, Arial, sans-serif; */
+	/* System font */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+/* NAV */
+
+nav {
+  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+    top: 0;
+    left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 4; /* Header above the rest */
+  -webkit-backdrop-filter: brightness(1.5) blur(4px);
+}
+
+nav div.link {
+	display: inline-block;
+ 	/* width: 19%; Until Contact added */
+	width: 24%;
+}
+
+nav div.link#lang {
+	/* width: 5%; Until Contact added */
+	width: 4%;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #74777b;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+nav a img {
+  position: relative;
+    top: 5px;
+    left: -5px;
+}
+
+nav a:hover, nav a:focus, nav a:active, #current a {
+  position: relative;
+    top: 7px;
+    left: auto;
+  color: #2ab77e;
+  z-index: 4;
+}
+
+#current a {
+	border-bottom: 5px solid #2ab77e;
+	cursor: default;
+}
+
+/* CONTENT */
+
+main {
+  width: auto;
+  position: relative;
+  z-index: 1;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fixed-bg {
+	min-height: 100%;
+	width: 100%;
+	background-size: cover;
+	-ms-behavior: url('backgroundsize.min.htc');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 1;
+}
+
+.scroll-bg {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+  	background-color: #DDD;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+
+.fixed-bg.Home h1, .fixed-bg.Home h2 {
+  	color: white;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+.fixed-bg.Home #me h1 {
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+
+.fixed-bg.Home h2 {
+	font-size: 35px;
+}
+
+div#content {
+	padding-top: 15%;
+	padding-bottom: 2%;
+}
+
+div#content img {
+  display: block;
+  margin: 0 auto;
+}
+
+#me {
+	padding-top: 1%;
+}
+
+#social {
+  display: block;
+  margin: 0 auto;
+	width: 275px;
+	padding-top: 5%;
+}
+
+#social .social {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 40px;
+	background-size: 40px 40px;
+	z-index: 3;
+}
+
+.btnBottom {
+	padding-top: 4%;
+	position: relative;
+		bottom: 1%;
+		left: auto;
+	/*padding: 5% 0 3% 0;*/
+}
+
+.btnBottom #clicked {
+	cursor: default;
+}
+
+#bottom {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
+  z-index: 3;
+}
+
+.Home {
+  background-image: url('images/Backgrounds/Bg1.jpg');
+}
+
+.Exp {
+  background-image: url('images/Backgrounds/Bg2.png');
+}
+
+.Contact {
+  background-image: url('images/Backgrounds/Bg3.jpg');
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+	width: 80%;
+	padding: 140px 0;
+}
+
+.content h1, #contact h1 {
+	letter-spacing: 5px;
+	margin-bottom: 0;
+}
+
+.content h2, #contact h2 {
+	font-family: 'Quintessential', cursive;
+	color: #2ab77e;
+	text-shadow: none;
+	letter-spacing: 3px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.content .secondaryLine, #contentContact .secondaryLine {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 2px;
+  background: #000;
+}
+
+.content .mainLine, #contentContact .mainLine {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+  height: 1px;
+  background: #000;
+}
+
+.content #thirdLine {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+  height: 0.5px;
+  background: #888;
+}
+
+.content p, ul.yearList, #expTable {
+	font-size: 17px;
+	text-shadow: 4px 2px 6px #888;
+	word-spacing: -2px;
+}
+
+.content p {
+  display: block;
+  margin: 0 auto;
+	position: relative;
+		top: 40px;
+		left: auto;
+	width: 80%;
+	text-align: justify;
+	line-height: 1.4em;
+	padding-top: 20px;
+	letter-spacing: 1.3px;
+}
+
+.content p a, .content ul.yearList a {
+	color: #2ab77e;
+	font-weight: 200;
+	text-shadow: 2px 2px 4px #FFF;
+}
+
+.content p a:hover, .content p a:focus,
+		.content ul.yearList a:hover, .content ul.yearList a:focus {
+	color: #639D86;
+	text-shadow: 3px 3px 6px #1A7B54;
+}
+
+.content p a:active, .content ul.yearList a:active {
+	color: #74777b;
+	text-shadow: 2px 2px 4px #2E2E2E;
+}
+
+.content h3 {
+	font-size: 25px;
+}
+
+.content ul.yearList {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.content ul.yearList#projects {
+	padding-top: 25px;
+}
+
+.content ul.yearList .year1 {
+	font-weight: 300;
+}
+
+.content ul.yearList > li {
+	padding-top: 10px;
+}
+
+.content ul.yearList .year2 {
+	font-weight: 200;
+}
+
+.content ul.yearList .it {
+	font-style: italic;
+}
+
+#expTable {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#expTable #leftCell {
+	float: left;
+	width: 50%;
+	border-right: 0.5px dashed black;
+	padding-right: 30px;
+	padding-left: 8%;
+	padding-bottom: 20px;
+}
+
+#expTable #rightCell {
+	float: left;
+	padding-left: 30px;
+	padding-right: 8%;
+	width: 50%;
+}
+
+#clear {
+	clear: both;
+	border: 0;
+}
+
+#expTable th {
+	text-align: center;
+	font-family: Helvetica Neue, Calibri, Arial, sans-serif;
+	font-weight: 500;
+	padding-bottom: 5px;
+	border-bottom: 0.5px solid #000;
+}
+
+#expTable th.rightTitles {
+	padding-top: 10px;
+}
+
+#expTable #leftCell .titleCell, #expTable #rightCell .titleCell {
+	font-weight: 300;
+	padding-right: 10px;
+}
+
+#expTable #leftCell td, #expTable #rightCell td {
+	padding: 10px 10px 0 0;
+}
+
+#expTable .known {
+	text-align: center;
+	padding: 0 3px 1px;
+	background-color: rgba(249, 249, 249, 0.2);
+	border-radius: 5px;
+}
+
+#PartProjets li {
+	padding: 5px 0;
+}
+
+.fixed-bg.Contact {
+	padding: 160px 0;
+}
+
+#contact {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	padding: 40px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px 50px;
+}
+
+form {
+	text-align: right;
+	padding: 30px 0;
+}
+
+.divContact {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bolder;
+	text-shadow: 2px 2px 4px #000;
+}
+
+.divContact table {
+	width: 100%;
+}
+
+.divContact table input, .divContact table textarea {
+	font-family: inherit;
+	font-weight: lighter;
+	width: 100%;
+	font-size: 20px;
+	padding: 11px;
+	border: none;
+}
+
+.divContact table input:focus, .divContact table textarea:focus {
+	/* Override the default border on focus. */
+	padding: 10px;
+	outline: none !important;
+	border:1px solid #2ab77e;
+  	box-shadow: 0 0 10px #c0c0c0;
+}
+
+#Message * {
+	vertical-align: top;
+}
+
+.divContact table input, .divContact table textarea {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#Send {
+	font-size: 20px;
+	font-weight: lighter;
+	background-color: #c0c0c0;
+	color: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#Send:hover, #Send:focus {
+	background-color: #8E8E8E;
+	color: #c0c0c0;
+}
+
+#Send:active {
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #c0c0c0;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #FFF;
+    z-index: 4; /* Header above the rest */
+	position: relative;
+	padding: 2px;
+	width: 100%;
+		z-index: 4;
+}
+
+footer #center {
+  text-align: center;
+	font-size: 17px;
+	text-shadow: 2px 2px 4px #222;
+	word-spacing: -2px;
+}
+
+@media only screen and (max-device-width: 1024px)/*,
+              only screen and (max-width: 1024px)*/ {
+	.fixed-bg {
+		background-attachment: scroll;
+	}
+
+	nav {
+		height: 64px;
+	}
+
+	nav .icns#langICNS {
+		display: inline;
+		height: 28px;
+		width: 28px;
+	}
+
+	#content #imgMe {
+		height: 125px;
+		width: 125px;
+	}
+
+	div#content {
+		padding-top: 10%;
+		padding-bottom: 2%;
+	}
+
+	.content p {
+		text-shadow: 4px 2px 6px #888;
+		width: 90%;
+	}
+
+	ul.yearList {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-device-width: 1210px),
+              only screen and (max-width: 1210px) {
+
+	#expTable #leftCell {
+		float: left;
+		width: 100%;
+		border-right: none;
+		padding: 0 8%;
+	}
+
+	#expTable #rightCell {
+		float: left;
+		width: 100%;
+		padding: 0 8%;
+	}
+
+	#expTable #rightCell th {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 768px) { /* PC Smaller Than 768px */
+
+	/* NAV */
+
+	nav .link {
+		vertical-align: middle;
+	}
+
+	/*nav .icns {
+		display: none;
+	}*/
+
+	nav .icns#langICNS {
+		display: inline;
+	}
+
+	/* CONTENT */
+
+	.content {
+		width: 99%;
+		padding: 70px 0;
+	}
+
+	.fixed-bg.Contact {
+		padding: 0;
+	}
+
+	#contact {
+		width: 100%;
+		height: 100vh;
+		padding: 0;
+		padding-top: 50px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 0;
+	}
+
+	.content .secondaryLine, #contentContact .secondaryLine {
+	  width: 45%;
+	}
+}
+
+@media only screen and (max-device-width: 768px)
+              and (orientation: portrait) { /* Smartphone in portrait */
+
+	/* NAV */
+
+	nav {
+	  /*height: 82px;*/
+	  height: 57px;
+	}
+
+	nav .link {
+		vertical-align: middle;
+	}
+
+	nav div.link, nav div.link#lang {
+	  width: 20%;
+	  /*width: 16.6%; With Contact */
+	}
+
+	nav .icns, nav .icns#langICNS {
+		width: 25px;
+		height: 25px;
+	}
+
+	nav a {
+		font-size: 1.8rem;
+		line-height: 0;
+		font-size: 0;
+		color: transparent;
+	}
+
+	/* CONTENT */
+
+	.fixed-bg.Home h1, .fixed-bg.Home h2 {
+	  font-weight: 200;
+	}
+
+	.fixed-bg.Home #me h1 {
+		font-size: 32px;
+	}
+
+	.fixed-bg.Home h2 {
+		font-size: 24px;
+	}
+
+	div#content {
+		padding-top: 45%;
+		padding-bottom: 2%;
+	}
+
+	#content #imgMe {
+		height: 100px;
+		width: 100px;
+	}
+
+	.btnBottom #bottom {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.content {
+		width: 99%;
+		padding: 70px 0;
+	}
+
+	div#expTable {
+		font-size: 1rem;
+	}
+
+	#expTable #leftCell, #expTable #rightCell {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+	.content ul.yearList, #expTable {
+		letter-spacing: 1.5px;
+		line-height: 35px;
+	}
+
+	.fixed-bg.Contact {
+		padding-top: 30%;
+	}
+
+	#contact {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 15px 50px;
+	}
+
+	.content .secondaryLine, #contentContact .secondaryLine {
+	  width: 45%;
+	}
+
+	.divContact {
+		width: 90%;
+		font-size: 35px;
+	}
+
+	#Send {
+		font-size: 35px;
+	}
+}
