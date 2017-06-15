@@ -8,7 +8,7 @@ It offers two themes:
 - a dark theme with syntax highlighting;
 - a light theme without highlighting.
 
-Like the other version, it comes in two languages : french and english.
+Like the other version, it comes in two languages : French and English.
 
 
 ![Preview](../Previews/16-17.png "Preview")
