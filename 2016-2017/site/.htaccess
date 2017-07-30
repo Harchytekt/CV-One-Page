@@ -1,10 +1,8 @@
 # Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
 RewriteBase /
 
-# ErrorDocument 404 /pages/404.html
-
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^En/?$    indexEn.html    [NC,L]
 RewriteRule    ^Fr/?$    index.html    [NC,L]
-# RewriteRule    ^404Fr/?$    /pages/404.html    [NC,L]
-# RewriteRule    ^404En/?$    /pages/404En.html    [NC,L]
+
+FallbackResource index.html
