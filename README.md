@@ -12,7 +12,7 @@ The website had to :
 - contain at least **three jQuery animations/plugins**.
 
 **Notes :**
-1. the sites are compatible with Safari and make use of the CSS _backdrop-filter_ which is only comatible with this one;
+1. the sites are compatible with Safari and make use of the CSS _backdrop-filter_ which is only compatible with this one;
 2. the present sites could contain some error in the [W3C HTML Validator][1] and [W3C CSS Validator][2] due to the myriad of favicons.
 
 
