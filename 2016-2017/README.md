@@ -1,14 +1,6 @@
-# Project version
+# Two versions for the price of one
 
-This is the second version of the website, the one created for my second year at the Haute École en Hainaut for the _Front-end development_ course.  
+This folder contains two versions of the site:
+- [The Project Version](1_Project), the second version of the website, created for my second year at HEH;
+- [The Holidays Version](2_Holidays), the third version which fixes some issues.
 
-It's made with HTML, CSS and JavaScript _(and jQuery)_, and has been validated by the W3C.  
-
-It offers two themes:
-- a dark theme with syntax highlighting;
-- a light theme without highlighting.
-
-Like the other version, it comes in two languages : French and English.
-
-
-![Preview](../Previews/16-17.png "Preview")

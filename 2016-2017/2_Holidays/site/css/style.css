@@ -1,0 +1,382 @@
+body {
+	/*color: #7D7D80;*/
+	color: #2E2E2F;
+	font-family: 'Ubuntu', sans-serif;
+    background-attachment: fixed;
+    background-color: #E4E4E4;
+    background-image: url('../resources/white-background.png');
+}
+
+header {
+	position: fixed;
+		top: 0;
+		left: 0;
+	height: 70px;
+}
+header, footer {
+	width: 100%;
+	z-index: 4;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	/*background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));*/
+	background-image: linear-gradient(to right, transparent, rgba(125, 125, 125, 0.75), transparent);
+}
+hr#header {
+	margin-top: 0;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 a, h1 a:hover, h1 a:focus {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+}
+
+a img {
+	/* For IE */
+	border: none;
+	outline: none;
+}
+
+main {
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-weight: 400;
+	/*color: #FD8002;
+	color: #2AB77E;
+	color: #0056D6;*/
+}
+
+.green, a, .displayItem, .hideItem {
+	color: #2AB77E;
+}
+
+.thin {
+	font-weight: lighter;
+}
+
+#status {
+	margin-top: -38px;
+	font-size: 20px;
+	z-index: -1;
+}
+
+.previews h2, .knowledge h3 {
+	color: #0056D6;
+}
+
+.previews h3 {
+	color: #FD8002;
+}
+
+.previews p {
+	color: #2E2E2F;
+	text-align: justify;
+}
+
+a:focus, a:hover, .displayItem:hover, .hideItem:hover, .displayItem:focus, .hideItem:focus {
+	color: #2C966B;
+}
+.displayItem:hover, .hideItem:hover, .displayItem:focus, .hideItem:focus {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a.rMore {
+	font-weight: bold;
+}
+a.ext {
+	color: #6E9D8A;
+}
+a.ext:focus, a.ext:hover {
+	color: #348162;
+}
+a.disabled {
+	display: inline-block; /* For IE11 and Edge… */
+	pointer-events: none;
+	cursor: not-allowed;
+	color: #D80B04;
+}
+div.welcomeImage {
+	margin-bottom: -25px;
+}
+div.linkBox {
+	padding: 15px 20px;
+	/*border: 1px solid #9A9A9A;*/
+	background-color: #E7E7E7;
+	border-radius: 10px;
+	z-index: 3;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	/*box-shadow: 2px 2px;*/
+	border: 0.1px solid #9A9A9A;
+	box-shadow: 1px 1px;
+}
+div.linkBox h5 {
+	margin: 0;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+div.linkBox h6 {
+	margin: 0;
+}
+div.left, div.right {
+	display: inline;
+	float: left;
+}
+div.left {
+	padding-top: 5px;
+	width: 30%;
+}
+div.right {
+	width: 70%;
+	font-weight: 600;
+}
+#progressbars div.left.pBar {
+	margin-right: 10%;
+}
+#progressbars .pBar {
+	float: left;
+	width: 45%;
+	padding-top: 1vh;
+	font-weight: 600;
+}
+#progressbars .clear {
+	clear: both;
+	width: 0;
+	border: 0;
+}
+.knowledge li .lang {
+	color: #FD8002;
+	font-weight: bolder;
+}
+.knowledge ul {
+	font-weight: 600;
+}
+
+span.centerLink {
+	display: block;
+	text-align: center;
+}
+span.displayItem, span.hideItem {
+	display: table;
+	margin: 0 auto;
+}
+
+div.right ul, .knowledge ul, .social ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.yearList li:before, .knowledge ul li:before, .social ul li:before {
+    padding-right: 5px;
+}
+
+ul.yearList li:before, .knowledge ul li:before, .social ul li:before {
+    /*content: "＊";*/
+	content: "◉";
+	font-family: Arial, sans-serif;
+}
+ul.yearList li:before {
+    color: #0056D6;
+}
+.knowledge ul.lang li:before {
+    color: #FD8002;
+}
+ul.yearList li li, .knowledge ul li li {
+    text-indent: 1.3em;
+}
+ul.yearList li li:before, .knowledge ul li li:before {
+    /*content: "＊＊";*/
+	content: "◎";
+	font-family: Arial, sans-serif;
+}
+ul.yearList li li:before {
+	color: #FD8002;
+}
+.knowledge ul.lang li li:before {
+    color: #2E2E2F;
+}
+ul.yearList {
+    display: table;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+ul.yearList .year1 {
+	font-weight: bolder;
+    color: #0056D6;
+}
+ul.yearList .year2 {
+	font-weight: bolder;
+    /*color: #E47405;*/
+	color: #FD8002;
+}
+ul.yearList .it {
+	font-style: italic;
+}
+
+span.tab {
+	margin-left: 86px;
+}
+
+span.bold {
+	font-weight: bolder;
+}
+
+div.hiddenItem {
+	display: none;
+}
+span.link {
+	font-weight: normal;
+	font-style: italic;
+}
+.centering {
+    text-align: center;
+}
+
+div#space {
+	padding-bottom: 50px;
+}
+
+a#bitbucket {
+	color: #1F5081;
+}
+a#bitbucket:hover, a#bitbucket:focus {
+	color: #2E2E2F;
+}
+a#github {
+	color: #EF2328;
+}
+a#github:hover, a#github:focus {
+	color: #2E2E2F;
+}
+a#facebook {
+	color: #395998;
+}
+a#facebook:hover, a#facebook:focus {
+	color: #2E2E2F;
+}
+a#linkedin {
+	color: #4B74A0;
+}
+a#linkedin:hover, a#linkedin:focus {
+	color: #2E2E2F;
+}
+a#twitter {
+	color: #55ACEE;
+}
+a#twitter:hover, a#twitter:focus {
+	color: #2E2E2F;
+}
+a#mail {
+	color: #FFA701;
+}
+a#mail:hover, a#mail:focus {
+	color: #2E2E2F;
+}
+
+span#pseudo {
+	font-family: Monaco, Menlo, Consolas, Calibri, Arial, sans-serif;
+	font-style: italic;
+	color: #0056D6;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+	height: 40px;
+	position: fixed;
+		bottom: 0;
+		left: 0;
+	background-color: #F0F0ED;
+	background-color: rgba(196, 196, 194, 0.23);
+}
+
+footer p {
+	font-size: 1.3rem;
+	margin: 10px 0px;
+}
+
+footer #changeLang {
+	position: absolute;
+		top: 10px;
+		right: 100px;
+}
+
+.img-zoom {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 767px) {
+
+	h1 {
+		text-align: center;
+	}
+
+	#status {
+		margin-top: 0px;
+		font-size: inherit;
+	}
+
+	header {
+		height: 90px;
+	}
+
+	div.welcomeImage {
+		margin-top: 25px;
+	}
+	div.left {
+		width: 100%;
+	}
+	div.linkBox img {
+		display: block;
+		margin: 0 auto;
+	}
+	div.right {
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	div.right ul {
+		text-align: center;
+	}
+
+	div.right ul.yearList, div.right ul.yearList ul, div.right.social ul {
+		text-align: left;
+	}
+
+	div.linkBox .social img {
+		display: inline;
+		margin: 0;
+	}
+
+	span.tab {
+		margin-left: 86px;
+	}
+
+	footer #changeLang {
+		position: absolute;
+			top: 8px;
+			right: 50px;
+	}
+
+}
