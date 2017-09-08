@@ -1,9 +1,9 @@
 body {
 	color: #2E2E2F;
 	font-family: 'Ubuntu', sans-serif;
-    background-attachment: fixed;
-    background-color: #E4E4E4;
-    background-image: url('../resources/white-background.png');
+	background-attachment: fixed;
+	background-color: #E4E4E4;
+	background-image: url('../resources/white-background.png');
 }
 
 /* HEADER */
@@ -174,7 +174,7 @@ span.link {
 }
 
 .centering {
-    text-align: center;
+	text-align: center;
 }
 
 div#space {
@@ -205,28 +205,28 @@ div.right ul, .knowledge ul, .social ul {
 }
 
 ul.yearList li:before, .knowledge ul li:before, .social ul li:before {
-    padding-right: 5px;
+	padding-right: 5px;
 }
 
 ul.yearList li:before, .knowledge ul li:before, .social ul li:before {
-    content: "◉";
+	content: "◉";
 	font-family: Arial, sans-serif;
 }
 
 ul.yearList li:before {
-    color: #0056D6;
+	color: #0056D6;
 }
 
 .knowledge ul.lang li:before {
-    color: #FD8002;
+	color: #FD8002;
 }
 
 ul.yearList li li, .knowledge ul li li {
-    text-indent: 1.3em;
+	text-indent: 1.3em;
 }
 
 ul.yearList li li:before, .knowledge ul li li:before {
-    content: "◎";
+	content: "◎";
 	font-family: Arial, sans-serif;
 }
 
@@ -235,18 +235,18 @@ ul.yearList li li:before {
 }
 
 .knowledge ul.lang li li:before {
-    color: #2E2E2F;
+	color: #2E2E2F;
 }
 
 ul.yearList {
-    display: table;
+	display: table;
 	letter-spacing: 1px;
 	line-height: 25px;
 }
 
 ul.yearList .year1 {
 	font-weight: bolder;
-    color: #0056D6;
+	color: #0056D6;
 }
 
 ul.yearList .year2 {
@@ -389,10 +389,10 @@ footer #changeLang {
 }
 
 .transition {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 @media only screen and (max-width: 767px) {
