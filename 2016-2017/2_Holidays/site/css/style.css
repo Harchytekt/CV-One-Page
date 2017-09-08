@@ -283,7 +283,7 @@ a.disabled {
 	color: #D80B04;
 }
 
- /* social */
+ /* Social */
 
 a#bitbucket {
 	color: #1F5081;
@@ -331,6 +331,32 @@ a#mail {
 
 a#mail:hover, a#mail:focus {
 	color: #2E2E2F;
+}
+
+/* LaTeX */
+
+.latex sub, .latex sup {
+	text-transform: uppercase;
+}
+
+.latex sub {
+	/*vertical-align: -0.25em;*/
+	vertical-align: 0.09em;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+	font-size: 1em;
+	font-family: serif;
+}
+
+.latex sup {
+	font-size: 0.85em;
+	/*vertical-align: 0.15em;*/
+	vertical-align: -0.37em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
 }
 
 /* FOOTER */

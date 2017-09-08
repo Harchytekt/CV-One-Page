@@ -1,6 +1,6 @@
 # Holidays version
 
-This is the Third version of the website.
+This is the third version of the website.
 During the summer holidays, I created this new version to fix some issues with a new design. The main one was the display of all the projects which was pretty rough.
 Now each project is separated in paragraph and the links shows if the link is available.  
 
