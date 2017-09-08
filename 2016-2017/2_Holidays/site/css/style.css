@@ -340,20 +340,18 @@ a#mail:hover, a#mail:focus {
 }
 
 .latex sub {
-	/*vertical-align: -0.25em;*/
 	vertical-align: 0.09em;
 	margin-left: -0.1667em;
 	margin-right: -0.125em;
 }
 
 .latex, .latex sub {
-	font-size: 1em;
+	font-size: 0.95em;
 	font-family: serif;
 }
 
 .latex sup {
 	font-size: 0.85em;
-	/*vertical-align: 0.15em;*/
 	vertical-align: -0.37em;
 	margin-left: -0.36em;
 	margin-right: -0.15em;
