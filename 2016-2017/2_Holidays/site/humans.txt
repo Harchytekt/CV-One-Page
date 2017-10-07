@@ -1,13 +1,14 @@
 /* TEAM */
 	Maker: Alexandre Ducobu
-	Site: alexandre.ducobu@std.heh.be
+	Site: http://alexandre-ducobu.esy.es
+	Email: alexandre.ducobu@std.heh.be
 	Twitter: @AlexandreDucobu
 	Location: Mons, Belgium.
 
                             
 /* SITE */     
-	Last update: 2017/09/10
-	Language: English / French
+	Last update: 2017/10/07
+	Languages: English / French
 	Standards: HTML5, CSS3, JavaScript
 	Frameworks: Bootstrap, jQuery
-	Software: Affinity Designer, Atom
+	Softwares: Affinity Designer, Atom
