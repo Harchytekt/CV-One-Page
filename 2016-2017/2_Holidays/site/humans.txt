@@ -5,9 +5,9 @@
 	Twitter: @AlexandreDucobu
 	Location: Mons, Belgium.
 
-                            
-/* SITE */     
-	Last update: 2017/10/20
+
+/* SITE */
+	Last update: 2017/10/28
 	Languages: English / French
 	Standards: HTML5, CSS3, JavaScript
 	Frameworks: Bootstrap, jQuery
