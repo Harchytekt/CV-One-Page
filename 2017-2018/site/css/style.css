@@ -502,6 +502,21 @@ footer #changeLang {
     transform: scale(1.5);
 }
 
+
+
+@media only screen and (max-width: 994px) {
+	header .container, nav .container, main .container {
+		max-width: 750px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+
+
 @media only screen and (max-width: 767px) {
     /* HEADER */
     header {
