@@ -1,4 +1,4 @@
-# New Year Version ☃️
+# New Year's Update ☃️
 
 This is an updated version of [The Holidays Version](../2016-2017/2_Holidays) of the website.  
 
