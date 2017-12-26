@@ -527,8 +527,6 @@ footer #changeLang {
 }
 
 
-
-
 @media only screen and (max-width: 767px) {
     /* HEADER */
     header {
@@ -537,6 +535,7 @@ footer #changeLang {
     h1 {
         text-align: center;
     }
+
     /* MAIN */
     #status {
         margin-top: 0px;
@@ -583,6 +582,23 @@ footer #changeLang {
         right: 30px;
     }
 }
+
+@media only screen and (max-width: 719px) {
+    /* NAV */
+
+    nav.know {
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    /* NAV */
+
+    nav.projects {
+        margin-top: 120px;
+    }
+}
+
 
 @media only screen and (max-width: 578px) {
 	/* NAV */
