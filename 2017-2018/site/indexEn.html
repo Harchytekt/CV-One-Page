@@ -49,19 +49,12 @@
         <link rel="manifest" href="resources/favicons/manifest.json">
         <link rel="icon" sizes="192x192" href="resources/favicons/favicon-192.png">
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
         <!-- Mon style -->
         <link href="css/style.css" rel="stylesheet">
 
-        <!-- Scripts -->
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="https://use.fontawesome.com/462f499dd8.js"></script>
-
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+        <link href="css/FiraCode.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/462f499dd8.js"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,252 +67,64 @@
     <body>
         <header>
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-1">
-                        <h1><a href="En"><span class="green thin">Alexandre</span>Ducobu</a></h1>
-                    </div>
-                    <div class="col-xs-12 col-sm-offset-3 col-sm-12 col-md-offset-0 col-md-12 centering" id="status">
-                        Computer Science student
-                    </div>
-                </div>
-                <!-- End of row -->
+                <div class="row row justify-content-center">
+                    <h1>
+                        <a href="En"><span class="green thin">Alexandre</span>Ducobu</a><span class="blinking-cursor">⎢</span>
+                    </h1>
+                </div><!-- End of row -->
             </div>
-            <hr id="header">
         </header>
 
-        <main>
+        <nav class="home">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 welcomeImage">
-                        <p class="centering">
-                            <!--[if IE 8]>
-							<img src="resources/Moi.png" id="imgMe" alt="A picture of me"
-								title="A picture of me" height="152" width="120">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img src="resources/Moi.svg" id="imgMe" alt="A picture of me" title="A picture of me" height="152" width="120">
-                            <!-- <![endif]-->
-                        </p>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 linkBox">
-                        <h5><span class="green thin">My</span> infos</h5>
-                        <div class="left">
-                            <!--[if IE 8]>
-							<img class="modifiable" src="resources/leftIcons/infos.png" alt="Infos" height="98" width="98">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img class="modifiable" src="resources/leftIcons/infos.svg" alt="Infos" height="98" width="98">
-                            <!-- <![endif]-->
-                        </div>
-                        <div class="right">
-                            <ul>
-                                <li>
-                                    🏡 <span class='bold'>Address :</span> Rue Jules Cornet, 28<br><span class="tab">7000 Mons, Belgium</span>
-                                </li>
-                                <li>
-                                    🎂 <span class='bold'>Age :</span>
-                                    <!--[if IE 8]>23<![endif]-->
-                                    <!--[if !IE 8]> --><span id="age"></span>
-                                    <!-- <![endif]-->ans
-                                </li>
-                                <li>
-                                    📱 <span class='bold'>Phone number :</span> (+32) 0492 85 91 73
-                                </li>
-                                <li>
-                                    🚗 <span class='bold'>Possession of a driver's license</span>
-                                </li>
-                            </ul>
-
-                            <span class="centerLink displayItem">Learn More</span>
-
-                            <div class="hiddenItem">
-                                <p>
-                                    <!-- Un mot sur moi… <br> -->
-                                    <!-- I was 15 years old when I discovered the
-									world of computer science. -->
-                                    <!-- 10 years ago I discovered the world of computers. -->
-                                    I was 15 years when discovered the world of computers. <br> Then, I started to use Ubuntu and to program in C, Python and Perl. <br> It was this experience that made me realize that the world of computing could be my
-                                    future. <br>
-                                    <span class="link">
-										Finally, you can download
-										<a href="resources/CV_EN.pdf" target="_blank">my CV</a>.
-									</span>
-                                </p>
-                                <span class="centerLink hideItem">See less</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 linkBox">
-                        <h5><span class="green thin">My</span> curriculum</h5>
-                        <div class="left">
-                            <!--[if IE 8]>
-							<img class="modifiable" src="resources/leftIcons/cursus.png" alt="Cursus" height="98" width="98">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img class="modifiable" src="resources/leftIcons/cursus.svg" alt="Cursus" height="98" width="98">
-                            <!-- <![endif]-->
-                        </div>
-                        <div class="right">
-                            <ul class="yearList">
-                                <li>
-                                    <span class="year1">2015 - 2018 :</span> Bachelor in Computer Science &amp; Systems; Networks &amp; Telecommunications Orientation
-                                    <i>(development)</i> at HEH
-                                </li>
-                            </ul>
-
-                            <span class="centerLink displayItem">See more</span>
-
-                            <div class="hiddenItem">
-                                <ul class="yearList">
-                                    <li>
-                                        <span class="year1">2013 - 2015 :</span> Bachelor in Computer Science at UMons
-                                    </li>
-                                    <li>
-                                        <span class="year1">2006 - 2013 :</span> High school at Athénée Royal Marguerite Bervoets
-                                        <ul>
-                                            <li><span class="year2">2010 - 2013 :</span> Scientific Section</li>
-                                            <li><span class="year2">2006 - 2010 :</span> Latin-Math-Science Section</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <span class="centerLink hideItem">See less</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 linkBox">
-                        <h5><span class="green thin">My</span> projects</h5>
-                        <!-- <h5>Mes travaux</h5> -->
-                        <div class="left">
-                            <!--[if IE 8]>
-							<img class="modifiable" src="resources/leftIcons/projects.png" alt="Projects" height="98" width="98">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img class="modifiable" src="resources/leftIcons/projects.svg" alt="Projects" height="98" width="98">
-                            <!-- <![endif]-->
-                        </div>
-                        <div class="right">
-                            <p>
-                                In order to perfect our training, we carried out various electricity, programming, network laboratories, etc. <br> In addition to this, there have been many
-                                <i>(scholar and private)</i> projects.
-                            </p>
-                            <span class="centerLink"><a href="Projects">See the projects</a></span>
-                        </div>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 linkBox">
-                        <h5><span class="green thin">My</span> knowledge</h5>
-                        <div class="left">
-                            <!--[if IE 8]>
-							<img class="modifiable" src="resources/leftIcons/exp.png" alt="Projets" height="98" width="98">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img class="modifiable" src="resources/leftIcons/exp.svg" alt="Projets" height="98" width="98">
-                            <!-- <![endif]-->
-                        </div>
-                        <div class="right">
-                            <p>
-                                Throughout my studies, I have learned to use many programming languages, tools, technologies, etc. <br> During my spare time, I also made some interesting discoveries…
-                            </p>
-                            <span class="centerLink"><a href="Knowledge">Discover my knowledge</a></span>
-                        </div>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 linkBox">
-                        <h5><span class="green thin">My</span> contact details</h5>
-                        <div class="left">
-                            <!--[if IE 8]>
-							<img class="modifiable" src="resources/leftIcons/contact.png" alt="Contact" height="98" width="98">
-							<![endif]-->
-                            <!--[if !IE 8]> -->
-                            <img class="modifiable" src="resources/leftIcons/contact.svg" alt="Contact" height="98" width="98">
-                            <!-- <![endif]-->
-                        </div>
-                        <div class="right social">
-                            <p>
-                                You can find me under the pseudonym
-                                <span id="pseudo">Harchytekt</span> on many sites such as:
-                            </p>
-                            <ul>
-                                <li>
-                                    <a id="bitbucket" title="My Bitbucket" href="https://bitbucket.org/Harchytekt/" target="_blank">Bitbucket &nbsp;
-                                    <i class="soc fa fa-bitbucket fa-lg" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a id="github" title="My GitHub" href="https://github.com/Harchytekt" target="_blank">GitHub &nbsp;
-                                    <i class="soc fa fa-github fa-lg" aria-hidden="true"></i><!-- <i class="fa fa-github-alt fa-lg" aria-hidden="true"></i> --></a>
-                                </li>
-                            </ul>
-
-                            <span class="centerLink displayItem">See more</span>
-
-                            <div class="hiddenItem">
-                                <p>You can contact me here:</p>
-                                <ul>
-                                    <li>
-                                        <a id="facebook" href="https://www.facebook.com/ducobu.alexandre" target="_blank" title="My Facebook">ducobu.alexandre &nbsp;
-                                        <i class="soc fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a id="linkedin" href="https://www.linkedin.com/in/alexandre-ducobu" target="_blank" title="My LinkedIn">Alexandre Ducobu &nbsp;
-                                        <i class="soc fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a id="twitter" href="https://twitter.com/Harchytekt" target="_blank" title="My Twitter">@Harchytekt &nbsp;
-                                        <i class="soc fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-
-                                <p>
-                                    Or there: <a id="mail" title="Send me a mail" href="mailto:alexandre.ducobu@yahoo.be">alexandre.ducobu@std.heh.be &nbsp;
-                                        <i class="soc fa fa-paper-plane fa-lg" aria-hidden="true"></i></a> <br>
-                                    <span class="link">
-										To conclude, you can download
-										<a href="resources/Alexandre_Ducobu.vcf" target="_blank">my vCard</a>.
-									</span>
-                                </p>
-                                <span class="centerLink hideItem">See less</span>
-                            </div>
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Projects"><i class="fa fa-code" aria-hidden="true"></i> Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Knowledge"><i class="fa fa-terminal" aria-hidden="true"></i> Knowledge</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contact details</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <!-- End of row -->
             </div>
-            <div id="humans">
-                <a href="humans.txt">
-                    <!--[if IE 8]>
-					<img style="vertical-align:-10px" src="resources/humansTXT.png" title="See the humans.txt" alt="humans.txt" height="30" width="107,4">
-					<![endif]-->
-                    <!--[if !IE 8]> -->
-                    <img style="vertical-align:-10px" src="resources/humansTXT.svg" title="See the humans.txt" alt="humans.txt" height="30" width="107,4">
-                </a>
+        </nav>
+
+        <main class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-sm-10 offset-sm-1">
+                        <p>Nihil hic qui eum quisquam ea earum.</p>
+
+                        <p>Aliquid minus quos culpa commodi repellat corrupti eaque. Dolor odio at optio earum ut ut eum. Et quisquam eligendi ut tempore. Doloribus asperiores voluptates sit est porro dolor perferendis. Laborum blanditiis nostrum quo iste recusandae placeat ad.</p>
+
+                        <p>Esse nisi et quaerat velit repudiandae quas dolorem. Illo alias soluta maxime laborum. Molestiae est voluptatem sunt id. Incidunt rerum veritatis unde ab. Repellat quasi vero ut consectetur sed voluptatem. Hic voluptatum est rerum repudiandae tempore reprehenderit fuga. Voluptas quas perspiciatis similique aut consequuntur. Repudiandae ratione velit accusantium odio dolorem quam. Ut fuga est <a href="#" class="badge badge-pill badge-warning">minus assumenda sapiente</a>. Nisi ullam ut animi fuga iusto. Ea ex blanditiis quis cumque est nostrum aut.</p>
+
+                        <p>Et nihil hic qui.</p>
+                    </div>
+                </div>
             </div>
         </main>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p> <span class="green thin">Alexandre</span><span class="bold">Ducobu</span> © 2016 - 2017 </p>
-                        <div id="changeLang">
-                            <a href="Fr">
-                                <!--[if IE 8]>
-									<img class="img-zoom" src="resources/footer/Fr.png" title="Vers la version française" alt="Vers la version française" height="20" width="20">
-								<![endif]-->
-                                <!--[if !IE 8]>-->
-                                <img class="img-zoom" src="resources/footer/Fr.svg" title="Vers la version française" alt="Vers la version française" height="20" width="20">
-                                <!-- <![endif]-->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of row -->
-            </div>
-        </footer>
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/bootstrap.min.js"></script>
+
+        <!-- Scripts -->
         <script src="js/myScripts.js"></script>
-        <script src="js/homeScripts.js"></script>
+        <!--<script src="js/homeScripts.js"></script>-->
     </body>
 
 </html>
