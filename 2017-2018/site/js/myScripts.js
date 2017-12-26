@@ -3,8 +3,7 @@ $(document).ready(function() {
 
 	if (ua.indexOf('safari') != -1 && ua.indexOf('chrome') <= -1) {
 		//Only for Safari
-		$('header').css('-webkit-backdrop-filter', 'blur(3px)');
-		$('footer').css('-webkit-backdrop-filter', 'blur(3px)');
+		$('header .container').css('-webkit-backdrop-filter', 'blur(3px)');
 	} else {
 		$('header').css('background-image', 'url(resources/background.png)');
 	}
