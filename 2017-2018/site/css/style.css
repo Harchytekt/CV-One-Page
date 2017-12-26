@@ -70,6 +70,10 @@ span.bold {
 
 /* NAV */
 
+nav {
+	 margin-top: 80px;
+}
+
 .icon {
     margin-right: 10px;
 }
@@ -85,13 +89,13 @@ a.nav-link.active {
 
 /* MAIN */
 
-main#home {
-    margin-top: 90px;
-}
-
 main {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+main.home {
+    margin-top: 90px;
 }
 
 a img {
@@ -100,7 +104,7 @@ a img {
     outline: none;
 }
 
-#home * p .badge {
+.home * p .badge {
     font-size: 1rem;
     font-weight: 400;
 }
@@ -520,7 +524,7 @@ footer #changeLang {
 @media only screen and (max-width: 767px) {
     /* HEADER */
     header {
-        height: 90px;
+        height: auto;
     }
     h1 {
         text-align: center;
@@ -570,4 +574,27 @@ footer #changeLang {
         top: 8px;
         right: 30px;
     }
+}
+
+@media only screen and (max-width: 578px) {
+	/* NAV */
+	
+	nav {
+		margin-top: 135px;
+	}
+	
+	nav.home {
+		margin-top: 80px;
+	}
+	
+	/* MAIN */
+	
+	main {
+	    margin-top: 30px;
+	    margin-bottom: 20px;
+	}
+
+	main.home {
+	    margin-top: 40px;
+	}
 }
