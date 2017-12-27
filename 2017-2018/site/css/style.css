@@ -277,14 +277,8 @@ span#pseudo {
     color                  : #0056D6;
 }
 
-div#humans {
-    float                  : right;
-}
-
-div#humans a {
-    position               : relative;
-        top                : -25px;
-        right              : 25px;
+.humans {
+    margin-top             : 42px;
 }
 
 .back-to-top {
@@ -554,6 +548,7 @@ a#mail:focus {
     header {
         height                 : auto;
     }
+
     h1 {
         text-align             : center;
     }
@@ -563,41 +558,42 @@ a#mail:focus {
         margin-top             : 0px;
         font-size              : inherit;
     }
+
     div.welcomeImage {
         margin-top             : 25px;
     }
+
     div.left {
         width                  : 100%;
     }
+
     div.right {
         padding-top            : 20px;
         width                  : 100%;
     }
+
     div.linkBox img {
         display                : block;
         margin                 : 0 auto;
     }
+
     div.right ul {
         text-align             : center;
     }
+
     div.right ul.yearList,
     div.right ul.yearList ul,
     div.right.social ul {
         text-align         : left;
     }
+
     div.linkBox .social img {
         display                : inline;
         margin                 : 0;
     }
+
     span.tab {
         margin-left            : 86px;
-    }
-    div#humans {
-        float                  : inherit;
-        text-align             : center;
-    }
-    div#humans a {
-        position               : inherit;
     }
 
     a#mail {
