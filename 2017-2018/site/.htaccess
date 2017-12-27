@@ -2,13 +2,15 @@
 # RewriteBase /
 
 RewriteEngine   On                  # Turn on the rewriting engine
-RewriteRule     ^En/?$               indexEn.html            [NC,L]
-RewriteRule     ^Fr/?$               index.html              [NC,L]
-RewriteRule     ^Projects/?$         projects.html           [NC,L]
-RewriteRule     ^Projets/?$          projets.html            [NC,L]
-RewriteRule     ^Knowledge/?$        knowledge.html          [NC,L]
-RewriteRule     ^Connaissances/?$    connaissances.html      [NC,L]
-RewriteRule     ^ContactDetails/?$   contactDetails.html     [NC,L]
-RewriteRule     ^Coordonnees/?$      coordonnees.html        [NC,L]
+RewriteRule     ^En/?$               indexEn.html                   [NC,L]
+RewriteRule     ^Fr/?$               index.html                     [NC,L]
+RewriteRule     ^About/?$            pages/about.html               [NC,L]
+RewriteRule     ^APropos/?$          pages/aPropos.html             [NC,L]
+RewriteRule     ^Projects/?$         pages/projects.html            [NC,L]
+RewriteRule     ^Projets/?$          pages/projets.html             [NC,L]
+RewriteRule     ^Knowledge/?$        pages/knowledge.html           [NC,L]
+RewriteRule     ^Connaissances/?$    pages/connaissances.html       [NC,L]
+RewriteRule     ^ContactDetails/?$   pages/contactDetails.html      [NC,L]
+RewriteRule     ^Coordonnees/?$      pages/coordonnees.html         [NC,L]
 
 FallbackResource index.html
