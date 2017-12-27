@@ -104,7 +104,8 @@ main {
     margin-bottom          : 20px;
 }
 
-main.home {
+main.home,
+main.contact {
     margin-top             : 90px;
 }
 
@@ -262,6 +263,11 @@ span.link {
 
 .centering {
     text-align             : center;
+}
+
+.center {
+    display                : table;
+    margin                 : 0 auto;
 }
 
 span#pseudo {
@@ -474,6 +480,7 @@ a#twitter:focus {
 
 a#mail {
     color                  : #FFA701;
+    text-align             : center;
 }
 
 a#mail:hover,
@@ -552,11 +559,11 @@ footer #changeLang {
 	header .container,
     nav .container,
     main .container {
-		max-width                : 750px;
-		padding-right            : 15px;
-		padding-left             : 15px;
-		margin-right             : auto;
-		margin-left              : auto;
+		max-width              : 750px;
+		padding-right          : 15px;
+		padding-left           : 15px;
+		margin-right           : auto;
+		margin-left            : auto;
 	}
 }
 
@@ -564,33 +571,33 @@ footer #changeLang {
 @media only screen and (max-width: 767px) {
     /* HEADER */
     header {
-        height             : auto;
+        height                 : auto;
     }
     h1 {
-        text-align         : center;
+        text-align             : center;
     }
 
     /* MAIN */
     #status {
-        margin-top         : 0px;
-        font-size          : inherit;
+        margin-top             : 0px;
+        font-size              : inherit;
     }
     div.welcomeImage {
-        margin-top         : 25px;
+        margin-top             : 25px;
     }
     div.left {
-        width              : 100%;
+        width                  : 100%;
     }
     div.right {
-        padding-top        : 20px;
-        width              : 100%;
+        padding-top            : 20px;
+        width                  : 100%;
     }
     div.linkBox img {
-        display            : block;
-        margin             : 0 auto;
+        display                : block;
+        margin                 : 0 auto;
     }
     div.right ul {
-        text-align         : center;
+        text-align             : center;
     }
     div.right ul.yearList,
     div.right ul.yearList ul,
@@ -598,63 +605,95 @@ footer #changeLang {
         text-align         : left;
     }
     div.linkBox .social img {
-        display            : inline;
-        margin             : 0;
+        display                : inline;
+        margin                 : 0;
     }
     span.tab {
-        margin-left        : 86px;
+        margin-left            : 86px;
     }
     div#humans {
-        float              : inherit;
-        text-align         : center;
+        float                  : inherit;
+        text-align             : center;
     }
     div#humans a {
-        position           : inherit;
+        position               : inherit;
     }
-    /* FOOTER */
-    footer #changeLang {
-        position           : absolute;
-            top            : 8px;
-            right          : 30px;
+
+    a#mail {
+        font-size              : 1rem
+    }
+}
+
+
+/* NavBar Responsive Start */
+
+@media only screen and (max-width: 737px) {
+    /* NAV */
+
+    nav.contactEn {
+        margin-top             : 120px;
     }
 }
 
 @media only screen and (max-width: 719px) {
     /* NAV */
 
-    nav.know {
-        margin-top            : 120px;
+    nav.knowFr {
+        margin-top             : 120px;
     }
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 683px) {
+    /* NAV */
+
+    nav.contactFr {
+        margin-top             : 120px;
+    }
+}
+
+@media only screen and (max-width: 629px) {
+    /* NAV */
+
+    nav.knowEn {
+        margin-top             : 120px;
+    }
+}
+
+@media only screen and (max-width: 611px) {
     /* NAV */
 
     nav.projects {
-        margin-top            : 120px;
+        margin-top             : 120px;
     }
 }
+
+/* NavBar Responsive End */
 
 
 @media only screen and (max-width: 578px) {
 	/* NAV */
 
 	nav {
-		margin-top            : 135px;
+		margin-top             : 135px;
 	}
 
 	nav.home {
-		margin-top            : 80px;
+		margin-top             : 80px;
 	}
 
 	/* MAIN */
 
 	main {
-	    margin-top            : 30px;
-	    margin-bottom         : 20px;
+	    margin-top             : 30px;
+	    margin-bottom          : 20px;
 	}
 
-	main.home {
-	    margin-top            : 40px;
+	main.home,
+    main.contact {
+        margin-top             : 40px;
 	}
+
+    a#mail {
+        font-size              : 0.95rem
+    }
 }
