@@ -105,7 +105,8 @@ main {
 }
 
 main.home,
-main.contact {
+main#about,
+main#contact {
     margin-top             : 90px;
 }
 
@@ -115,7 +116,7 @@ a img {
     outline                : none;
 }
 
-.home * p .badge {
+main * p .badge {
     font-size              : 1rem;
     font-weight            : 400;
 }
@@ -608,41 +609,31 @@ a#mail:focus {
 /* NavBar Responsive Start */
 
 @media only screen and (max-width: 737px) {
-    /* NAV */
-
-    nav.contactEn {
+    nav#contactEn {
         margin-top             : 120px;
     }
 }
 
 @media only screen and (max-width: 719px) {
-    /* NAV */
-
-    nav.knowFr {
+    nav#knowFr {
         margin-top             : 120px;
     }
 }
 
 @media only screen and (max-width: 683px) {
-    /* NAV */
-
-    nav.contactFr {
+    nav#contactFr {
         margin-top             : 120px;
     }
 }
 
 @media only screen and (max-width: 629px) {
-    /* NAV */
-
-    nav.knowEn {
+    nav#knowEn {
         margin-top             : 120px;
     }
 }
 
 @media only screen and (max-width: 611px) {
-    /* NAV */
-
-    nav.projects {
+    nav#projects {
         margin-top             : 120px;
     }
 }
@@ -669,7 +660,8 @@ a#mail:focus {
 	}
 
 	main.home,
-    main.contact {
+    main#about,
+    main#contact {
         margin-top             : 40px;
 	}
 
