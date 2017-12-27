@@ -290,18 +290,35 @@ div#humans a {
     position               : fixed;
         bottom             : 50px;
         right              : 30px;
-
     display                : none;
-    background-color       : #3A3A3A;
-    background-color       : rgba(58, 58, 58, 0.26);
+}
+
+.changeLang {
+    position               : fixed;
+        bottom             : 50px;
+        left               : 30px;
+    color                  : #FD8002;
+}
+
+.back-to-top,
+.changeLang {
+    background-color       : #7E7E7E;
+    background-color       : rgba(130, 130, 130, 0.26);
     border-radius          : 20px;
     padding                : 7px 13px;
 }
 
 .back-to-top:hover,
-.back-to-top:focus {
-    background-color       : #7E7E7E;
-    background-color       : rgba(130, 130, 130, 0.26);
+.back-to-top:focus,
+.changeLang:hover,
+.changeLang:focus {
+    background-color       : #3A3A3A;
+    background-color       : rgba(58, 58, 58, 0.26);
+}
+
+.changeLang:hover,
+.changeLang:focus {
+    color                  : #DE5833;
 }
 
 
@@ -514,43 +531,6 @@ a#mail:focus {
     vertical-align         : -0.37em;
     margin-left            : -0.36em;
     margin-right           : -0.15em;
-}
-
-
-/* FOOTER */
-
-footer {
-    text-align             : center;
-    border-top             : 1px solid #E6E6E6;
-    height                 : 40px;
-    position               : fixed;
-        bottom             : 0;
-        left               : 0;
-    background-color       : #F0F0ED;
-    background-color       : rgba(196, 196, 194, 0.23);
-}
-
-footer p {
-    font-size              : 1.3rem;
-    margin                 : 10px 0px;
-}
-
-footer #changeLang {
-    position               : absolute;
-        top                : 10px;
-        right              : 100px;
-}
-
-.img-zoom {
-    -webkit-transition     : all .1s ease-in-out;
-    -moz-transition        : all .1s ease-in-out;
-    -o-transition          : all .1s ease-in-out;
-    -ms-transition         : all .1s ease-in-out;
-}
-
-.transition {
-    -webkit-transform      : scale(1.5);
-    transform              : scale(1.5);
 }
 
 
