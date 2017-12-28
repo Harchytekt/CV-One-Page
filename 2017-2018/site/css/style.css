@@ -121,6 +121,11 @@ main * p .badge {
     font-weight            : 400;
 }
 
+.badge.badge-pill.badge-primary:focus,
+.badge.badge-pill.badge-primary:hover {
+    background-color       : #2C966B;
+}
+
 h3 {
     font-weight            : 400;
 }
