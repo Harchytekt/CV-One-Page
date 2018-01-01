@@ -469,10 +469,17 @@
       </div> -->
 
       <footer>
-        <div id="center"><p> Copyright &copy; 2016 - 2017 </p></div>
+        <div id="center"><p> Copyright &copy;
+            <!--[if IE 8]>2016<![endif]-->
+            <!--[if !IE 8]> -->
+                2016 <span id="currentYear"></span>
+            <!-- <![endif]-->
+        </p></div>
       </footer>
     </main>
-
         <script src="js/scriptImages.js"></script>
+        <script>
+            document.getElementById('currentYear').innerHTML = " - " + (new Date()).getFullYear();
+        </script>
   </body>
   </html>

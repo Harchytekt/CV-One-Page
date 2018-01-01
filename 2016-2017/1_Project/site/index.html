@@ -764,7 +764,12 @@
             <div class="leftInBar" id="changeStyle">
                 <img class="img-zoom" id="sun" src="img/footer/sun.svg" alt="" height="20" width="20">
             </div>
-            <div class="centerInBar" id="centerFooter"><p> Copyright &copy; 2016 - 2017 </p></div>
+            <div class="centerInBar" id="centerFooter"><p> Copyright &copy;
+                <!--[if IE 8]>2016<![endif]-->
+                <!--[if !IE 8]> -->
+                    2016 <span id="currentYear"></span>
+                <!-- <![endif]-->
+            </p></div>
             <div class="rightInBar">
                 <div id="changeLang">
                     <div class="hiddenFeature">

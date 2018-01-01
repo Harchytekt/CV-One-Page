@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
     setAge();
+    setYear();
     initBars();
     updateBannersBg();
     $('header').slideDown({duration: 800});
@@ -363,4 +364,13 @@ function setAge() {
     document.getElementById("age").innerHTML = age;
 }
 
-/* End Caclulate Age */
+/* End Calculate Age */
+
+/* Begin Set Year */
+
+function setYear() {
+    var year = (new Date()).getFullYear();
+    document.getElementById('currentYear').innerHTML = " - " + year;
+}
+
+/* End Set Year */
