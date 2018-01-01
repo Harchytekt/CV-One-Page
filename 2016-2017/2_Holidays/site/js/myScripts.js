@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	setYear();
 	var ua = navigator.userAgent.toLowerCase();
 
 	if (ua.indexOf('safari') != -1 && ua.indexOf('chrome') <= -1) {
@@ -24,3 +25,13 @@ $(document).ready(function() {
     });
 
 });
+
+/* Begin Set Year */
+
+function setYear() {
+    var year = (new Date()).getFullYear();
+    document.getElementById('currentYear').innerHTML = " - " + year;
+}
+
+/* End Set Year */
+
