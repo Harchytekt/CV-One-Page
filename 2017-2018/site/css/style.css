@@ -109,6 +109,10 @@ main#contact {
     margin-top             : 90px;
 }
 
+main#about {
+    margin-top: 0;
+}
+
 a img {
     /* For IE */
     border                 : none;
@@ -563,10 +567,6 @@ a#mail:focus {
         font-size              : inherit;
     }
 
-    div.welcomeImage {
-        margin-top             : 25px;
-    }
-
     div.left {
         width                  : 100%;
     }
@@ -660,7 +660,6 @@ a#mail:focus {
 	}
 
 	main.home,
-    main#about,
     main#contact {
         margin-top             : 40px;
 	}
