@@ -102,13 +102,32 @@
         <main id="about">
             <div class="container">
                 <div class="row">
+                    <div class="col col-12 col-sm-10 offset-sm-1 welcomeImage">
+                        <p class="centering">
+                            <!--[if IE 8]>
+                            <img src="resources/Moi.png" id="imgMe" alt="A picture of me"
+                                title="A picture of me" height="152" width="120">
+                            <![endif]-->
+                            <!--[if !IE 8]> -->
+                            <img src="resources/Moi.svg" id="imgMe" alt="A picture of me" title="A picture of me" height="152" width="120">
+                            <!-- <![endif]-->
+                        </p>
+                    </div>
                     <div class="col col-12 col-sm-10 offset-sm-1">
                         <p>I’m Alexandre Ducobu.</p>
 
-                        <p>I'm a Computer Science student at HeH in Mons.</p>
+                        <p>I'm a Computer Science student at HeH in Mons. <br>
+                        I am <!--[if IE 8]>23<![endif]-->
+                        <!--[if !IE 8]> --><span id="age"></span>
+                        <!-- <![endif]-->years old, my phone number is 0492 85 91 73
+                        and I'm in possession of a driver's license.</p>
 
                         <p>The main things I enjoy are programming <i>(mainly in Python)</i>,
                         writing, and digital coloring.</p>
+
+                        <p>I was 15 years when discovered the world of computers. <br>
+                        Then, I started to use Ubuntu and to program in C, Python and Perl. <br>
+                        It was this experience that made me realize that the world of computing could be my future. </p>
 
                         <p>I’ve had so many projects, including Terminal apps, Android app,
                         websites and Java games. <br>
@@ -117,6 +136,9 @@
 
                         <p>If you are looking to get in touch, then visit the
                         <a href="ContactDetails" class="badge badge-pill badge-primary"><i>Contact</i> page</a>!</p>
+
+                        <p><i>Finally, you can download
+                        <a href="resources/CV_EN.pdf" target="_blank" class="badge badge-pill badge-light">my CV</a>.</i></p>
                     </div>
                 </div>
             </div>
@@ -134,7 +156,7 @@
 
         <!-- Scripts -->
         <script src="js/myScripts.js"></script>
-        <!--<script src="js/homeScripts.js"></script>-->
+        <script src="js/ageScripts.js"></script>
     </body>
 
 </html>

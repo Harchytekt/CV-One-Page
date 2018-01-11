@@ -105,7 +105,6 @@ main {
 }
 
 main.home,
-main#about,
 main#contact {
     margin-top             : 90px;
 }
