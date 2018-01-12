@@ -7,9 +7,9 @@
 
 
 /* SITE */
-	Last update: 2018/01/11
+	Last update: 2018/01/12
 	Languages: English / French
 	Standards: HTML5, CSS3, JavaScript
 	Frameworks: Bootstrap V4b2, jQuery
-	Softwares: Affinity Designer, Atom
+	Softwares: Affinity Designer, Atom, Neovim
 	Fonts: Fira Code, Font Awesome V4.7.0
