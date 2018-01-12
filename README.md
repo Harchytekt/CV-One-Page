@@ -9,14 +9,14 @@ The four versions are:
 - the [Holidays version](2016-2017/2_Holidays);
 - the [New Year version](2017-2018).
 
-<details><summary>The first three follow the rules for the [project version](2016-2017/1_Project) :</summary>
+The first three follow the rules for the [project version](2016-2017/1_Project) :
 - be responsive;
 - be accessible in IE8+, Chrome and Firefox;
 - be written with HTML5, CSS3 and JavaScript _(jQuery and other libraries)_;
 - be validated by the **W3C validator**;
 - contain at least **one css transition**;
 - contain at least **three jQuery animations/plugins**.
-</details>
+
 
 **Notes :**
 1. the sites are compatible with Safari and make use of the CSS _backdrop-filter_ which is only compatible with this one for now;
