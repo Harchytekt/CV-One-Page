@@ -22,6 +22,8 @@ The first three follow the rules for the [project version](2016-2017/1_Project) 
 1. the sites are compatible with Safari and make use of the CSS _backdrop-filter_ which is only compatible with this one for now;
 2. the first three sites could contain some error in the [W3C HTML Validator][1] and [W3C CSS Validator][2] due to the myriad of favicons.
 
+![Site evolution](Previews/Evolution.png "Site evolution")
+
 
 [1]: https://validator.w3.org
 [2]: https://jigsaw.w3.org/css-validator/
