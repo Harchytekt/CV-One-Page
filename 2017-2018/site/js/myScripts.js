@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 $(document).ready(function() {
 	var ua = navigator.userAgent.toLowerCase();
 
@@ -21,7 +23,6 @@ $(document).ready(function() {
     var duration = 1000;
     $(this).scroll(function() {
         if ($(this).scrollTop() > offset) {
-            console.log($(this).scrollTop());
             $('.back-to-top').fadeIn(duration);
         } else {
             $('.back-to-top').fadeOut(duration);
@@ -41,22 +42,26 @@ $(document).ready(function() {
 var nbClicks = 0, fr = $('#french').html(), tempFr, res, tempIndex;
 //$(document).on('mouseleave touchstart', '#french', function() { // For mobile
 $(document).on('mouseout', '#french', function() {
-	$(this).toggle('puff');
+	setTimeout(() => {
+		$(this).stop().toggle('puff');
 
-	if (nbClicks++ % 2 == 0) {
-		tempFr = fr.split('');
-		res = [];
-		while (tempFr.length > 0) {
-			tempIndex = Math.floor(Math.random() * tempFr.length);
-			res.push(tempFr[tempIndex]);
-			tempFr.splice(tempIndex, 1);
+		if (nbClicks++ % 2 == 0) {
+			tempFr = fr.split('');
+			res = [];
+			while (tempFr.length > 0) {
+				tempIndex = Math.floor(Math.random() * tempFr.length);
+				res.push(tempFr[tempIndex]);
+				tempFr.splice(tempIndex, 1);
+			}
+			$(this).html(res.join(''));
+		} else {
+			$(this).html(fr);
 		}
-		$(this).html(res.join(''));
-	} else {
-		$(this).html(fr);
-	}
 
-	$(this).toggle('puff');
+		setTimeout(() => {
+			$(this).stop().toggle('puff');
+		}, 500);
+	}, 50);
 });
 
 /* French Event End */

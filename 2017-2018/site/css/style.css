@@ -217,13 +217,17 @@ div.right {
   font-size: 14px;
 }
 
+summary {
+  color: #0056D6;
+}
+
 .previews h2,
 .knowledge h3 {
   color: #0056D6;
   margin-top: 10px;
 }
 
-.previews > .row > .col-10 {
+.previews * .col-10 {
   font-family: "-apple-system", "Ubuntu";
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -339,6 +343,11 @@ span#pseudo {
 .changeLang:focus {
   background-color: #3A3A3A;
   background-color: rgba(58, 58, 58, 0.26);
+}
+
+details:focus,
+summary:focus {
+  outline: none;
 }
 
 /* Lists */

@@ -78,12 +78,15 @@ div.right
 	text-align : justify
 	font-size : 14px
 
+summary
+	color : $blue
+
 .previews h2,
 .knowledge h3
 	color : $blue
 	margin-top : 10px
 
-.previews > .row > .col-10
+.previews * .col-10
 	font-family : '-apple-system', 'Ubuntu'
 	padding-left : 0 !important
 	padding-right : 0 !important
@@ -180,6 +183,9 @@ span#pseudo
 	background-color : #3A3A3A
 	background-color : rgba(58, 58, 58, 0.26)
 
+details:focus,
+summary:focus
+	outline: none
 
 @import main-lists
 

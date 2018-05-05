@@ -12,5 +12,6 @@ RewriteRule     ^Knowledge/?$        pages/knowledge.html           [NC,L]
 RewriteRule     ^Connaissances/?$    pages/connaissances.html       [NC,L]
 RewriteRule     ^ContactDetails/?$   pages/contactDetails.html      [NC,L]
 RewriteRule     ^Coordonnees/?$      pages/coordonnees.html         [NC,L]
+RewriteRule     ^Francais/?$   	     pages/francais.html            [NC,L]
 
 FallbackResource index.html
