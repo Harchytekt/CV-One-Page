@@ -1,0 +1,67 @@
+/* Lists */
+
+div.right ul,
+.knowledge ul,
+.social ul
+	list-style : none
+	margin-left : 0
+	padding-left : 0
+
+.knowledge li .lang
+	color : $orange
+	font-weight : bolder
+
+.knowledge ul
+	font-weight : 600
+
+ul.yearList li:before,
+.knowledge ul li:before,
+.social ul li:before
+	padding-right : 5px
+
+ul.yearList li:before,
+.knowledge ul li:before,
+.social ul li:before
+	content : "◉"
+	font-family : Arial, sans-serif
+
+ul.yearList li:before
+	color : $blue
+
+.knowledge ul.lang li:before
+	color : $orange
+
+ul.yearList li li,
+.knowledge ul li li
+	text-indent : 1.3em
+
+ul.yearList li li:before,
+.knowledge ul li li:before
+	content : "◎"
+	font-family : Arial, sans-serif
+
+ul.yearList li li:before
+	color : $orange
+
+.knowledge ul.lang li li:before
+	color : $textColor
+
+ul.yearList
+	display : table
+	letter-spacing : 1px
+	line-height : 25px
+
+ul.yearList .year1
+	font-weight : bolder
+	color : $blue
+
+ul.yearList .year2
+	font-weight : bolder
+	color : $orange
+
+ul.yearList .it
+	font-style : italic
+
+.social * li
+	padding-bottom : 8px
+	padding-top : 7px

@@ -1,0 +1,190 @@
+/* MAIN */
+
+main
+	margin-top : 30px
+	margin-bottom : 20px
+
+main.home,
+main#contact
+	margin-top : 90px
+
+main#about
+	margin-top: 0
+
+a img
+	/* For IE */
+	border : none
+	outline : none
+
+main * p .badge
+	font-size : 1rem
+	font-weight : 400
+
+.badge.badge-pill.badge-primary:focus,
+.badge.badge-pill.badge-primary:hover
+	background-color : $activeGreen
+
+h3
+	font-weight : 400
+
+.green, a,
+.displayItem,
+.hideItem
+	color : $mainGreen
+
+div.welcomeImage
+	margin-bottom : -25px
+
+div.linkBox
+	padding : 15px 20px
+	background-color : #E7E7E7
+	border-radius : 10px
+	z-index : 3
+	margin-top: 25px
+	margin-bottom : 25px
+	border : 0.1px solid #9A9A9A
+	-webkit-box-shadow : 1px 1px
+			box-shadow : 1px 1px
+
+div.linkBox h5
+	margin : 0
+	margin-bottom : 5px
+	font-weight : bold
+
+div.linkBox h6
+	margin : 0
+
+div.left,
+div.right
+	display : inline
+	float : left
+
+div.left
+	padding-top : 5px
+	width : 30%
+
+div.right
+	width : 70%
+	font-weight : 600
+
+.previews h3
+	color : $orange
+	font-size : 24px
+	margin-top : 10px
+	margin-bottom : 10px
+
+.previews p
+	color : $textColor
+	text-align : justify
+	font-size : 14px
+
+.previews h2,
+.knowledge h3
+	color : $blue
+	margin-top : 10px
+
+.previews > .row > .col-10
+	font-family : '-apple-system', 'Ubuntu'
+	padding-left : 0 !important
+	padding-right : 0 !important
+
+span.cross
+	text-decoration : line-through
+
+#status
+	margin-top : -38px
+	font-size : 20px
+	z-index : -1
+
+span.centerLink
+	display : block
+	text-align : center
+
+span.displayItem,
+span.hideItem
+	display : table
+	margin : 0 auto
+
+.displayItem:hover,
+.hideItem:hover,
+.displayItem:focus,
+.hideItem:focus
+	text-decoration : underline
+	cursor : pointer
+
+div.hiddenItem
+	display : none
+
+#progressbars div.left.pBar
+	margin-right : 10%
+
+#progressbars .pBar
+	float : left
+	width : 45%
+	padding-top : 1vh
+	font-weight : 600
+
+#progressbars .clear
+	clear : both
+	width : 0
+	border : 0
+
+.fa-star
+	color : $star
+	text-shadow : 0 0 8px black
+
+span.tab
+	margin-left : 86px
+
+span.link
+	font-weight : normal
+	font-style : italic
+
+.centering
+	text-align : center
+
+.center
+	display : table
+	margin : 0 auto
+
+span#pseudo
+	font-family : Monaco, Menlo, Consolas, Calibri, Arial, sans-serif
+	font-style : italic
+	color : $blue
+
+.humans
+	margin-top : 42px
+
+.back-to-top
+	position : fixed
+	bottom : 50px
+	right : 30px
+	display : none
+
+.changeLang
+	position : fixed
+	bottom : 50px
+	left : 30px
+
+.back-to-top,
+.changeLang
+	background-color : #7E7E7E
+	background-color : rgba(130, 130, 130, 0.26)
+	border-radius : 20px
+	padding : 7px 13px
+
+.back-to-top:hover,
+.back-to-top:focus,
+.changeLang:hover,
+.changeLang:focus
+	background-color : #3A3A3A
+	background-color : rgba(58, 58, 58, 0.26)
+
+
+@import main-lists
+
+@import main-links
+
+@import main-social
+
+@import main-latex
