@@ -30,7 +30,7 @@
   font-style: normal;
 }
 body {
-  color: #2E2E2F;
+  color: #2E2E2F !important;
   font-family: "Fira Code", sans-serif !important;
   background-attachment: fixed;
   background-color: #ECECEC !important;
@@ -468,6 +468,16 @@ i.soc {
   color: white;
   text-decoration: none;
   background-color: #23733E;
+}
+
+#frenchLink {
+  color: #2E2E2F !important;
+}
+
+#frenchLink:hover,
+#frenchLink:focus {
+  text-decoration: none;
+  cursor: default;
 }
 
 /* Social */
