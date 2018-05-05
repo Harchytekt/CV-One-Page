@@ -458,6 +458,18 @@ i.soc {
   vertical-align: text-top;
 }
 
+.badge-rd {
+  color: white;
+  background-color: #21A746;
+}
+
+.badge-rd[href]:focus,
+.badge-rd[href]:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #23733E;
+}
+
 /* Social */
 a#bitbucket {
   color: #1F5081;
