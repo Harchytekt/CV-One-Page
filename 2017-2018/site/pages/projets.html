@@ -32,6 +32,84 @@
 
 		<!-- Mon style -->
 		<link href="css/style.css" rel="stylesheet">
+		<style>
+			.col-10.offset-1.col-md-5.col-lg-4.col-xl-3 {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			.image {
+				background: #fff;
+				border-radius: 5px;
+				box-shadow: 0 2px 1px 1px rgba(0, 0, 0, .2);
+				overflow: hidden;
+				position: absolute;
+				top: 10px;
+				transition: visibility 0s, opacity 0.5s linear;
+			}
+			.image.hidden {
+				visibility: hidden;
+				opacity: 0;
+			}
+			.image.shown {
+				visibility: visible;
+				opacity: 1;
+			}
+			img {
+				width: 110%;
+				display: block;
+				max-width: 110%;
+				height: auto;
+				margin-left: -10px;
+			}
+			.eye,
+			.eye-slash {
+				position: absolute;
+				padding: 14px 16px;
+				border-radius: 30px;
+				right: 0;
+				color: #FD8002;
+				-webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			}
+			.eye:hover,
+			.eye:focus,
+			.eye-slash:hover,
+			.eye-slash:focus {
+				cursor: pointer;
+			}
+			.eye-slash {
+				background-color: white;
+				display: none;
+			}
+			h2.titlePreview {
+				color: #FD8002;
+				padding-bottom: .25em;
+				border-bottom: 1px solid #ccc;
+				font-size: 175%;
+				margin-top: 5px;
+			}
+
+			@media only screen and (max-width: 767px) {
+				img {
+					width: auto;
+					height: 165px;
+				}
+			}
+
+			@media only screen and (max-width: 719px) {
+				.col-10.offset-1.col-md-5.col-lg-4.col-xl-3 {
+					margin-bottom: 50px;
+				}
+
+				img {
+					width: 110%;
+					max-width: 110%;
+					height: auto;
+				}
+			}
+		</style>
 
 		<!-- Fonts -->
 		<script src="https://use.fontawesome.com/462f499dd8.js"></script>
@@ -87,24 +165,42 @@
 						<h2>2017 - 2018</h2>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Windows Server</h3>
-						<p>
+						<h2 class="titlePreview">Windows Server</h2>
+						<p class="summary">
 							Mise en place d'une forêt <i>Active Directory</i> constituée de dix domaines. <br>
 							Ceux-ci étant répartis en 6 LAN's dont un pour le <i>DC Root</i>. <br>
 							Chaque domaine contient : un DNS et un Active Directory de 243 utilisateurs.
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>IPv4- Delmotte</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/delmotte.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">IPv4- Delmotte</h2>
+						<p class="summary">
 							Simple implémentation en Python de la <i>méthode Delmotte</i> facilitant la création d'un adressage IPv4. <br>
 							Ce projet personnel a été développé dans Pythonista pour iOS. <br>
 							<a href="https://github.com/Harchytekt/IPv4-Delmotte" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>DogCare</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/dogcare.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">DogCare</h2>
+						<p class="summary">
 							Création d'un site de prise de rendez-vous vétérinaires pour chiens. <br> Pour le développer à
 							<span class="cross">quatre</span> trois, nous avons travaillé avec <i>la méthode Agile</i>, et
 							deux frameworks : <i>Angular</i> et <i>Spring</i>. <br>
@@ -113,24 +209,42 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Projet Android</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/android.svg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">Projet Android</h2>
+						<p class="summary">
 							Supervision et commande à distance sur deux processus industriels commandés par des automates. <br>
 							Il y a différents types d'utilisateurs : les super-utilisateurs et les basiques. <br>
 							<a href="https://github.com/Harchytekt/Android-Project" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Projet microcontrôleur</h3>
-						<p>
+						<h2 class="titlePreview">Projet microcontrôleur</h2>
+						<p class="summary">
 							Il nous a été demandé de réaliser la programmation d’un automate en Ladder à l'aide de <i>ProcesSim</i>. <br>
 							L’automate trie les boites d’après leur couleur (argent, cuivre et or). <br>
 							<a href="https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/Application%20des%20microcontrôleurs/Rapport.pdf" title="Vers le rapport" target="_blank" class="rMore ext">Consulter le rapport</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>CV One-Page <i>(New Year)</i></h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/cvnewyear.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">CV <i>(New Year)</i></h2>
+						<p class="summary">
 							Cette quatrième version du site n'a pas pour but de modifier complètement le site. <br>
 							En effet, j'ai développé cette mise à jour pour simplifier l'affichage général du site. <br>
 							D'où l'utilisation d'une barre de navigation. <br>
@@ -138,15 +252,34 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>learnIT <i>(TFE)</i></h3>
-						<p>
-							Un site permettant d'apprendre et de créer des cours à propos de n'importe quel sujet développé à l'aide de <i>Laravel</i>. <br> Il proposera peut-être aussi une application mobile compagnon <i>(Android)</i>. <br>
+						<div class="image hidden">
+							<img src="resources/previews/learnit.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">learnIT <i>(TFE)</i></h2>
+						<p class="summary">
+							Un site permettant d'apprendre et de créer des cours à propos de n'importe quel sujet développé à l'aide de Laravel. <br>
+							Il proposera peut-être aussi une application mobile compagnon (Android). <br>
 							<a href="https://github.com/Harchytekt/learnIT" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Stage</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/remato.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">Stage</h2>
+						<p class="summary">
 							Le stage s'est déroulé dans les bureaux de <i>Realdolmen Sud</i>, à Mons. <br> Mise en place d'une première version utilisable d'un outil de gestion de ressources pour <i>Realdolmen Sud</i>. <br>
 							<a href="#" title="Vers le projet" target="_blank" class="rMore disabled"><i>Non disponible</i></a>
 						</p>
@@ -158,23 +291,41 @@
 						<h2>2016 - 2017</h2>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>ToolKit</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/toolkit.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">ToolKit</h2>
+						<p class="summary">
 							Manuel en ligne écrit en anglais à l'aide du Markdown. <br> Celui-ci traite de Cisco IOS, du Markdown, du SQL, de l'administration de Windows Server et Linux,... <br>
 							<a href="https://github.com/Harchytekt/ToolKit" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a> -
 							<a href="http://toolkit.esy.es" title="Vers le manuel en ligne" target="_blank" class="rMore ext">Consulter le manuel</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>PyPong</h3>
-						<p>
+						<h2 class="titlePreview">PyPong</h2>
+						<p class="summary">
 							Jeu de Pong en Python 3 pour le Raspberry Pi et le Sense HAT. <br> Ce jeu, développé à deux, permet de jouer contre un mur ou contre une intelligence artificielle faible. <br>
 							<a href="https://github.com/rememberYou/PyPong" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>CV One-Page <i>(Projet)</i></h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/cvproject.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">CV <i>(Projet)</i></h2>
+						<p class="summary">
 							CV One-Page en HTML et CSS animé à l'aide de JavaScript
 							<i>(et de jQuery)</i>. <br> C'est le projet effectué dans le cadre du cours de <i>Développement front-end</i> lors de la seconde année à la HEH. <br>
 							<a href="https://github.com/Harchytekt/CV-One-Page/tree/master/2016-2017/1_Project" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a> -
@@ -182,15 +333,33 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Drugstore</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/drugstore.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">Drugstore</h2>
+						<p class="summary">
 							Un site en PHP se basant sur une base de données. <br> Celui-ci donne accès à une liste de médicaments et permet de créer un compte afin de lister ses médicaments. <br>
 							<a href="https://github.com/Harchytekt/drugstore" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>codIT</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/codit.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">codIT</h2>
+						<p class="summary">
 							Un site éducatif ayant pour but l'initiation à la programmation en Python. <br>
 							Il est écrit en HTML/CSS, PHP et JavaScript
 							<i>(et jQuery)</i>. La base de données à été créée à l'aide de MySQL. <br>
@@ -198,38 +367,65 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Serveur Linux</h3>
-						<p>
+						<h2 class="titlePreview">Serveur Linux</h2>
+						<p class="summary">
 							Mise en place d'un serveur Linux <i>(Debian)</i> en binôme. <br>
 							Il contient un partage NFS/Samba; sert de serveur Web, FTP, MySQL et DNS; et est synchronisé par NTP. <br>
 							<a href="https://github.com/rememberYou/Debian-server" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Website Hour</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/websitehour.svg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">Website Hour</h2>
+						<p class="summary">
 							Créée pour préparer l'examen de <i>Développement front-end</i>, cette page web affiche l'heure de manière stylisée. <br>
 							C'est un exercice supplémentaire à ceux proposés pour le blocus. <br>
 							<a href="https://github.com/Harchytekt/Website-Hour" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Chinese Blocks</h3>
-						<p>
+						<h2 class="titlePreview">Chinese Blocks</h2>
+						<p class="summary">
 							C'est mon premier <i>&quot;vrai&quot;</i> programme personnel en Julia. <br> Il utilise le pattern composite pour afficher les différents blocs de base de mots composés en Mandarin. <br>
 							<a href="https://github.com/Harchytekt/Chinese-Blocks" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>GameOfLife</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/gameoflife.svg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">GameOfLife</h2>
+						<p class="summary">
 							Simple implémentation du Jeu de la Vie pour le Terminal. <br> Il a été codé en Java. Ant le compile, l'exécute, génère la Javadoc et peut supprimer tous les fichiers créés. <br>
 							<a href="https://github.com/Harchytekt/GameOfLife" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>CV One-Page <i>(Holidays)</i></h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/cvholidays.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">CV <i>(Holidays)</i></h2>
+						<p class="summary">
 							Ceci est la troisième version du site. <br> Pendant les grandes vacances, j'ai créé cette nouvelle version pour régler quelques problèmes. Le principal étant l'affichage brouillon des projets. <br>
 							<a href="https://github.com/Harchytekt/CV-One-Page/tree/master/2016-2017/2_Holidays" title="Vers le projet" target="_blank" class="rMore">Voir sur GitHub</a> -
 							<a href="http://alexandre-ducobu.com/Holidays/Fr" title="Vers le CV" target="_blank" class="rMore ext">Consulter le CV</a>
@@ -242,22 +438,22 @@
 						<h2>2015 - 2016</h2>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Puissance 4</h3>
-						<p>
+						<h2 class="titlePreview">Puissance 4</h2>
+						<p class="summary">
 							Implémentation du jeu <i>Puissance 4</i> en C dans le Terminal. <br> Celui-ci propose les <i>pions</i> en différentes couleurs ainsi qu'un menu d'aide affichant les règles du jeu. <br>
 							<a href="https://bitbucket.org/Harchytekt/four-in-a-row" title="Vers le projet" target="_blank" class="rMore">Voir sur Bitbucket</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Bibliothèque de films</h3>
-						<p>
+						<h2 class="titlePreview">Bibliothèque de films</h2>
+						<p class="summary">
 							La bibliothèque permet de sauvegarder des films et de les rechercher. De l'aide est aussi mise à disposition. <br> C'est le projet du cours de programmation en C# à la HEH. <br>
 							<a href="https://bitbucket.org/Harchytekt/movie-library" title="Vers le projet" target="_blank" class="rMore">Voir sur Bitbucket</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Présentation</h3>
-						<p>
+						<h2 class="titlePreview">Présentation</h2>
+						<p class="summary">
 							Ce projet, effectué en binôme, est le résultat de
 							recherches sur <i>Les différents systèmes d’exploitations</i>. <br>
 							Le rapport est rédigé en
@@ -266,17 +462,34 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>inComments</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/incomments.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">inComments</h2>
+						<p class="summary">
 							Dernier projet de l'année: un site en HTML5 et CSS3. <br> Il est responsive, compatible jusque IE8 et proposé en deux langues. De plus, il est validé par le W3C. <br>
 							<a href="https://bitbucket.org/Harchytekt/project-html/src" title="Vers le projet" target="_blank" class="rMore">Voir sur Bitbucket</a> -
 							<a href="http://incomments.esy.es/pages/indexFR.html" title="Vers le site" target="_blank" class="rMore ext">Consulter le site</a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<!-- <h3>Ébauche de CV</h3> -->
-						<h3>CV One-Page <i>(Ébauche)</i></h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/cvdraft.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">CV <i>(Ébauche)</i></h2>
+						<p class="summary">
 							En dehors de l’école, je me suis entrainé en HTML/CSS
 							dans la création de deux sites. <br>
 							Le premier est sur Muse, l'autre est une ébauche de
@@ -286,8 +499,8 @@
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>IPv4 Delmotte- <i>Terminal</i></h3>
-						<p>
+						<h2 class="titlePreview">IPv4 Delmotte</h2>
+						<p class="summary">
 							Simple implémentation en Python de la <i>méthode Delmotte</i> pour l'adressage IPv4. <br>
 							Créé pendant le blocus de juin, ce programme pour le Terminal permet de vérifier ces calculs d'adressage IPv4. <br>
 							<a href="https://github.com/Harchytekt/IPv4-Delmotte/blob/master/previous/IPv4-DelmottesMethod.py" title="Vers le programme" target="_blank" class="rMore">Voir sur GitHub</a>
@@ -300,15 +513,24 @@
 						<h2>2014 - 2015</h2>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Tic Tac Toe</h3>
-						<p>
+						<h2 class="titlePreview">Tic Tac Toe</h2>
+						<p class="summary">
 							De nombreux petits jeux ont été implémentés en Python 2.7 dans le Terminal lors de travaux pratiques. <br> L'un d'eux est le Tic Tac Toe, disponible en un contre un. <br>
 							<a href="#" title="Vers le projet" target="_blank" class="rMore disabled"><i>Non disponible</i></a>
 						</p>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Stratego</h3>
-						<p>
+						<div class="image hidden">
+							<img src="resources/previews/stratego.jpg">
+						</div>
+						<div class="eye" title="Aperçu">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+						</div>
+						<div class="eye-slash" title="Description">
+							<i class="fa fa-eye-slash fa-lg" aria-hidden="true"></i>
+						</div>
+						<h2 class="titlePreview">Stratego</h2>
+						<p class="summary">
 							Projet de fin d’année à deux : coder le jeu du
 							Stratego en Java 6. <br>
 							Il propose un interface soignée, deux intelligences
@@ -323,8 +545,8 @@
 						<h2>2013 - 2014</h2>
 					</div>
 					<div class="col-10 offset-1 col-md-5 col-lg-4 col-xl-3">
-						<h3>Boite à jeux</h3>
-						<p>
+						<h2 class="titlePreview">Boite à jeux</h2>
+						<p class="summary">
 							Le projet de programmation est une boite à jeux en Java 6. <br> Les jeux sont: <i>Tic Tac Toe</i>,
 							<i>Puissance 4</i> et <i>Othello</i>. Chaque jeu possède deux intelligences artificielles. <br>
 							<a href="#" title="Vers le projet" target="_blank" class="rMore disabled"><i>Non disponible</i></a>
@@ -348,6 +570,20 @@
 
 		<!-- Scripts -->
 		<script src="js/myScripts.js"></script>
+		<script>
+			$(".eye").click(function() {
+				$(this).css("display", "none");
+				$(this).parent().children(".eye-slash").css("display", "block");
+				$(this).parent().children(".image").removeClass("hidden");
+				$(this).parent().children(".image").addClass("shown");
+			});
+			$(".eye-slash").click(function() {
+				$(this).css("display", "none");
+				$(this).parent().children(".eye").css("display", "block");
+				$(this).parent().children(".image").addClass("hidden");
+				$(this).parent().children(".image").removeClass("shown");
+			});
+		</script>
 	</body>
 
 </html>

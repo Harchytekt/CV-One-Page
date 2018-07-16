@@ -11,5 +11,8 @@ It's made with HTML, CSS _(Bootstrap)_ and JavaScript _(and jQuery)_<!--, and ha
 
 Like the other versions, it comes in two languages : French and English.
 
+> The last new features were added from my iPad, using another repo.
+> So, the commits aren't there...
+
 
 ![Preview](../Previews/17-18-New_Year.png "Preview")
