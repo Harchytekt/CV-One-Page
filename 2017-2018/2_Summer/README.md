@@ -1,4 +1,4 @@
-# Summers's Update 😎
+# Summers' Update 😎
 
 This is a new version whose goal is to simplify navigation within the site.  
 
