@@ -8,8 +8,9 @@ It's made with HTML, CSS/Sass _(Bootstrap)_ and JavaScript _(with jQuery)_.
 
 Like the other versions, it comes in two languages : French and English.
 
-This version is special! ✨. 
-I used my iPad to develop this version. For this purpose, I used another another repo _(so, the commits aren't there...)_.  
+This version is special! ✨.  
+I used my iPad to develop this version.  
+For this purpose, I used another another repo _(so, the commits aren't there...)_.  
 I have thus used other tools: [Kodex](http://kodex.space), [Working Copy](https://workingcopyapp.com) and [Blink](http://www.blink.sh).
 
 
