@@ -11,4 +11,4 @@ The added JavaScript is used for the navbar and the link between each section.
 
 
 
-![Preview](../Previews/15-16.png "Preview")
+![Preview](../Previews/15-16.jpg "Preview")

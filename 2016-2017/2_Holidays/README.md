@@ -9,4 +9,4 @@ It's made with HTML, CSS and JavaScript _(and jQuery)_, and has been validated b
 Like the other versions, it comes in two languages : French and English.
 
 
-![Preview](../../Previews/16-17-Holidays.png "Preview")
+![Preview](../../Previews/16-17-Holidays.jpg "Preview")

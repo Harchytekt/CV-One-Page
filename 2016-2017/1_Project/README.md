@@ -11,4 +11,4 @@ It offers two themes:
 Like the other version, it comes in two languages : French and English.
 
 
-![Preview](../../Previews/16-17-Project.png "Preview")
+![Preview](../../Previews/16-17-Project.jpg "Preview")
