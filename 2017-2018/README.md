@@ -1,18 +1,6 @@
-# New Year's Update ☃️
+# Two other versions of the same site
 
-This is an updated version of [The Holidays Version](../2016-2017/2_Holidays) of the website.  
+This folder contains two versions of the site:  
+- [The New Year Version](1_New%20Year), the fourth version is an updated version of [The Holidays Version](../2016-2017/2_Holidays) of the website.  
+- [The Summer Version](2_Summer), the fifth _(and last?)_ version which simplifies the navigation, and is inspired by the [Draft version](../2015-2016).
 
-During the months after the summer, I searched to simplify the home page.  
-But the navigation had to stay easy… 😰  
-The last thing to say is that I wanted to had a _Back to the top_ feature on the *project* and *Knowledges* pages.  
-It's also the return of the navbar _(updated version from the_ Draft _version)_.  
-
-It's made with HTML, CSS _(Bootstrap)_ and JavaScript _(and jQuery)_<!--, and has been validated by the W3C-->.    
-
-Like the other versions, it comes in two languages : French and English.
-
-> The last new features were added from my iPad, using another repo.
-> So, the commits aren't there...
-
-
-![Preview](../Previews/17-18-New_Year.png "Preview")
