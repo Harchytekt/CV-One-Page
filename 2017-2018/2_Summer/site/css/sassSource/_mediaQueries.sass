@@ -1,0 +1,109 @@
+@media only screen and (max-device-width: 1024px)
+	.fixed-bg
+		background-attachment: scroll
+
+
+@media only screen and (max-width: 994px)
+	header .container,
+	nav .container,
+	main .container
+		max-width : 750px
+		padding-right : 15px
+		padding-left : 15px
+		margin-right : auto
+		margin-left : auto
+
+	.previews * img
+		width: auto
+		height: 165px
+
+	.mobilehidden
+		display: none
+
+
+@media only screen and (max-width: 767px)
+	/* HEADER */
+	header
+		height : auto
+
+	h1
+		text-align : center
+
+	/* MAIN */
+	#status
+		margin-top : 0px
+		font-size : inherit
+
+	div.left
+		width : 100%
+
+	div.right
+		padding-top : 20px
+		width : 100%
+
+	div.linkBox img
+		display : block
+		margin : 0 auto
+
+	div.right ul
+		text-align : center
+
+	div.right ul.yearList,
+	div.right ul.yearList ul,
+	div.right.social ul
+		text-align : left
+
+	div.linkBox .social img
+		display : inline
+		margin : 0
+
+	span.tab
+		margin-left : 86px
+
+	a#mail
+		font-size : 1rem
+
+
+@import mediaQueries-nav
+
+
+@media only screen and (max-width: 719px)
+	.col-10.offset-1.col-md-5.col-lg-4.col-xl-3
+		margin-bottom: 50px
+
+	.previews * img
+		width: 110%
+		max-width: 110%
+		height: auto
+
+
+@media only screen and (max-width: 578px)
+	/* NAV */
+
+	nav
+		margin-top : 135px
+
+	nav.home
+		margin-top : 80px
+
+	/* MAIN */
+
+	main
+		margin-top : 30px
+		margin-bottom : 20px
+
+	main.home,
+	main#contact
+		margin-top : 40px
+
+	.content
+		padding: 60px 0
+
+	.content#pjt
+		padding: 120px 0
+
+	.project
+		padding: 130px 0
+
+	a#mail
+		font-size : 0.9rem

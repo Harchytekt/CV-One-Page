@@ -1,0 +1,47 @@
+/* HEADER */
+
+header
+	position : fixed
+	top : 0
+	left : 0
+	height : 77px
+
+header, footer
+	width : 100%
+	z-index : 4
+
+h1
+	padding-top : 20px
+
+h1 a,
+h1 a:hover,
+h1 a:focus
+	text-decoration : none
+	color : inherit
+	font-weight : bold
+
+span.bold
+	font-weight : bolder
+
+.thin
+	font-weight : 300
+
+.smaller
+	font-weight : 400
+	font-size : 30px
+
+.blinking-cursor
+	-webkit-animation : 1s blink step-end infinite
+	animation : 1s blink step-end infinite
+
+@keyframes "blink"
+	from, to
+		color : transparent
+	50%
+		color : $mainGreen
+
+@-webkit-keyframes "blink"
+	from, to
+		color : transparent
+	50%
+		color : $mainGreen

@@ -1,0 +1,15 @@
+/* TEAM */
+	Maker: Alexandre Ducobu
+	Site: https://www.alexandre-ducobu.com
+	Email: alexandre.ducobu@yahoo.be
+	Twitter: @Harchytekt
+	Location: Mons, Belgium.
+
+
+/* SITE */
+	Last update: 2018/07/16
+	Languages: English / French
+	Standards: HTML5, CSS3 (Sass), JavaScript
+	Frameworks: Bootstrap V4b2, jQuery
+	Softwares: Affinity Designer, Atom, Neovim, Kodex, Working Copy
+	Fonts: Fira Code, Font Awesome V4.7.0

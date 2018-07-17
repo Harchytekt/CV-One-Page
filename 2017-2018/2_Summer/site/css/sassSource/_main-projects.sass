@@ -1,0 +1,61 @@
+/* Projects */
+
+.col-10.offset-1.col-md-5.col-lg-4.col-xl-3
+	margin-top: 15px
+	margin-bottom: 15px
+
+.previews * .image
+	background: white
+	border-radius: 5px
+	box-shadow: 0 2px 1px 1px rgba(0, 0, 0, .2)
+	overflow: hidden
+	position: absolute
+	top: 10px
+	transition: visibility 0s, opacity 0.5s linear
+
+.previews * .image.hidden
+	visibility: hidden
+	opacity: 0
+
+.previews * .image.shown
+	visibility: visible
+	opacity: 1
+
+.previews * img
+	width: 110%
+	display: block
+	max-width: 110%
+	height: auto
+	margin-left: -10px
+
+.eye,
+.eye-slash
+	position: absolute
+	padding: 14px 16px
+	border-radius: 30px
+	right: 0
+	color: $orange
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+
+.eye:hover,
+.eye:focus,
+.eye-slash:hover,
+.eye-slash:focus
+	cursor: pointer
+
+.eye-slash
+	background-color: white
+	display: none
+
+h2.titlePreview
+	color: $orange
+	padding-bottom: .25em
+	border-bottom: 1px solid #CCC
+	font-size: 175%
+	margin-top: 5px
+
+#PartPjt * h2.titlePreview
+	border-bottom-color: #757575
