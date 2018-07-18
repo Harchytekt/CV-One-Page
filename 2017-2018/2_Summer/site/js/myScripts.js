@@ -3,11 +3,11 @@
 $(document).ready(function() {
 	var ua = navigator.userAgent.toLowerCase();
 
-	if (ua.indexOf('safari') != -1 && ua.indexOf('chrome') <= -1) {
-		//Only for Safari
-		$('header .container').css('-webkit-backdrop-filter', 'blur(3px)');
+	if ((ua.indexOf('safari') != -1 && ua.indexOf('chrome') <= -1) || (/Edge\/\d./i.test(navigator.userAgent))) {
+		//Only for Safari & Ms Edge
+		$('header .container').addClass("backdrop");
 	} else {
-		$('header').css('background-image', 'url(resources/background.png)');
+		$('header .container').addClass("noBackdrop");
 	}
 
 	if($("#age").length != 0) {
