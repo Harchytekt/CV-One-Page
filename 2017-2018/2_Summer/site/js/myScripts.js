@@ -27,9 +27,9 @@ $(document).ready(function() {
 	var duration = 1000;
 	$(this).scroll(function() {
 		if ($(this).scrollTop() > offset) {
-			$('.back-to-top').fadeIn(duration);
+			$('#btt').fadeIn(duration);
 		} else {
-			$('.back-to-top').fadeOut(duration);
+			$('#btt').fadeOut(duration);
 		}
 	});
 
