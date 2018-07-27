@@ -14,15 +14,6 @@ $(document).ready(function() {
 		setAge();
 	}
 
-	//Change stylesheet and the linked icon.
-	$('.img-zoom').hover(function() {
-		$(this).addClass('transition');
-
-	}, function() {
-		$(this).removeClass('transition');
-	});
-
-
 	var offset = 220;
 	var duration = 1000;
 	$(this).scroll(function() {
@@ -117,7 +108,6 @@ $(".eye-slash").click(function() {
 /* French Event Start */
 
 var nbClicks = 0, fr = $('#french').html(), tempFr, res, tempIndex;
-//$(document).on('mouseleave touchstart', '#french', function() { // For mobile
 $(document).on('mouseout', '#french', function() {
 	setTimeout(() => {
 		$(this).stop().toggle('puff');
