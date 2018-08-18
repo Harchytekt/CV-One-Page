@@ -7,7 +7,7 @@
 
 
 /* SITE */
-	Last update: 2018/07/27
+	Last update: 2018/08/18
 	Languages: English / French
 	Standards: HTML5, CSS3 (Sass), JavaScript
 	Frameworks: Bootstrap V4b2, jQuery
