@@ -1,3 +1,42 @@
+@media (prefers-dark-interface)
+	h1
+		color: black !important
+
+	.fixed-bg.Home h2
+		color: #7F7F7F
+
+	body,
+	.scroll-bg
+		background-image : $darkBg
+
+	body,
+	.scroll-bg
+		background-color: $darkBackgroundColor !important
+
+	.Home
+		background-image: $darkHome
+
+	.Pjt
+		background-image: $darkProjects
+
+	.previews p,
+	a.nav-link,
+	#projectLinks,
+	a.nav-link.active i.fa
+		color : $darkTextColor
+
+	body,
+	#frenchLink
+		color : $darkTextColor !important
+
+	.eye-slash
+		background-color: $darkBackgroundColor
+
+	h2.titlePreview,
+	#PartPjt * h2.titlePreview
+		border-bottom-color: #4E4E4E
+
+
 @media only screen and (max-device-width: 1024px)
 	.fixed-bg
 		background-attachment: scroll

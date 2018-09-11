@@ -25,16 +25,16 @@ main
 
 .scroll-bg
 	position: relative
-	background-color: #ECECEC !important
-	background-image: url("../resources/background.png")
+	background-color: $defaultBackgroundColor !important
+	background-image: $defaultBg
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5)
 	z-index: 2
 
 .Home
-	background-image: url('../resources/bgs/home.jpg')
+	background-image: $defaultHome
 
 .Pjt
-	background-image: url('../resources/bgs/projects.jpg')
+	background-image: $defaultProjects
 
 main.home,
 main#contact
@@ -105,7 +105,7 @@ div.right
 	margin-bottom : 10px
 
 .previews p
-	color : $textColor
+	color : $defaultTextColor
 	text-align : justify
 	font-size : 14px
 

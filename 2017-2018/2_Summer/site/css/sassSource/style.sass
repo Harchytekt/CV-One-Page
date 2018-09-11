@@ -2,6 +2,13 @@
 
 @import FiraCode
 
+$defaultBg: url('../resources/bgs/default.png')
+$defaultHome: url('../resources/bgs/home.jpg')
+$defaultProjects: url('../resources/bgs/projects.jpg')
+$darkBg: url('../resources/bgs/dark.png')
+$darkHome: url('../resources/bgs/dark-home.jpg')
+$darkProjects: url('../resources/bgs/dark-projects.jpg')
+
 body, html, main
 	/* important */
 	height: 100%
@@ -14,11 +21,11 @@ body, html, main
 	box-sizing: border-box
 
 body
-	color : $textColor !important
+	color : $defaultTextColor !important
 	font-family : 'Fira Code', sans-serif !important
 	background-attachment : fixed
-	background-color : $backgroundColor !important
-	background-image : url('../resources/background.png')
+	background-color : $defaultBackgroundColor !important
+	background-image : $defaultBg
 
 @import header
 
