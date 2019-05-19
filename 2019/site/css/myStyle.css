@@ -8,6 +8,8 @@
 	--active-button-bg: #C0C0C0;
 	--tooltip-color: #DADADA;
 	--hr-color: #EDEDED;
+	--backtotop-shadow: #DADADA;
+	--backtotop-shadow-hover: #F4F4F4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +22,8 @@
 		--active-button-bg: #5C5C5C;
 		--tooltip-color: #333;
 		--hr-color: #37363B;
+		--backtotop-shadow: #4B4B4B;
+		--backtotop-shadow-hover: black;
 	}
 }
 
@@ -187,7 +191,9 @@ hr {
 }
 
 .projects * .card-link path,
-.projects * .card-link rect {
+.projects * .card-link rect,
+.backToTop path,
+.backToTop rect {
 	fill: var(--main-color);
 }
 
@@ -225,6 +231,26 @@ a.def:hover {
 .bs-tooltip-auto[x-placement^=top] .arrow::before,
 .bs-tooltip-top .arrow::before {
 	border-top-color: var(--tooltip-color);
+}
+
+.backToTop {
+	padding: 5px 17px 8px 17px;
+	background-color: var(--card-infos-background-color);
+	box-shadow: 0px 0px 10px 3px var(--backtotop-shadow);
+	border-radius: 5px;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	display: none;
+}
+
+.backToTop:hover {
+	box-shadow: 0px 0px 10px 3px var(--backtotop-shadow-hover);
+}
+
+.backToTop:hover path,
+.backToTop:hover rect {
+	fill: #2AB77E;
 }
 
 #footer {
