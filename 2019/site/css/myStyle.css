@@ -1,0 +1,235 @@
+:root {
+	color-scheme: light dark;
+	--card-infos-background-color: white;
+	--card-projects-background-color: #F2F2F2;
+	--bg-color: white;
+	--main-color: black;
+	--card-shadow: #DADADA;
+	--active-button-bg: #C0C0C0;
+	--tooltip-color: #DADADA;
+	--hr-color: #EDEDED;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--card-infos-background-color: #171717;
+		--card-projects-background-color: #1B1A1A;
+		--bg-color: #202020;
+		--main-color: #BABABA;
+		--card-shadow: #333;
+		--active-button-bg: #5C5C5C;
+		--tooltip-color: #333;
+		--hr-color: #37363B;
+	}
+}
+
+html,
+body {
+	background-color: var(--bg-color) !important;
+	font-family: Georgia !important;
+}
+
+#title {
+	margin-top: 90px;
+}
+
+h1, h3 {
+	display: inline;
+	color: var(--main-color);
+}
+
+hr {
+	width: 300px;
+	border-color: var(--hr-color);
+}
+
+.projects,
+.infos {
+	padding-top: 15px;
+	width: 100%;
+}
+
+.grid-container.infos {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+
+.grid-container.infos * .image.pull-left {
+	padding: 7px;
+	padding-left: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.grid-container.projects {
+	display: grid;
+	/* Force columns to have the same width */
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+
+.row {
+	width: 100%;
+}
+
+.card {
+	border-color: transparent !important;
+	box-shadow: 0px 0px 10px 2px var(--card-shadow);
+	color: var(--main-color);
+}
+
+.infos * .card {
+	border-radius: 10px !important;
+	background-color: var(--card-infos-background-color) !important;
+}
+
+.projects * .card {
+	border-radius: 20px !important;
+	background-color: var(--card-projects-background-color) !important;
+	border-color: transparent !important;
+	box-shadow: 0px 0px 10px 2px var(--card-shadow);
+	color: var(--main-color);
+}
+
+.projects * .card-title {
+	font-weight: bold !important;
+}
+
+.projects * .card-subtitle.text-muted {
+	font-style: italic !important;
+	color: var(--main-color) !important;
+}
+
+.projects * .card-subtitle {
+	font-size: .9rem;
+}
+
+.projects * .school {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(10deg);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.projects * .card-text {
+	font-size: 0.9rem;
+}
+
+.projects * .card-text.role {
+	margin-top: 13px;
+	margin-bottom: 7px;
+}
+
+.projects * .card-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pjt {
+	align-self: flex-start;
+}
+
+.more {
+	align-self: center;
+}
+
+.rpt,
+.site {
+	align-self: flex-end;
+}
+
+.projects * .card-link+.card-link {
+	margin-left: 0;
+}
+
+.projects * .card-link {
+	border: 2px var(--main-color) solid;
+	border-radius: 20px;
+	padding: 5px 15px;
+	color: var(--main-color);
+	font-size: .9rem;
+}
+
+.projects * span.card-link.pjt,
+.projects * span.card-link.pjt:hover,
+.projects * span.card-link.site,
+.projects * span.card-link.site:hover {
+	border-color: var(--active-button-bg);
+	background-color: var(--active-button-bg);
+	cursor: not-allowed;
+	color: var(--main-color);
+}
+
+.projects * .card-link.more {
+	border: 2px var(--main-color) solid;
+	border-radius: 20px;
+	padding: 2px 9px;
+	font-weight: bold;
+	font-size: large;
+	cursor: pointer;
+}
+
+.projects * .card-link.active {
+	background-color: var(--active-button-bg);
+	color: var(--main-color);
+}
+
+.projects * .card-link:hover {
+	background-color: var(--main-color);
+	border-color: var(--main-color);
+	color: var(--card-projects-background-color);
+}
+
+.projects * .card-link path,
+.projects * .card-link rect {
+	fill: var(--main-color);
+}
+
+.projects * a.card-link:hover path,
+.projects * a.card-link:hover rect {
+	fill: var(--card-projects-background-color);
+}
+
+.projects * .card-link svg {
+	vertical-align: top;
+}
+
+a.def {
+	color: var(--main-color) !important;
+}
+
+a.def:hover {
+	color: var(--main-color) !important;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.tooltip-inner {
+	font-family: Georgia;
+	background-color: var(--tooltip-color);
+	color: var(--main-color);
+	border-radius: 1rem;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+	border-bottom-color: var(--tooltip-color);
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.bs-tooltip-top .arrow::before {
+	border-top-color: var(--tooltip-color);
+}
+
+#footer {
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 578px) {
+}
