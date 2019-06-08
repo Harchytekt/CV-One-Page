@@ -36,9 +36,11 @@ $(document).on('click', '.more', function(event) {
 	var isActive = $(this).hasClass('active');
 	if (isActive) {
 		$(this).removeClass('active');
+		$(this).closest('.card').removeClass('active');
 		$(this).html('+');
 	} else {
 		$(this).addClass('active');
+		$(this).closest('.card').addClass('active');
 		$(this).html('−');
 	}
 	
