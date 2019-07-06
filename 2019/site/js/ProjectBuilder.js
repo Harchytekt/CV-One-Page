@@ -19,7 +19,7 @@ function buildProjects(projects) {
 				<div class="card-body">
 		`;
 		if (project.isForSchool !== undefined && project.isForSchool) {
-			projectsHtml += `<img src="img/school.svg" class="svg school" height="64" title="Projet scolaire">`;
+			projectsHtml += `<img src="resources/img/school.svg" class="svg school" height="64" title="Projet scolaire">`;
 		}
 		// Add title
 		projectsHtml += `<h5 class="card-title" title="${ project.period !== undefined ? project.period : project.title }">${ project.title }</h5>`;
@@ -128,13 +128,13 @@ function buildProjects(projects) {
 		if (project.git !== undefined) {
 			projectsHtml += `
 						<a href="${ project.git }" class="card-link pjt" title="Voir sur git" target="_blank">
-							<img src="img/git.svg" class="svg" height="20"> Projet
+							<img src="resources/img/git.svg" class="svg" height="20"> Projet
 						</a>
 			`;
 		} else {
 			projectsHtml += `
 						<span class="card-link pjt" title="Pas de git disponible">
-							<img src="img/git.svg" class="svg" height="20"> Projet
+							<img src="resources/img/git.svg" class="svg" height="20"> Projet
 						</span>
 			`;
 		}
@@ -142,19 +142,19 @@ function buildProjects(projects) {
 		if (project.report !== undefined) {
 			projectsHtml += `
 						<a href="${ project.report }" class="card-link rpt" title="Voir le rapport" target="_blank">
-							<img src="img/report.svg" class="svg" height="20"> Rapport
+							<img src="resources/img/report.svg" class="svg" height="20"> Rapport
 						</a>
 			`;
 		} else if (project.site !== undefined) {
 			projectsHtml += `
 						<a href="${ project.site }" class="card-link site" title="Voir le site" target="_blank">
-							<img src="img/link.svg" class="svg" height="20"> Site
+							<img src="resources/img/link.svg" class="svg" height="20"> Site
 						</a>
 			`;
 		} else {
 			projectsHtml += `
 						<span class="card-link site" title="Pas de site disponible">
-							<img src="img/link.svg" class="svg" height="20"> Site
+							<img src="resources/img/link.svg" class="svg" height="20"> Site
 						</span>
 			`;
 		}

@@ -61,9 +61,9 @@ jQuery.fn.replaceClass = function(oldClass, newClass) {
 };
 
 $('#me').on('mouseenter', function() {
-	$(this).attr('src', 'img/me-hover.png');
+	$(this).attr('src', 'resources/img/me-hover.png');
 });
 
 $('#me').on('mouseleave', function() {
-	$(this).attr('src', 'img/me.png');
+	$(this).attr('src', 'resources/img/me.png');
 });
