@@ -43,7 +43,7 @@
 		{
 			"project": {
 				"title": "TogethAir — Projet",
-				"subtitle": "track acADDemICT, 1<sup>er</sup> projet",
+				"subtitle": "Track acADDemICT, 1<sup>er</sup> projet",
 				"period": "Nov. 2018",
 				"description": [
 					{ "line": "Développement d’un site de réservation de billets d’avion dans un groupe de six personnes." },
@@ -104,8 +104,16 @@
 					{ "other": "HTML/CSS" },
 					{ "other": "JavaScript" }
 				],
-				"git": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/2_Summer",
-				"site": "https://www.alexandre-ducobu.com"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/2_Summer"
+					},
+					{
+						"type": "site",
+						"url": "https://www.alexandre-ducobu.com"
+					}
+				]
 			}
 		},
 		{
@@ -139,8 +147,16 @@
 					{ "other": "JavaScript" },
 					{ "other": "MySQL"}
 				],
-				"git": "https://github.com/Harchytekt/learnIT",
-				"report": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/TFE/Juin/Rapport.pdf"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/learnIT"
+					},
+					{
+						"type": "report",
+						"url": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/TFE/Juin/Rapport.pdf"
+					}
+				]
 			}
 		},
 		{
@@ -179,7 +195,12 @@
 					{ "other": "MySQL"},
 					{ "other": "UML" }
 				],
-				"report": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/Stage%20en%20entreprise/Rapport.pdf"
+				"links": [
+					{
+						"type": "report",
+						"url": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/Stage%20en%20entreprise/Rapport.pdf"
+					}
+				]
 			}
 		},
 		{
@@ -210,8 +231,16 @@
 					{ "other": "HTML/CSS" },
 					{ "other": "JavaScript" }
 				],
-				"git": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/1_New%20Year",
-				"site": "http://alexandre-ducobu.com/NewYear/Fr"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/1_New%20Year"
+					},
+					{
+						"type": "site",
+						"url": "http://alexandre-ducobu.com/NewYear/Fr"
+					}
+				]
 			}
 		},
 		{
@@ -231,7 +260,12 @@
 				"tool": [
 					{ "tool": "Pythonista pour iOS" }
 				],
-				"git": "https://github.com/Harchytekt/IPv4-Delmotte"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/IPv4-Delmotte"
+					}
+				]
 			}
 		},
 		{
@@ -255,8 +289,16 @@
 					{ "other": "MacDown"},
 					{ "other": "Markdown"}
 				],
-				"git": "https://github.com/Harchytekt/ToolKit",
-				"site": "http://toolkit.esy.es/"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/ToolKit"
+					},
+					{
+						"type": "site",
+						"url": "http://toolkit.esy.es/"
+					}
+				]
 			}
 		},
 		{
@@ -282,8 +324,16 @@
 					{ "tool": "Sense HAT"}
 
 				],
-				"git": "https://github.com/rememberYou/ponghat",
-				"report": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2016-2017/Initiation%20aux%20nano-ordinateurs/Rapport/Rapport.pdf"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/rememberYou/ponghat"
+					},
+					{
+						"type": "report",
+						"url": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2016-2017/Initiation%20aux%20nano-ordinateurs/Rapport/Rapport.pdf"
+					}
+				]
 			}
 		},
 		{
@@ -307,8 +357,16 @@
 					{ "other": "HTML/CSS" },
 					{ "other": "JavaScript" }
 				],
-				"git": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project",
-				"site": "http://alexandre-ducobu.com/ProjetBA2"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project"
+					},
+					{
+						"type": "site",
+						"url": "http://alexandre-ducobu.com/ProjetBA2"
+					}
+				]
 			}
 		},
 		{
@@ -331,8 +389,16 @@
 				"other": [
 					{ "other": "HTML/CSS" }
 				],
-				"git": "https://bitbucket.org/Harchytekt/project-html/src",
-				"site": "http://incomments.esy.es/pages/indexFR.html"
+				"links": [
+					{
+						"type": "git",
+						"url": "https://bitbucket.org/Harchytekt/project-html/src"
+					},
+					{
+						"type": "site",
+						"url": "http://incomments.esy.es/pages/indexFR.html"
+					}
+				]
 			}
 		},
 		{

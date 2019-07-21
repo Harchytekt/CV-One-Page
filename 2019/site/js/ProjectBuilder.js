@@ -26,7 +26,8 @@ function buildProjects(projects) {
 		// Add desc
 		projectsHtml += `
 					<div class="desc">
-						<p class="card-text">`;
+						<p class="card-text">
+							<sup class="period">${project.period}</sup> <br>`;
 		for (var j = 0; j < project.description.length; j++) {
 			projectsHtml += `${ project.description[j].line }`;
 			if (j < project.description.length - 1) {
@@ -123,41 +124,66 @@ function buildProjects(projects) {
 		// Add links
 		projectsHtml += `
 					<br>
-					<div class="card-links">
+					<div class="card-links `;
+
+		if (project.links === undefined) {
+			projectsHtml += `noLink">
+							<span class="card-link more">+</span>`;
+		} else {
+			if (project.links.length === 2) {
+				projectsHtml += `links">`;
+				for (var link = 0; link < project.links.length; link++) {
+					if (project.links[link].type === "git") {
+						projectsHtml += `
+								<a href="${ project.links[link].url }" class="card-link pjt" title="Voir sur git" target="_blank">
+									<img src="resources/img/git.svg" class="svg" height="20"> Projet git
+								</a>
+								<span class="card-link more">+</span>
+						`;
+					}
+					if (project.links[link].type === "report") {
+						projectsHtml += `
+									<a href="${ project.links[link].url }" class="card-link rpt" title="Voir le rapport" target="_blank">
+										<img src="resources/img/report.svg" class="svg" height="20"> Rapport
+									</a>
+						`;
+					} else if (project.links[link].type === "site") {
+						projectsHtml += `
+									<a href="${ project.links[link].url }" class="card-link site" title="Voir le site" target="_blank">
+										<img src="resources/img/link.svg" class="svg" height="20"> Site web
+									</a>
+						`;
+					}
+				}
+			} else if (project.links[0].type === "git") {
+				projectsHtml += `links">
+									<a href="${ project.links[0].url }" class="card-link pjt" title="Voir sur git" target="_blank">
+										<img src="resources/img/git.svg" class="svg" height="20"> Projet git
+									</a>
+									<span class="card-link more">+</span>
+									<span class="card-link pjt hidden"></span>
+				`;
+			} else {
+				projectsHtml += `links">
+									<span class="card-link pjt hidden"></span>
+									<span class="card-link more">+</span>`;
+				if (project.links[0].type === "report") {
+					projectsHtml += `
+									<a href="${ project.links[0].url }" class="card-link rpt" title="Voir le rapport" target="_blank">
+										<img src="resources/img/report.svg" class="svg" height="20"> Rapport
+									</a>
 					`;
-		if (project.git !== undefined) {
-			projectsHtml += `
-						<a href="${ project.git }" class="card-link pjt" title="Voir sur git" target="_blank">
-							<img src="resources/img/git.svg" class="svg" height="20"> Projet
-						</a>
-			`;
-		} else {
-			projectsHtml += `
-						<span class="card-link pjt" title="Pas de git disponible">
-							<img src="resources/img/git.svg" class="svg" height="20"> Projet
-						</span>
-			`;
+				} else if (project.links[0].type === "site") {
+					projectsHtml += `
+									<a href="${ project.links[0].url }" class="card-link site" title="Voir le site" target="_blank">
+										<img src="resources/img/link.svg" class="svg" height="20"> Site web
+									</a>
+					`;
+				}
+			}
+			
 		}
-		projectsHtml += `<span class="card-link more">+</span>`;
-		if (project.report !== undefined) {
-			projectsHtml += `
-						<a href="${ project.report }" class="card-link rpt" title="Voir le rapport" target="_blank">
-							<img src="resources/img/report.svg" class="svg" height="20"> Rapport
-						</a>
-			`;
-		} else if (project.site !== undefined) {
-			projectsHtml += `
-						<a href="${ project.site }" class="card-link site" title="Voir le site" target="_blank">
-							<img src="resources/img/link.svg" class="svg" height="20"> Site
-						</a>
-			`;
-		} else {
-			projectsHtml += `
-						<span class="card-link site" title="Pas de site disponible">
-							<img src="resources/img/link.svg" class="svg" height="20"> Site
-						</span>
-			`;
-		}
+
 		projectsHtml += `
 					</div>
 				</div>

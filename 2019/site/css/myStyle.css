@@ -10,6 +10,7 @@
 	--hr-color: #EDEDED;
 	--backtotop-shadow: #DADADA;
 	--backtotop-shadow-hover: #F4F4F4;
+	--period: #999;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +25,7 @@
 		--hr-color: #37363B;
 		--backtotop-shadow: #4B4B4B;
 		--backtotop-shadow-hover: black;
+		--period: #777;
 	}
 }
 
@@ -129,6 +131,10 @@ hr {
 	font-size: 0.9rem;
 }
 
+.projects * sup.period {
+	color: var(--period);
+}
+
 .projects * .card-text.role {
 	margin-top: 13px;
 	margin-bottom: 7px;
@@ -136,25 +142,25 @@ hr {
 
 .projects * .card-links {
 	display: flex;
-	justify-content: space-between;
 }
 
-.pjt {
-	align-self: flex-start;
+.projects * .card-links.noLink {
+	justify-content: center;
 }
 
-.more {
-	align-self: center;
+.hidden {
+	visibility: hidden;
 }
 
+.pjt,
 .rpt,
 .site {
-	align-self: flex-end;
+	flex: 1;
 }
 
-.projects * .card-link+.card-link {
+/*.projects * .card-link+.card-link {
 	margin-left: 0;
-}
+}*/
 
 .projects * .card-link {
 	border: 2px var(--main-color) solid;
