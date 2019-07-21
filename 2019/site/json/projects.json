@@ -70,7 +70,8 @@
 					{ "tool": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
+					{ "other": "HTML" },
+					{ "other": "CSS" },
 					{ "other": "JavaScript" },
 					{ "other": "MySQL" },
 					{ "other": "UML" }
@@ -101,7 +102,8 @@
 					{ "tool": "Working Copy" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
+					{ "other": "HTML" },
+					{ "other": "CSS" },
 					{ "other": "JavaScript" }
 				],
 				"links": [
@@ -143,7 +145,8 @@
 					{ "tool": "MailHog" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
+					{ "other": "HTML" },
+					{ "other": "CSS" },
 					{ "other": "JavaScript" },
 					{ "other": "MySQL"}
 				],
@@ -190,7 +193,8 @@
 					{ "tool": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
+					{ "other": "HTML" },
+					{ "other": "CSS" },
 					{ "other": "JavaScript" },
 					{ "other": "MySQL"},
 					{ "other": "UML" }
@@ -224,11 +228,12 @@
 					{ "tool": "Blink" },
 					{ "tool": "git" },
 					{ "tool": "Kodex" },
-					{ "tool": "Textastic for iPad" },
+					{ "tool": "Textastic" },
 					{ "tool": "Working Copy" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
+					{ "other": "HTML" },
+					{ "other": "CSS" },
 					{ "other": "JavaScript" }
 				],
 				"links": [
@@ -270,33 +275,63 @@
 		},
 		{
 			"project": {
-				"title": "ToolKit",
+				"title": "GameOfLife",
 				"period": "2017",
 				"description": [
-					{ "line": "Manuel en ligne écrit en anglais à l'aide du Markdown." },
-					{ "line": "Celui-ci traite de Cisco IOS, du Markdown, du SQL, de l'administration de Windows Server et Linux…" }
+					{ "line": "Simple implémentation du \"Jeu de la Vie\" pour le Terminal." },
+					{ "line": "Il a été codé en Java. Ant le compile, l'exécute, génère la Javadoc et peut supprimer tous les fichiers créés." }
 				],
 				"role": [
-					{ "role": "Développeur front-end" }
+					{"role": "Développeur" }
+				],
+				"env": [
+					{ "env": "Java" }
+				],
+				"build": [
+					{ "build": "Ant" }
+				],
+				"tool": [
+					{ "tool": "Atom" },
+					{ "tool": "git" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/GameOfLife"
+					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "CV — Projet",
+				"subtitle": "Seconde version, version scolaire",
+				"period": "2017",
+				"isForSchool": true,
+				"description": [
+					{ "line": "CV One-Page en HTML et CSS animé à l'aide de JavaScript <i>(et de jQuery)</i>." },
+					{ "line": "C'est le projet effectué dans le cadre du cours de <i>Développement front-end</i> lors de la seconde année à la HeH." }
+				],
+				"role": [
+					{"role": "Développeur front-end" }
 				],
 				"tool": [
 					{ "tool": "Atom" },
 					{ "tool": "git" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
-					{ "other": "JavaScript" },
-					{ "other": "MacDown"},
-					{ "other": "Markdown"}
+					{ "other": "HTML" },
+					{ "other": "CSS" },
+					{ "other": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
-						"url": "https://github.com/Harchytekt/ToolKit"
+						"url": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project"
 					},
 					{
 						"type": "site",
-						"url": "http://toolkit.esy.es/"
+						"url": "http://alexandre-ducobu.com/ProjetBA2"
 					}
 				]
 			}
@@ -338,65 +373,34 @@
 		},
 		{
 			"project": {
-				"title": "CV — Projet",
-				"subtitle": "Seconde version, version scolaire",
+				"title": "ToolKit",
 				"period": "2017",
-				"isForSchool": true,
 				"description": [
-					{ "line": "CV One-Page en HTML et CSS animé à l'aide de JavaScript <i>(et de jQuery)</i>." },
-					{ "line": "C'est le projet effectué dans le cadre du cours de <i>Développement front-end</i> lors de la seconde année à la HeH." }
+					{ "line": "Manuel en ligne écrit en anglais à l'aide du Markdown." },
+					{ "line": "Celui-ci traite de Cisco IOS, du Markdown, du SQL, de l'administration de Windows Server et Linux…" }
 				],
 				"role": [
-					{"role": "Développeur front-end" }
+					{ "role": "Développeur front-end" }
 				],
 				"tool": [
 					{ "tool": "Atom" },
 					{ "tool": "git" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" },
-					{ "other": "JavaScript" }
+					{ "other": "HTML" },
+					{ "other": "CSS" },
+					{ "other": "JavaScript" },
+					{ "other": "MacDown"},
+					{ "other": "Markdown"}
 				],
 				"links": [
 					{
 						"type": "git",
-						"url": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project"
+						"url": "https://github.com/Harchytekt/ToolKit"
 					},
 					{
 						"type": "site",
-						"url": "http://alexandre-ducobu.com/ProjetBA2"
-					}
-				]
-			}
-		},
-		{
-			"project": {
-				"title": "inComment",
-				"subtitle": "Premier projet web",
-				"period": "2016",
-				"isForSchool": true,
-				"description": [
-					{ "line": "Dernier projet de l'année: un site en HTML5 et CSS3." },
-					{ "line": "Il est responsive, compatible jusque IE8 et proposé en deux langues. De plus, il est validé par le W3C." }
-				],
-				"role": [
-					{"role": "Développeur front-end" }
-				],
-				"tool": [
-					{ "tool": "Textastic" },
-					{ "tool": "git" }
-				],
-				"other": [
-					{ "other": "HTML/CSS" }
-				],
-				"links": [
-					{
-						"type": "git",
-						"url": "https://bitbucket.org/Harchytekt/project-html/src"
-					},
-					{
-						"type": "site",
-						"url": "http://incomments.esy.es/pages/indexFR.html"
+						"url": "http://toolkit.esy.es/"
 					}
 				]
 			}
@@ -418,7 +422,41 @@
 					{ "tool": "git" }
 				],
 				"other": [
-					{ "other": "HTML/CSS" }
+					{ "other": "HTML" },
+					{ "other": "CSS" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "inComment",
+				"subtitle": "Premier projet web",
+				"period": "2016",
+				"isForSchool": true,
+				"description": [
+					{ "line": "Dernier projet de l'année: un site en HTML5 et CSS3." },
+					{ "line": "Il est responsive, compatible jusque IE8 et proposé en deux langues. De plus, il est validé par le W3C." }
+				],
+				"role": [
+					{"role": "Développeur front-end" }
+				],
+				"tool": [
+					{ "tool": "Textastic" },
+					{ "tool": "git" }
+				],
+				"other": [
+					{ "other": "HTML" },
+					{ "other": "CSS" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://bitbucket.org/Harchytekt/project-html/src"
+					},
+					{
+						"type": "site",
+						"url": "http://incomments.esy.es/pages/indexFR.html"
+					}
 				]
 			}
 		}

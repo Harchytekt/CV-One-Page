@@ -140,6 +140,10 @@ hr {
 	margin-bottom: 7px;
 }
 
+.projects * .card-text .defTooltip {
+	cursor: help;
+}
+
 .projects * .card-links {
 	display: flex;
 }

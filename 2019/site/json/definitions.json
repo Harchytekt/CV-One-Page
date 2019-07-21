@@ -1,6 +1,124 @@
 {
 	"definitions": [
-		{ "title": "Bootstrap", "description": "Framework CSS et JavaScript développé par la société californienne Twitter." },
-		{}
+		{
+			"title": "Ant",
+			"description": "Outil écrit en Java pour permettre la construction d'applications."
+		},
+		{
+			"title": "Atom",
+			"description": "Éditeur de texte <i>(et aussi IDE)</i> libre supportant des plug-ins."
+		},
+		{
+			"title": "Blink",
+			"description": "Le terminal pro pour iOS."
+		},
+		{
+			"title": "Bootstrap",
+			"description": "Framework CSS et JavaScript développé par la société californienne Twitter."
+		},
+		{
+			"title": "BootsFaces",
+			"description": "Framework JSF basé sur Bootstrap 3 et jQuery UI."
+		},
+		{
+			"title": "CSS",
+			"description": "Langage informatique de mise en forme du contenu des pages HTML <i>(Cascading Style Sheets)</i>."
+		},
+		{
+			"title": "git",
+			"description": "Le plus populaire des logiciels de gestion de versions décentralisés."
+		},
+		{
+			"title": "Hibernate",
+			"description": "Framework open source gérant la persistance des objets en base de données relationnelle."
+		},
+		{
+			"title": "HTML",
+			"description": "Langage de balisage conçu pour représenter les pages web <i>(HyperText Markup Language)</i>."
+		},
+		{
+			"title": "IntelliJ IDEA",
+			"description": "IDE de technologie Java destiné au développement de logiciels informatiques."
+		},
+		{
+			"title": "Java",
+			"description": "Langage de programmation orienté objet multiplateforme."
+		},
+		{
+			"title": "Java EE 8",
+			"description": "Spécification pour la plate-forme Java d'Oracle, destinée aux applications d'entreprise."
+		},
+		{
+			"title": "JavaScript",
+			"description": "Langage de programmation de scripts principalement employé dans les pages web interactives."
+		},
+		{
+			"title": "Julia",
+			"description": "Langage de programmation de haut niveau, performant et dynamique pour le calcul scientifique."
+		},
+		{
+			"title": "JUnit",
+			"description": "Framework de test unitaire pour le langage de programmation Java."
+		},
+		{
+			"title": "Kodex",
+			"description": "A powerful code editor for iOS."
+		},
+		{
+			"title": "MacDown",
+			"description": "Éditeur open source de Markdown pour macOS."
+		},
+		{
+			"title": "Markdown",
+			"description": "Langage de balisage léger offrant une syntaxe facile à lire et à écrire."
+		},
+		{
+			"title": "Maven",
+			"description": "Outil logiciel libre pour la gestion et l'automatisation de production des projets logiciels Java."
+		},
+		{
+			"title": "MySQL",
+			"description": "Système de gestion de bases de données relationnelles <i>(l'un des plus utilisés au monde)</i>."
+		},
+		{
+			"title": "OAuth",
+			"description": "Protocole libre permettant d'autoriser un site web, un logiciel ou une applicationcà utiliser l'API sécurisée d'un autre site web pour le compte d'un utilisateur."
+		},
+		{
+			"title": "Pair programming",
+			"description": "Méthode de travail dans laquelle deux développeurs travaillent ensemble sur un même poste de travail."
+		},
+		{
+			"title": "Python 3",
+			"description": "Langage de programmation orientée objet multiplateforme favorisant la programmation impérative structurée."
+		},
+		{
+			"title": "Raspberry Pi 3",
+			"description": "Nano-ordinateur équipé d'un mricoprocesseur ARM."
+		},
+		{
+			"title": "Sense HAT",
+			"description": "Carte additionnelle composée d'une matrice LED, d'un joystick à boutons et de 5 autres capteurs."
+		},
+		{
+			"title": "Spring",
+			"description": "Framework libre pour construire et définir l'infrastructure d'une application java, dont il facilite le développement et les tests."
+		},
+		{
+			"title": "Spring Boot",
+			"description": "Framework libre pour construire et définir l'infrastructure d'une application java, dont il facilite le développement et les tests."
+		},
+		{
+			"title": "Textastic",
+			"description": "An advanced code editor for iOS and macOS</i>."
+		},
+		{
+			"title": "UML",
+			"description": "Langage graphique de modélisation des données et des traitements <i>(Unified Modeling Language)</i>."
+		},
+		{
+			"title": "Working Copy",
+			"description": "<i><strong>The</strong></i> powerful Git client for iOS."
+		}
 	]
 }

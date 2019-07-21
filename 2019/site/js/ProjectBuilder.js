@@ -1,3 +1,14 @@
+var definitions;
+var definitionsJSON = $.getJSON("json/definitions.json", function() {
+	console.log(`success`);
+})
+.done(function(json) {
+	definitions = json.definitions;
+})
+.fail(function( jqxhr, textStatus, error) {
+	console.log(`Request Failed: ${ textStatus }, ${ error }`);
+});
+
 var jqxhr = $.getJSON("json/projects.json", function() {
 	console.log(`success`);
 })
@@ -7,6 +18,16 @@ var jqxhr = $.getJSON("json/projects.json", function() {
 .fail(function( jqxhr, textStatus, error) {
 	console.log(`Request Failed: ${ textStatus }, ${ error }`);
 });
+
+function findDefinition(name) {
+	var defs = jQuery.parseJSON(JSON.stringify(definitions));
+	for (var def = 0; def < defs.length; def++) {
+		if (name === defs[def].title) {
+			return defs[def].description;
+		}
+	}
+	return "Aucune définition trouvée";
+}
 
 function buildProjects(projects) {
 	var projectsHtml = ``;
@@ -60,7 +81,9 @@ function buildProjects(projects) {
 		if (project.env !== undefined) {
 			projectsHtml += `<strong>Environnement :</strong> <br>`;
 			for (var j = 0; j < project.env.length; j++) {
-				projectsHtml += `${ project.env[j].env }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.env[j].env)}">
+									${ project.env[j].env }
+								</span>`;
 				if (j < project.env.length -1) {
 					projectsHtml += `, `;
 				}
@@ -70,7 +93,9 @@ function buildProjects(projects) {
 		if (project.framework !== undefined) {
 			projectsHtml += `<strong>Frameworks :</strong> <br>`;
 			for (var j = 0; j < project.framework.length; j++) {
-				projectsHtml += `${ project.framework[j].framework }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.framework[j].framework)}">
+									${ project.framework[j].framework }
+								</span>`;
 				if (j < project.framework.length - 1) {
 					projectsHtml += `, `;
 				}
@@ -80,7 +105,9 @@ function buildProjects(projects) {
 		if (project.meth !== undefined) {
 			projectsHtml += `<strong>Méthodologie :</strong> <br>`
 			for (var j = 0; j < project.meth.length; j++) {
-				projectsHtml += `${ project.meth[j].meth }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.meth[j].meth)}">
+									${ project.meth[j].meth }
+								</span>`;
 				if (j < project.meth.length - 1) {
 					projectsHtml += `, `;
 				}
@@ -90,7 +117,9 @@ function buildProjects(projects) {
 		if (project.build !== undefined) {
 			projectsHtml += `<strong>Moteur de production :</strong> <br>`
 			for (var j = 0; j < project.build.length; j++) {
-				projectsHtml += `${ project.build[j].build }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.build[j].build)}">
+									${ project.build[j].build }
+								</span>`;
 				if (j < project.build.length - 1) {
 					projectsHtml += `, `;
 				}
@@ -100,7 +129,9 @@ function buildProjects(projects) {
 		if (project.tool !== undefined) {
 			projectsHtml += `<strong>Outils :</strong> <br>`;
 			for (var j = 0; j < project.tool.length; j++) {
-				projectsHtml += `${ project.tool[j].tool }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.tool[j].tool)}">
+									${ project.tool[j].tool }
+								</span>`;
 				if (j < project.tool.length - 1) {
 					projectsHtml += `, `;
 				}
@@ -110,7 +141,9 @@ function buildProjects(projects) {
 		if (project.other !== undefined) {
 			projectsHtml += `<strong>Autres :</strong> <br>`;
 			for (var j = 0; j < project.other.length; j++) {
-				projectsHtml += `${ project.other[j].other }`;
+				projectsHtml += `<span class="defTooltip" data-toggle="tooltip" data-html="true" title="${findDefinition(project.other[j].other)}">
+									${ project.other[j].other }
+								</span>`;
 				if (j < project.other.length - 1) {
 					projectsHtml += `, `;
 				}
