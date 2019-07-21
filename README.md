@@ -9,7 +9,7 @@ The six versions are:
 - the [Holidays version](2016-2017/2_Holidays);
 - the [New Year version](2017-2018/1_New%20Year);
 - the [Summer version](2017-2018/2_Summer);
-- the [Grey version](2019).
+- the [Grey version](2019) _(work in progress)_.
 
 The first three follow the rules for the [project version](2016-2017/1_Project) :
 - be responsive;
