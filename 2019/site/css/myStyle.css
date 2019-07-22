@@ -276,5 +276,12 @@ a.def:hover {
 	margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 578px) {
+@media only screen and (max-width: 1199px) {
+	.grid-container.projects {
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 100px;
+		grid-row-gap: 70px;
+	}
 }
+
+@media only screen and (max-width: 578px) {}
