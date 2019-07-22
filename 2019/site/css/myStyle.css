@@ -11,6 +11,7 @@
 	--backtotop-shadow: #DADADA;
 	--backtotop-shadow-hover: #F4F4F4;
 	--period: #999;
+	--help-decoration-color: #777;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
 		--backtotop-shadow: #4B4B4B;
 		--backtotop-shadow-hover: black;
 		--period: #777;
+		--help-decoration-color: #999;
 	}
 }
 
@@ -142,6 +144,9 @@ hr {
 
 .projects * .card-text .defTooltip {
 	cursor: help;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: var(--help-decoration-color);
 }
 
 .projects * .card-links {

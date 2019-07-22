@@ -226,6 +226,7 @@ function buildProjects(projects) {
 	}
 	$('.grid-container.projects').html(projectsHtml);
 	toSvg();
+	$('[data-toggle="tooltip"]').tooltip();
 }
 
 /*
