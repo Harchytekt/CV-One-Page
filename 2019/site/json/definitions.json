@@ -1,6 +1,10 @@
 {
 	"definitions": [
 		{
+			"title": "Agile",
+			"description": "Approche itérative et collaborative prennant en compte les besoins initiaux ainsi que leurs évolutions."
+		},
+		{
 			"title": "Ant",
 			"description": "Outil écrit en Java pour permettre la construction d'applications."
 		},
