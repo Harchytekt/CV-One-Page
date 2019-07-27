@@ -10,33 +10,33 @@
 					{ "line": "Cette fois, le groupe, <i>toujours multilingue</i>, était composé de 6 équipes de cinq développeurs." }
 				],
 				"role": [
-					{ "role": "Développeur front-end" }
+					{ "name": "Développeur front-end" }
 				],
 				"env": [
-					{ "env": "Java EE 8" }
+					{ "name": "Java EE 8" }
 				],
 				"framework": [
-					{ "framework": "Angular 5" },
-					{ "framework": "Hibernate" },
-					{ "framework": "JUnit" },
-					{ "framework": "OAuth" },
-					{ "framework": "Spring Boot" }
+					{ "name": "Angular 5" },
+					{ "name": "Hibernate" },
+					{ "name": "JUnit" },
+					{ "name": "OAuth" },
+					{ "name": "Spring Boot" }
 				],
 				"meth": [
-					{ "meth": "Agile" },
-					{ "meth": "Pair programming"}
+					{ "name": "Agile" },
+					{ "name": "Pair programming"}
 				],
 				"build": [
-					{ "build": "Maven" }
+					{ "name": "Maven" }
 				],
 				"tool": [
-					{ "tool": "fakeSMTP" },
-					{ "tool": "git" },
-					{ "tool": "IntelliJ IDEA" }
+					{ "name": "fakeSMTP" },
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "other": "Docker" },
-					{ "other": "Mockito" }
+					{ "name": "Docker" },
+					{ "name": "Mockito" }
 				]
 			}
 		},
@@ -50,31 +50,31 @@
 					{ "line": "Étant donné le caractère multilingue du projet, le site était disponible en anglais, français et néerlandais." }
 				],
 				"role": [
-					{ "role": "Développeur front-end" },
-					{ "role": "git master" }
+					{ "name": "Développeur front-end" },
+					{ "name": "git master" }
 				],
 				"env": [
-					{ "env": "Java EE 8" },
-					{ "env": "BootsFaces" },
-					{ "env": "Hibernate"}
+					{ "name": "Java EE 8" },
+					{ "name": "BootsFaces" },
+					{ "name": "Hibernate"}
 				],
 				"meth": [
-					{ "meth": "Agile" },
-					{ "meth": "Pair programming"}
+					{ "name": "Agile" },
+					{ "name": "Pair programming"}
 				],
 				"build": [
-					{ "build": "Maven" }
+					{ "name": "Maven" }
 				],
 				"tool": [
-					{ "tool": "git" },
-					{ "tool": "IntelliJ IDEA" }
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" },
-					{ "other": "MySQL" },
-					{ "other": "UML" }
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" },
+					{ "name": "MySQL" },
+					{ "name": "UML" }
 				]
 			}
 		},
@@ -89,22 +89,22 @@
 					{ "line": "Et, je l'ai développé sur iPad." }
 				],
 				"role": [
-					{ "role": "Développeur front-end" }
+					{ "name": "Développeur front-end" }
 				],
 				"framework": [
-					{ "framework": "Bootstrap" }
+					{ "name": "Bootstrap" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "Blink" },
-					{ "tool": "git" },
-					{ "tool": "Kodex" },
-					{ "tool": "Working Copy" }
+					{ "name": "Atom" },
+					{ "name": "Blink" },
+					{ "name": "git" },
+					{ "name": "Kodex" },
+					{ "name": "Working Copy" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" }
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
@@ -129,26 +129,26 @@
 					{ "line": "Il proposera peut-être aussi une application mobile compagnon <i>(Android)</i>." }
 				],
 				"role": [
-					{"role": "Développeur full-stack" }
+					{"name": "Développeur full-stack" }
 				],
 				"env": [
-					{ "env": "PHP" }
+					{ "name": "PHP" }
 				],
 				"framework": [
-					{ "framework": "Bootstrap" },
-					{ "framework": "Laravel" },
-					{ "framework": "Quill.js" }
+					{ "name": "Bootstrap" },
+					{ "name": "Laravel" },
+					{ "name": "Quill.js" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" },
-					{ "tool": "MailHog" }
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "MailHog" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" },
-					{ "other": "MySQL"}
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" },
+					{ "name": "MySQL"}
 				],
 				"links": [
 					{
@@ -173,31 +173,31 @@
 					{ "line": "Mise en place d'une première version utilisable d'un outil de gestion de ressources pour <i>Realdolmen Sud</i>." }
 				],
 				"role": [
-					{"role": "Développeur front-end" }
+					{"name": "Développeur front-end" }
 				],
 				"env": [
-					{ "env": "Java SE 8" },
-					{ "env": "Bootstrap" },
-					{ "env": "Hibernate"},
-					{ "env": "Spring" }
+					{ "name": "Java SE 8" },
+					{ "name": "Bootstrap" },
+					{ "name": "Hibernate"},
+					{ "name": "Spring" }
 				],
 				"meth": [
-					{ "meth": "Agile" }
+					{ "name": "Agile" }
 				],
 				"build": [
-					{ "build": "Maven" }
+					{ "name": "Maven" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" },
-					{ "tool": "IntelliJ IDEA" }
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" },
-					{ "other": "MySQL"},
-					{ "other": "UML" }
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" },
+					{ "name": "MySQL"},
+					{ "name": "UML" }
 				],
 				"links": [
 					{
@@ -218,23 +218,23 @@
 					{ "line": "D'où l'utilisation d'une barre de navigation." }
 				],
 				"role": [
-					{"role": "Développeur front-end" }
+					{"name": "Développeur front-end" }
 				],
 				"framework": [
-					{ "framework": "Bootstrap" }
+					{ "name": "Bootstrap" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "Blink" },
-					{ "tool": "git" },
-					{ "tool": "Kodex" },
-					{ "tool": "Textastic" },
-					{ "tool": "Working Copy" }
+					{ "name": "Atom" },
+					{ "name": "Blink" },
+					{ "name": "git" },
+					{ "name": "Kodex" },
+					{ "name": "Textastic" },
+					{ "name": "Working Copy" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" }
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
@@ -257,13 +257,13 @@
 					{ "line": "Ce projet personnel a été développé dans Pythonista pour iOS." }
 				],
 				"role": [
-					{ "role": "Développeur" }
+					{ "name": "Développeur" }
 				],
 				"env": [
-					{ "env": "Python 3" }
+					{ "name": "Python 3" }
 				],
 				"tool": [
-					{ "tool": "Pythonista pour iOS" }
+					{ "name": "Pythonista pour iOS" }
 				],
 				"links": [
 					{
@@ -282,17 +282,17 @@
 					{ "line": "Il a été codé en Java. Ant le compile, l'exécute, génère la Javadoc et peut supprimer tous les fichiers créés." }
 				],
 				"role": [
-					{"role": "Développeur" }
+					{"name": "Développeur" }
 				],
 				"env": [
-					{ "env": "Java" }
+					{ "name": "Java" }
 				],
 				"build": [
-					{ "build": "Ant" }
+					{ "name": "Ant" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" }
+					{ "name": "Atom" },
+					{ "name": "git" }
 				],
 				"links": [
 					{
@@ -313,16 +313,16 @@
 					{ "line": "C'est le projet effectué dans le cadre du cours de <i>Développement front-end</i> lors de la seconde année à la HeH." }
 				],
 				"role": [
-					{"role": "Développeur front-end" }
+					{"name": "Développeur front-end" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" }
+					{ "name": "Atom" },
+					{ "name": "git" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" }
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
@@ -347,16 +347,16 @@
 					{ "line": "Ce jeu, développé à deux, permet de jouer contre un mur ou contre une <i>intelligence artificielle</i> faible." }
 				],
 				"role": [
-					{"role": "Développeur" }
+					{"name": "Développeur" }
 				],
 				"env": [
-					{ "env": "Python 3" }
+					{ "name": "Python 3" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" },
-					{ "tool": "Raspberry Pi 3"},
-					{ "tool": "Sense HAT"}
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "Raspberry Pi 3"},
+					{ "name": "Sense HAT"}
 
 				],
 				"links": [
@@ -380,18 +380,18 @@
 					{ "line": "Celui-ci traite de Cisco IOS, du Markdown, du SQL, de l'administration de Windows Server et Linux…" }
 				],
 				"role": [
-					{ "role": "Développeur front-end" }
+					{ "name": "Développeur front-end" }
 				],
 				"tool": [
-					{ "tool": "Atom" },
-					{ "tool": "git" }
+					{ "name": "Atom" },
+					{ "name": "git" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" },
-					{ "other": "JavaScript" },
-					{ "other": "MacDown"},
-					{ "other": "Markdown"}
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" },
+					{ "name": "MacDown"},
+					{ "name": "Markdown"}
 				],
 				"links": [
 					{
@@ -415,15 +415,15 @@
 					{ "line": "Celui-ci reprend les différents albums du groupe et, par le biais de leur jaquette, permet d'avoir accès à plus d'informations." }
 				],
 				"role": [
-					{ "role" : "Développeur front-end" }
+					{ "name" : "Développeur front-end" }
 				],
 				"tool": [
-					{ "tool": "Textastic" },
-					{ "tool": "git" }
+					{ "name": "Textastic" },
+					{ "name": "git" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" }
+					{ "name": "HTML" },
+					{ "name": "CSS" }
 				]
 			}
 		},
@@ -438,15 +438,15 @@
 					{ "line": "Il est responsive, compatible jusque IE8 et proposé en deux langues. De plus, il est validé par le W3C." }
 				],
 				"role": [
-					{"role": "Développeur front-end" }
+					{"name": "Développeur front-end" }
 				],
 				"tool": [
-					{ "tool": "Textastic" },
-					{ "tool": "git" }
+					{ "name": "Textastic" },
+					{ "name": "git" }
 				],
 				"other": [
-					{ "other": "HTML" },
-					{ "other": "CSS" }
+					{ "name": "HTML" },
+					{ "name": "CSS" }
 				],
 				"links": [
 					{
