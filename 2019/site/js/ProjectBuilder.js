@@ -1,29 +1,22 @@
 var definitions;
 var definitionsJSON = $.getJSON("json/definitions.json", function() {
-	console.log(`success`);
+	// console.log(`success`);
 })
 .done(function(json) {
-	definitions = json.definitions;
-})
-.fail(function( jqxhr, textStatus, error) {
-	console.log(`Request Failed: ${ textStatus }, ${ error }`);
-});
+	definitions = jQuery.parseJSON(JSON.stringify(json.definitions));
 
-var jqxhr = $.getJSON("json/projects.json", function() {
-	console.log(`success`);
-})
-.done(function(json) {
-	buildProjects(json.projects);
-})
-.fail(function( jqxhr, textStatus, error) {
-	console.log(`Request Failed: ${ textStatus }, ${ error }`);
+	var jqxhr = $.getJSON("json/projects.json", function() {
+		// console.log(`success`);
+	})
+	.done(function(json) {
+		buildProjects(json.projects);
+	});
 });
 
 function findDefinition(name) {
-	var defs = jQuery.parseJSON(JSON.stringify(definitions));
-	for (var def = 0; def < defs.length; def++) {
-		if (name === defs[def].title) {
-			return defs[def].description;
+	for (var def = 0; def < definitions.length; def++) {
+		if (name === definitions[def].title) {
+			return definitions[def].description;
 		}
 	}
 	return "Aucune définition trouvée";
