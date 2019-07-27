@@ -85,16 +85,16 @@ $('#me').on('mouseleave', function() {
 
 function getLanguage() {
 	// local = `/grey/Fr` | distant = `/Fr`
-	if (window.location.pathname === `/Fr` || window.location.pathname === `/En`) {
+	if (window.location.pathname === `/grey/Fr` || window.location.pathname === `/grey/En`) {
 		localStorage.setItem('lang', window.location.pathname);
 	} else {
 		var page = ``;
 		if (localStorage.getItem('lang') === null) {
 			if ((navigator.language || navigator.userLanguage).split('-')[0] === 'fr') {
-				page = `/Fr`;
+				page = `/grey/Fr`;
 				localStorage.setItem('lang', page);
 			} else {
-				page = `/En`;
+				page = `/grey/En`;
 				localStorage.setItem('lang', page);
 			}
 		} else {
