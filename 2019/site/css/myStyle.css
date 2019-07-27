@@ -4,6 +4,7 @@
 	--card-projects-background-color: #F2F2F2;
 	--bg-color: white;
 	--main-color: black;
+	--main-decoration-color: #D2D2D2;
 	--card-shadow: #DADADA;
 	--active-button-bg: #C0C0C0;
 	--tooltip-color: #DADADA;
@@ -12,6 +13,12 @@
 	--backtotop-shadow-hover: #F4F4F4;
 	--period: #999;
 	--help-decoration-color: #777;
+	--me-age-list-image: url('http://localhost:8888/grey/resources/lists/light_balloon.svg');
+	--me-car-list-image: url('http://localhost:8888/grey/resources/lists/light_tyre.svg');
+	--me-linkedin-list-image: url('http://localhost:8888/grey/resources/lists/light_linkedin.svg');
+	--certificate-list-image: url('http://localhost:8888/grey/resources/lists/light_medal.svg');
+	--cursus-list-image: url('http://localhost:8888/grey/resources/lists/light_cursus.svg');
+	--git-list-image: url('http://localhost:8888/grey/resources/lists/light_git.svg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +27,7 @@
 		--card-projects-background-color: #1B1A1A;
 		--bg-color: #202020;
 		--main-color: #BABABA;
+		--main-decoration-color: #4D4D4D;
 		--card-shadow: #333;
 		--active-button-bg: #5C5C5C;
 		--tooltip-color: #333;
@@ -28,6 +36,12 @@
 		--backtotop-shadow-hover: black;
 		--period: #777;
 		--help-decoration-color: #999;
+		--me-age-list-image: url('http://localhost:8888/grey/resources/lists/dark_balloon.svg');
+		--me-car-list-image: url('http://localhost:8888/grey/resources/lists/dark_tyre.svg');
+		--me-linkedin-list-image: url('http://localhost:8888/grey/resources/lists/dark_linkedin.svg');
+		--certificate-list-image: url('http://localhost:8888/grey/resources/lists/dark_medal.svg');
+		--cursus-list-image: url('http://localhost:8888/grey/resources/lists/dark_cursus.svg');
+		--git-list-image: url('http://localhost:8888/grey/resources/lists/dark_git.svg');
 	}
 }
 
@@ -60,15 +74,81 @@ hr {
 .grid-container.infos {
 	display: grid;
 	/*grid-template-columns: auto auto auto auto;*/
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 150px;
+	grid-row-gap: 25px;
 }
 
-.grid-container.infos * .image.pull-left {
+.grid-container.infos .card {
+	flex-direction: unset;
+}
+
+.grid-container.infos * .image.float-left {
 	padding: 7px;
 	padding-left: 15px;
 	width: 100px;
 	height: 100px;
+}
+
+.grid-container.infos * .content.float-left {
+	padding: 7px 0;
+	width: auto;
+	height: 100px;
+}
+
+.grid-container.infos * .content.float-left ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 7px;
+}
+
+.grid-container.infos * .content.float-left ul li:before {
+	content: '';
+	height: 1em;
+	width: 1em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 1.5em;
+}
+
+.grid-container.infos * .content.float-left.me ul li.age:before {
+	background-image: var(--me-age-list-image);
+}
+
+.grid-container.infos * .content.float-left.me ul li.car:before {
+	background-image: var(--me-car-list-image);
+}
+
+.grid-container.infos * .content.float-left.me ul li.linkedin:before {
+	background-image: var(--me-linkedin-list-image);
+}
+
+.grid-container.infos * .content.float-left.certificates ul li:before {
+	background-image: var(--certificate-list-image);
+}
+
+.grid-container.infos * .content.float-left.cursus ul li:before {
+	background-image: var(--cursus-list-image);
+}
+
+.grid-container.infos * .content.float-left.git ul li:before {
+	background-image: var(--git-list-image);
+}
+
+.grid-container.infos * a {
+	text-decoration: underline;
+	text-decoration-color: var(--main-decoration-color);
+	color: var(--main-color);
+}
+
+.grid-container.infos * a:hover,
+.grid-container.infos * a:focus {
+	text-decoration: underline;
+	color: #2AB77E;
+	text-decoration-color: #2AB77E;
+	font-style: italic;
 }
 
 .grid-container.projects {
@@ -167,10 +247,6 @@ hr {
 .site {
 	flex: 1;
 }
-
-/*.projects * .card-link+.card-link {
-	margin-left: 0;
-}*/
 
 .projects * .card-link {
 	border: 2px var(--main-color) solid;
@@ -279,9 +355,7 @@ a.def:hover {
 
 @media only screen and (max-width: 1199px) {
 	.grid-container.infos {
-		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 60px;
-		grid-row-gap: 25px;
 	}
 
 	.grid-container.projects {
