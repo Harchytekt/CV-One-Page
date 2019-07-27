@@ -1,0 +1,132 @@
+{
+	"definitions": [
+		{
+			"title": "Agile",
+			"description": "Iterative and collaborative approach taking into account initial needs and their evolution."
+		},
+		{
+			"title": "Ant",
+			"description": "Tool written in Java to allow the construction of applications."
+		},
+		{
+			"title": "Atom",
+			"description": "Open source text editor <i>(and also IDE)</i> supporting plug-ins."
+		},
+		{
+			"title": "Blink",
+			"description": "The pro terminal for iOS"
+		},
+		{
+			"title": "Bootstrap",
+			"description": "CSS and JavaScript framework developed by the Californian company Twitter."
+		},
+		{
+			"title": "BootsFaces",
+			"description": "JSF framework based on Bootstrap 3 and jQuery UI."
+		},
+		{
+			"title": "CSS",
+			"description": "Computer language for formatting the content of HTML pages <i>(Cascading Style Sheets)</i>."
+		},
+		{
+			"title": "git",
+			"description": "The most popular decentralized version management software."
+		},
+		{
+			"title": "Hibernate",
+			"description": "Open source framework managing the persistence of objects in relational databases."
+		},
+		{
+			"title": "HTML",
+			"description": "A markup language designed to represent web pages <i>(HyperText Markup Language)</i>."
+		},
+		{
+			"title": "IntelliJ IDEA",
+			"description": "IDE of Java technology for computer software development."
+		},
+		{
+			"title": "Java",
+			"description": "Cross-platform object-oriented programming language."
+		},
+		{
+			"title": "Java EE 8",
+			"description": "Specification for Oracle's Java platform for enterprise applications."
+		},
+		{
+			"title": "JavaScript",
+			"description": "Script programming language mainly used in interactive web pages."
+		},
+		{
+			"title": "Julia",
+			"description": "High level, powerful and dynamic programming language for scientific computing."
+		},
+		{
+			"title": "JUnit",
+			"description": "Unit test framework for the Java programming language."
+		},
+		{
+			"title": "Kodex",
+			"description": "A powerful code editor for iOS."
+		},
+		{
+			"title": "MacDown",
+			"description": "Markdown open source editor for macOS."
+		},
+		{
+			"title": "Markdown",
+			"description": "A lightweight markup language that provides easy to read and write syntax."
+		},
+		{
+			"title": "Maven",
+			"description": "Free software tool for managing and automating the production of Java software projects."
+		},
+		{
+			"title": "MySQL",
+			"description": "Relational database management system <i>(one of the most widely used in the world)</i>."
+		},
+		{
+			"title": "OAuth",
+			"description": "A free protocol for authorizing a website, software or application to use the secure API of another website on behalf of a user."
+		},
+		{
+			"title": "Pair programming",
+			"description": "A work method in which two developers work together on the same workstation."
+		},
+		{
+			"title": "Python 3",
+			"description": "Multi-platform object-oriented programming language for structured imperative programming."
+		},
+		{
+			"title": "Pythonista for iOS",
+			"description": "A complete scripting environment for Python, running directly on your iPad or iPhone."
+		},
+		{
+			"title": "Raspberry Pi 3",
+			"description": "Nanocomputer equipped with an ARM microprocessor."
+		},
+		{
+			"title": "Sense HAT",
+			"description": "Additional board composed of an LED matrix, a joystick with buttons and 5 other sensors."
+		},
+		{
+			"title": "Spring",
+			"description": "Free framework to build and define the infrastructure of a java application, which facilitates its development and testing."
+		},
+		{
+			"title": "Spring Boot",
+			"description": "Free framework to build and define the infrastructure of a java application, which facilitates its development and testing."
+		},
+		{
+			"title": "Textastic",
+			"description": "An advanced code editor for iOS and macOS."
+		},
+		{
+			"title": "UML",
+			"description": "Graphical language for data and processing modeling <i>(Unified Modeling Language)</i>."
+		},
+		{
+			"title": "Working Copy",
+			"description": "<i><strong>The</strong></i> powerful Git client for iOS."
+		}
+	]
+}

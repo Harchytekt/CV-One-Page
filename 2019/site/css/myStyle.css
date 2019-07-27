@@ -19,6 +19,10 @@
 	--certificate-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_medal.svg');
 	--cursus-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_cursus.svg');
 	--git-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_git.svg');
+	--fr-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/light_fr_colour.svg');
+	--fr-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/light_fr_bw.svg');
+	--en-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/light_en_bw.svg');
+	--en-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/light_en_colour.svg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,6 +46,10 @@
 		--certificate-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_medal.svg');
 		--cursus-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_cursus.svg');
 		--git-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_git.svg');
+		--fr-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_fr_colour.svg');
+		--fr-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_fr_bw.svg');
+		--en-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_en_bw.svg');
+		--en-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_en_colour.svg');
 	}
 }
 
@@ -52,12 +60,65 @@ body {
 }
 
 #title {
-	margin-top: 90px;
+	margin-top: 20px;
 }
 
 h1, h3 {
 	display: inline;
 	color: var(--main-color);
+}
+
+.row#flagsParent {
+	display: inline-block;
+}
+
+#flags {
+	margin-top: 70px;
+	display: flex;
+	height: 26.7px;
+	float: right;
+}
+
+.flag1 {
+	width: 40px;
+	height: 26.7px;
+	z-index: 1;
+}
+
+.flag1.fr img {
+	content: var(--fr-colour-image);
+}
+
+.flag1.en img {
+	content: var(--en-colour-image);
+}
+
+.flag2 {
+	width: 40px;
+	height: 26.7px;
+	z-index: 0;
+	position: relative;
+	left: -20px;
+}
+
+.flag2:hover {
+	z-index: 2;
+}
+
+.flag2.fr img {
+	content: var(--fr-bw-image);
+}
+
+.flag2.fr img:hover {
+	content: var(--fr-colour-image);
+}
+
+.flag2.en img {
+	content: var(--en-bw-image);
+}
+
+.flag2.en img:hover {
+	content: var(--en-colour-image);
 }
 
 hr {
@@ -167,6 +228,10 @@ hr {
 	border-color: transparent !important;
 	box-shadow: 0px 0px 10px 2px var(--card-shadow);
 	color: var(--main-color);
+}
+
+.card-link+.card-link {
+	margin-left: 1rem;
 }
 
 .infos * .card {
@@ -372,6 +437,15 @@ a.def:hover {
 
 	.row {
 		width: unset;
+	}
+
+	.row#flagsParent {
+		width: 100%;
+	}
+
+	#flags {
+		float: unset;
+		justify-content: center;
 	}
 
 	.grid-container.infos {

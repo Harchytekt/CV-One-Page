@@ -2,15 +2,15 @@
 	"projects": [
 		{
 			"project": {
-				"title": "R-ESCue — Projet",
-				"subtitle": "Track acADDemICT, 2<sup>nd</sup> projet",
-				"period": "Déc. 2018",
+				"title": "R-ESCue — Project",
+				"subtitle": "acADDemICT track, 2nd project",
+				"period": "Dec. 2018",
 				"description": [
-					{ "line": "Suite du développement d'une application web mobile ayant pour but d'aider les parents à retrouver leurs enfants perdus." },
-					{ "line": "Cette fois, le groupe, <i>toujours multilingue</i>, était composé de 6 équipes de cinq développeurs." }
+					{ "line": "Continuation of the development of a mobile web application to help parents find their lost children." },
+					{ "line": "This time, the group, <i>still multilingual</i>, was composed of 6 teams of five developers." }
 				],
 				"role": [
-					{ "name": "Développeur front-end" }
+					{ "name": "Frontend developer" }
 				],
 				"env": [
 					{ "name": "Java EE 8" }
@@ -42,15 +42,15 @@
 		},
 		{
 			"project": {
-				"title": "TogethAir — Projet",
-				"subtitle": "Track acADDemICT, 1<sup>er</sup> projet",
+				"title": "TogethAir — Project",
+				"subtitle": "acADDemICT track, 1st project",
 				"period": "Nov. 2018",
 				"description": [
-					{ "line": "Développement d’un site de réservation de billets d’avion dans un groupe de six personnes." },
-					{ "line": "Étant donné le caractère multilingue du projet, le site était disponible en anglais, français et néerlandais." }
+					{ "line": "Development of a flight tickets booking website by a group of six people." },
+					{ "line": "Given the multilingual nature of the project, the site was available in English, French and Dutch." }
 				],
 				"role": [
-					{ "name": "Développeur front-end" },
+					{ "name": "Frontend developer" },
 					{ "name": "git master" }
 				],
 				"env": [
@@ -81,15 +81,15 @@
 		{
 			"project": {
 				"title": "CV — Summer",
-				"subtitle": "CV, la cinquième itération",
-				"period": "Juill. 2018",
+				"subtitle": "CV, the fifth iteration",
+				"period": "Jul. 2018",
 				"description": [
-					{ "line": "L'objectif de cette nouvelle version est de simplifier la navigation à l'intérieur du site." },
-					{ "line": "Suite au retour de la barre de navigation, j'ai retravaillé le site selon l'<a href=\"https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016\" title=\"Voir sur GitHub\" target=\"_blank\">ébauche</a>." },
-					{ "line": "Et, je l'ai développé sur iPad." }
+					{ "line": "The objective of this new version is to simplify navigation within the site." },
+					{ "line": "Following the return of the navigation bar, I reworked the site according to the <a href=\"https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016\" title=\"See on GitHub\" target=\"_blank\">draft</a>." },
+					{ "line": "And, I developed it on iPad." }
 				],
 				"role": [
-					{ "name": "Développeur front-end" }
+					{ "name": "Frontend developer" }
 				],
 				"framework": [
 					{ "name": "Bootstrap" }
@@ -113,7 +113,7 @@
 					},
 					{
 						"type": "site",
-						"url": "https://www.alexandre-ducobu.com"
+						"url": "https://www.alexandre-ducobu.com/En"
 					}
 				]
 			}
@@ -121,15 +121,15 @@
 		{
 			"project": {
 				"title": "TFE — learnIT",
-				"subtitle": "Travail de Fin d'Études",
-				"period": "Sept. 2017 — Mai 2018",
+				"subtitle": "End of studies work",
+				"period": "Sept. 2017 — May 2018",
 				"isForSchool": true,
 				"description": [
-					{ "line": "Un site permettant d'apprendre et de créer des cours à propos de n'importe quel sujet, développé à l'aide de Laravel." },
-					{ "line": "un jour, il proposera peut-être une application mobile compagnon." }
+					{ "line": "A site to learn and create courses about any subject, developed using Laravel." },
+					{ "line": "One day, it may offer a mobile companion application." }
 				],
 				"role": [
-					{"name": "Développeur full-stack" }
+					{"name": "Full-stack developer" }
 				],
 				"env": [
 					{ "name": "PHP" }
@@ -164,16 +164,16 @@
 		},
 		{
 			"project": {
-				"title": "Stage — ReMaTo",
-				"subtitle": "Stage en entreprise, Realdolmen Sud",
-				"period": "Févr. — Mai 2018",
+				"title": "Internship — ReMaTo",
+				"subtitle": "Internship in a company, Realdolmen Sud",
+				"period": "Feb. — May 2018",
 				"isForSchool": true,
 				"description": [
-					{ "line": "Le stage s'est déroulé dans les bureaux de <i>Realdolmen Sud</i>, à Mons." },
-					{ "line": "Mise en place d'une première version utilisable d'un outil de gestion de ressources pour <i>Realdolmen Sud</i>." }
+					{ "line": "The internship took place in the offices of <i>Realdolmen South</i>, in Mons." },
+					{ "line": "Implementation of a first usable version of a resource management tool for <i>Realdolmen South</i>." }
 				],
 				"role": [
-					{"name": "Développeur front-end" }
+					{"name": "Frontend developer" }
 				],
 				"env": [
 					{ "name": "Java SE 8" },
@@ -210,15 +210,15 @@
 		{
 			"project": {
 				"title": "CV — New Year",
-				"subtitle": "CV, la quatrième itération",
-				"period": "Déc. 2017 — Janv. 2018",
+				"subtitle": "CV, the fourth iteration",
+				"period": "Dec. 2017 — Jan. 2018",
 				"description": [
-					{ "line": "Cette quatrième version du site n'a pas pour but de modifier complètement le site." },
-					{ "line": "En effet, j'ai développé cette mise à jour pour simplifier l'affichage général du site." },
-					{ "line": "D'où l'utilisation d'une barre de navigation." }
+					{ "line": "This fourth version of the site is not intended to completely modify the site." },
+					{ "line": "Indeed, I developed this update to simplify the general display of the site." },
+					{ "line": "Hence the use of a navigation bar." }
 				],
 				"role": [
-					{"name": "Développeur front-end" }
+					{"name": "Frontend developer" }
 				],
 				"framework": [
 					{ "name": "Bootstrap" }
@@ -243,7 +243,7 @@
 					},
 					{
 						"type": "site",
-						"url": "http://alexandre-ducobu.com/NewYear/Fr"
+						"url": "http://alexandre-ducobu.com/NewYear/En"
 					}
 				]
 			}
@@ -253,17 +253,17 @@
 				"title": "IPv4- Delmotte",
 				"period": "2017",
 				"description": [
-					{ "line": "Simple implémentation en Python de la <i>méthode Delmotte</i> facilitant la création d'un adressage IPv4." },
-					{ "line": "Ce projet personnel a été développé dans Pythonista pour iOS." }
+					{ "line": "Simple implementation in Python of the <i>Delmotte</i> method facilitating the creation of IPv4 addressing." },
+					{ "line": "This personal project was developed in Pythonista for iOS." }
 				],
 				"role": [
-					{ "name": "Développeur" }
+					{ "name": "Developer" }
 				],
 				"env": [
 					{ "name": "Python 3" }
 				],
 				"tool": [
-					{ "name": "Pythonista pour iOS" }
+					{ "name": "Pythonista for iOS" }
 				],
 				"links": [
 					{
@@ -278,11 +278,11 @@
 				"title": "GameOfLife",
 				"period": "2017",
 				"description": [
-					{ "line": "Simple implémentation du \"Jeu de la Vie\" pour le Terminal." },
-					{ "line": "Il a été codé en Java. Ant le compile, l'exécute, génère la Javadoc et peut supprimer tous les fichiers créés." }
+					{ "line": "Simple implementation of the \"Game of Life\" for the Terminal." },
+					{ "line": "It was coded in Java. Ant compiles it, executes it, generates the Javadoc and can delete all the files created." }
 				],
 				"role": [
-					{"name": "Développeur" }
+					{"name": "Developer" }
 				],
 				"env": [
 					{ "name": "Java" }
@@ -304,16 +304,16 @@
 		},
 		{
 			"project": {
-				"title": "CV — Projet",
-				"subtitle": "Seconde version, version scolaire",
+				"title": "CV — Project",
+				"subtitle": "Second version, school version",
 				"period": "2017",
 				"isForSchool": true,
 				"description": [
-					{ "line": "CV One-Page en HTML et CSS animé à l'aide de JavaScript <i>(et de jQuery)</i>." },
-					{ "line": "C'est le projet effectué dans le cadre du cours de <i>Développement front-end</i> lors de la seconde année à la HeH." }
+					{ "line": "One-Page CV in HTML and CSS animated using JavaScript <i>(and jQuery)</i>." },
+					{ "line": "This is the project completed as part of the <i>Front end development</i> course in the second year at HeH." }
 				],
 				"role": [
-					{"name": "Développeur front-end" }
+					{"name": "Frontend developer" }
 				],
 				"tool": [
 					{ "name": "Atom" },
@@ -331,7 +331,7 @@
 					},
 					{
 						"type": "site",
-						"url": "http://alexandre-ducobu.com/ProjetBA2"
+						"url": "http://alexandre-ducobu.com/ProjetBA2/En"
 					}
 				]
 			}
@@ -339,15 +339,15 @@
 		{
 			"project": {
 				"title": "PongHAT",
-				"subtitle": "Connu aussi comme PyPong",
+				"subtitle": "Also known as PyPong",
 				"period": "2017",
 				"isForSchool": true,
 				"description": [
-					{ "line": "Jeu de Pong en Python 3 pour le Raspberry Pi et Sense HAT." },
-					{ "line": "Ce jeu, développé à deux, permet de jouer contre un mur ou contre une <i>intelligence artificielle</i> faible." }
+					{ "line": "Pong game in Python 3for Raspberry Pi and Sense HAT." },
+					{ "line": "This game, developed in pairs, allows you to play against a wall or against a weak <i>artificial intelligence</i>." }
 				],
 				"role": [
-					{"name": "Développeur" }
+					{"name": "Developer" }
 				],
 				"env": [
 					{ "name": "Python 3" }
@@ -376,11 +376,11 @@
 				"title": "ToolKit",
 				"period": "2017",
 				"description": [
-					{ "line": "Manuel en ligne écrit en anglais à l'aide du Markdown." },
-					{ "line": "Celui-ci traite de Cisco IOS, du Markdown, du SQL, de l'administration de Windows Server et Linux…" }
+					{ "line": "Online manual written in English using Markdown." },
+					{ "line": "This one covers Cisco IOS, Markdown, SQL, Windows Server and Linux administration…" }
 				],
 				"role": [
-					{ "name": "Développeur front-end" }
+					{ "name": "Frontend developer" }
 				],
 				"tool": [
 					{ "name": "Atom" },
@@ -407,15 +407,15 @@
 		},
 		{
 			"project": {
-				"title": "Site sur Muse",
-				"subtitle": "Vous avez dit Muser ? 🎶",
+				"title": "Web site about Muse",
+				"subtitle": "Did you say Muser? 🎶",
 				"period": "2016",
 				"description": [
-					{ "line": "Pour finir cette année scolaire tout en restant dans la création de site, j'ai eu l'idée d'un site consacré à Muse." },
-					{ "line": "Celui-ci reprend les différents albums du groupe et, par le biais de leur jaquette, permet d'avoir accès à plus d'informations." }
+					{ "line": "To finish this school year while remaining in the creation of site, I had the idea of a site dedicated to Muse." },
+					{ "line": "This one includes the different albums of the band and, through their cover, allows to have access to more information." }
 				],
 				"role": [
-					{ "name" : "Développeur front-end" }
+					{ "name" : "Frontend developer" }
 				],
 				"tool": [
 					{ "name": "Textastic" },
@@ -430,15 +430,15 @@
 		{
 			"project": {
 				"title": "inComment",
-				"subtitle": "Premier projet web",
+				"subtitle": "First web project",
 				"period": "2016",
 				"isForSchool": true,
 				"description": [
-					{ "line": "Dernier projet de l'année scolaire : un site en HTML5 et CSS3." },
-					{ "line": "Il est responsive, compatible jusque IE8 et proposé en deux langues. De plus, il est validé par le W3C." }
+					{ "line": "Last project of the school year: a site in HTML5 and CSS3." },
+					{ "line": "It is responsive, compatible up to IE8 and available in two languages. In addition, it is validated by the W3C." }
 				],
 				"role": [
-					{"name": "Développeur front-end" }
+					{"name": "Frontend developer" }
 				],
 				"tool": [
 					{ "name": "Textastic" },
@@ -455,7 +455,7 @@
 					},
 					{
 						"type": "site",
-						"url": "http://incomments.esy.es/pages/indexFR.html"
+						"url": "http://incomments.esy.es/pages/index.html"
 					}
 				]
 			}

@@ -1,7 +1,12 @@
 $(document).ready(function() {
+	getLanguage();
 	$(function() {
 		$('[data-toggle="tooltip"]').tooltip()
 	});
+
+	if($("#age").length != 0) {
+		setAge();
+	}
 
 	var offset = 220;
 	var duration = 1000;
@@ -27,9 +32,20 @@ $(document).ready(function() {
 			(rect.x + rect.width) < 0 || (rect.y + rect.height) < 0 || (rect.x > window.innerWidth || rect.y > window.innerHeight)
 		);
 	};
+
+	/* End Events On Scroll */
 });
 
-/* End Events On Scroll */
+/* Begin Calculate Age */
+
+function setAge() {
+	var datesDifference = Date.now() - new Date('1994-06-21').getTime();
+	var ageMilli = new Date(datesDifference);
+	var age = Math.abs(ageMilli.getFullYear() - 1970);
+	$("#age").html(age);
+}
+
+/* End Caclulate Age */
 
 $(document).on('click', '.more', function(event) {
 	event.preventDefault();
@@ -45,7 +61,6 @@ $(document).on('click', '.more', function(event) {
 	}
 	
 	var parent = $(this).closest('.card-links').siblings()
-	console.log(parent)
 	parent.closest('.desc').prop('hidden', !isActive);
 	parent.closest('.tech').prop('hidden', isActive);
 });
@@ -67,3 +82,24 @@ $('#me').on('mouseenter', function() {
 $('#me').on('mouseleave', function() {
 	$(this).attr('src', 'resources/img/me.png');
 });
+
+function getLanguage() {
+	// local = `/grey/Fr` | distant = `/Fr`
+	if (window.location.pathname === `/grey/Fr` || window.location.pathname === `/grey/En`) {
+		localStorage.setItem('lang', window.location.pathname);
+	} else {
+		var page = ``;
+		if (localStorage.getItem('lang') === null) {
+			if ((navigator.language || navigator.userLanguage).split('-')[0] === 'fr') {
+				page = `/grey/Fr`;
+				localStorage.setItem('lang', page);
+			} else {
+				page = `/grey/En`;
+				localStorage.setItem('lang', page);
+			}
+		} else {
+			page = `${ localStorage.getItem('lang') }`;
+		}
+		window.location.replace(`${ window.location.origin }${ page }`);
+	}
+}

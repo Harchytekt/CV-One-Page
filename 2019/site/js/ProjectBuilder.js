@@ -44,7 +44,7 @@ function addTechs() {
 	}
 	techHtml += `<p class="card-text role">`;
 	if (currentProject.role !== undefined) {
-		techHtml += `<strong>Rôle :</strong> <br>`;
+		techHtml += `<strong>${ lang === 'En' ? 'Role' : 'Rôle ' }:</strong> <br>`;
 		for (var j = 0; j < currentProject.role.length; j++) {
 			techHtml += `${ currentProject.role[j].name }`;
 			if (j < currentProject.role.length -1) {
@@ -55,12 +55,12 @@ function addTechs() {
 	}
 	return techHtml + `</p>
 				<p class="card-text">
-					${ addOneTech('Environnement ', currentProject.env) }
-					${ addOneTech('Frameworks ', currentProject.framework) }
-					${ addOneTech('Méthodologie ', currentProject.meth) }
-					${ addOneTech('Moteur de production ', currentProject.build) }
-					${ addOneTech('Outils ', currentProject.tool) }
-					${ addOneTech('Autres ', currentProject.other) }
+					${ addOneTech(`${ lang === 'En' ? 'Environment' : 'Environnement ' }`, currentProject.env) }
+					${ addOneTech(`${ lang === 'En' ? 'Frameworks' : 'Frameworks ' }`, currentProject.framework) }
+					${ addOneTech(`${ lang === 'En' ? 'Methodology' : 'Méthodologie ' }`, currentProject.meth) }
+					${ addOneTech(`${ lang === 'En' ? 'Build automation' : 'Moteur de production ' }`, currentProject.build) }
+					${ addOneTech(`${ lang === 'En' ? 'Tool' : 'Outils ' }`, currentProject.tool) }
+					${ addOneTech(`${ lang === 'En' ? 'Other' : 'Autres ' }`, currentProject.other) }
 				</p>`;
 }
 
@@ -96,7 +96,7 @@ function addLinks() {
 	if (currentProject.links === undefined) {
 		linksHtml += `
 			noLink">
-				<span class="card-link more">+</span>`;
+				<span class="card-link more" title="${ lang === 'En' ? 'See more' : 'Voir plus' }">+</span>`;
 	} else {
 		if (currentProject.links.length === 2) {
 			linksHtml += `
@@ -105,7 +105,7 @@ function addLinks() {
 				if (currentProject.links[link].type === 'git') {
 					linksHtml += `
 				${ addOneLink('git', currentProject.links[link].url) }
-				<span class="card-link more">+</span>
+				<span class="card-link more" title="${ lang === 'En' ? 'See more' : 'Voir plus' }">+</span>
 					`;
 				}
 				if (currentProject.links[link].type === 'report') {
@@ -118,14 +118,14 @@ function addLinks() {
 			linksHtml += `
 			links">
 				${ addOneLink('git', currentProject.links[0].url) }
-				<span class="card-link more">+</span>
+				<span class="card-link more" title="${ lang === 'En' ? 'See more' : 'Voir plus' }">+</span>
 				<span class="card-link pjt hidden"></span>
 			`;
 		} else {
 			linksHtml += `
 			links">
 				<span class="card-link pjt hidden"></span>
-				<span class="card-link more">+</span>`;
+				<span class="card-link more" title="${ lang === 'En' ? 'See more' : 'Voir plus' }">+</span>`;
 			if (currentProject.links[0].type === 'report') {
 				linksHtml += `${ addOneLink('report', currentProject.links[0].url) }`;
 			} else if (currentProject.links[0].type === 'site') {
@@ -143,18 +143,18 @@ function addOneLink(type, link) {
 	var icon = ``;
 
 	if (type === 'git') {
-		title = `Voir sur git`;
-		text = `Projet git`;
+		title = `${ lang === 'En' ? 'See on git' : 'Voir sur git' }`;
+		text = `${ lang === 'En' ? 'git project' : 'Projet git' }`;
 		className = `pjt`;
 		icon = type;
 	} else if (type === 'report') {
-		title = `Voir le rapport`;
-		text = `Rapport`;
+		title = `${ lang === 'En' ? 'See the report' : 'Voir le rapport' }`;
+		text = `${ lang === 'En' ? 'Report' : 'Rapport' }`;
 		className = `rpt`;
 		icon = `report`;
 	} else {
-		title = `Voir le site web`;
-		text = `Site web`;
+		title = `${ lang === 'En' ? 'See the website' : 'Voir le site web' }`;
+		text = `${ lang === 'En' ? 'Website' : 'Site web' }`;
 		className = `site`;
 		icon = `link`;
 	}

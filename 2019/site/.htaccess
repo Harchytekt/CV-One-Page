@@ -1,0 +1,8 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+# RewriteBase /
+
+RewriteEngine   On                  # Turn on the rewriting engine
+RewriteRule     ^En/?$               indexEn.html                   [NC,L]
+RewriteRule     ^Fr/?$               index.html                     [NC,L]
+
+FallbackResource index.html

@@ -66,7 +66,7 @@
 		},
 		{
 			"title": "Kodex",
-			"description": "A powerful code editor for iOS."
+			"description": "Un puissant éditeur de code pour iOS."
 		},
 		{
 			"title": "MacDown",
@@ -97,8 +97,12 @@
 			"description": "Langage de programmation orientée objet multiplateforme favorisant la programmation impérative structurée."
 		},
 		{
+			"title": "Pythonista pour iOS",
+			"description": "Un environnement de script complet pour Python, fonctionnant directement sur votre iPad ou iPhone."
+		},
+		{
 			"title": "Raspberry Pi 3",
-			"description": "Nano-ordinateur équipé d'un mricoprocesseur ARM."
+			"description": "Nano-ordinateur équipé d'un microprocesseur ARM."
 		},
 		{
 			"title": "Sense HAT",
@@ -114,7 +118,7 @@
 		},
 		{
 			"title": "Textastic",
-			"description": "An advanced code editor for iOS and macOS</i>."
+			"description": "Un éditeur de code avancé pour iOS et macOS."
 		},
 		{
 			"title": "UML",
@@ -122,7 +126,7 @@
 		},
 		{
 			"title": "Working Copy",
-			"description": "<i><strong>The</strong></i> powerful Git client for iOS."
+			"description": "<i><strong>Le</strong></i> client git pour iOS."
 		}
 	]
 }

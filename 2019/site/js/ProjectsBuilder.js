@@ -1,11 +1,14 @@
 var definitions;
-var definitionsJSON = $.getJSON("json/definitions.json", function() {
+var lang = localStorage.getItem('lang').slice(-2);
+$('.backToTop').prop('title', `${ lang === 'En' ? 'Back to top of page' : 'Retour en haut de page' }`);
+
+var definitionsJSON = $.getJSON(`json/definitions${ lang === 'En' ? 'En' : '' }.json`, function() {
 	// console.log(`success`);
 })
 .done(function(json) {
 	definitions = jQuery.parseJSON(JSON.stringify(json.definitions));
 
-	var jqxhr = $.getJSON("json/projects.json", function() {
+	var jqxhr = $.getJSON(`json/projects${ lang === 'En' ? 'En' : '' }.json`, function() {
 		// console.log(`success`);
 	})
 	.done(function(json) {
