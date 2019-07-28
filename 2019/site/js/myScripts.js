@@ -1,39 +1,44 @@
 $(document).ready(function() {
 	getLanguage();
-	$(function() {
-		$('[data-toggle="tooltip"]').tooltip()
-	});
 
-	if($("#age").length != 0) {
-		setAge();
-	}
+	setTimeout(function() {
+		setProjects();
+		
+		$(function() {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
 
-	var offset = 220;
-	var duration = 1000;
-	$(this).scroll(function() {
-		if ($(this).scrollTop() > offset) {
-			$('.backToTop').fadeIn(duration);
-		} else {
-			$('.backToTop').fadeOut(duration);
+		if($("#age").length != 0) {
+			setAge();
 		}
-	});
 
-	$('.backToTop').click(function(event) {
-		event.preventDefault();
-		$('html, body').animate({scrollTop: 0}, duration);
-		return false;
-	});
+		var offset = 220;
+		var duration = 1000;
+		$(this).scroll(function() {
+			if ($(this).scrollTop() > offset) {
+				$('.backToTop').fadeIn(duration);
+			} else {
+				$('.backToTop').fadeOut(duration);
+			}
+		});
 
-	/* Begin Events On Scroll */
+		$('.backToTop').click(function(event) {
+			event.preventDefault();
+			$('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		});
 
-	jQuery.expr.filters.offscreen = function(el) {
-		var rect = el.getBoundingClientRect();
-		return (
-			(rect.x + rect.width) < 0 || (rect.y + rect.height) < 0 || (rect.x > window.innerWidth || rect.y > window.innerHeight)
-		);
-	};
+		/* Begin Events On Scroll */
 
-	/* End Events On Scroll */
+		jQuery.expr.filters.offscreen = function(el) {
+			var rect = el.getBoundingClientRect();
+			return (
+				(rect.x + rect.width) < 0 || (rect.y + rect.height) < 0 || (rect.x > window.innerWidth || rect.y > window.innerHeight)
+			);
+		};
+
+		/* End Events On Scroll */
+	}, 100);
 });
 
 /* Begin Calculate Age */
@@ -85,16 +90,16 @@ $('#me').on('mouseleave', function() {
 
 function getLanguage() {
 	// local = `/grey/Fr` | distant = `/Fr`
-	if (window.location.pathname === `/grey/Fr` || window.location.pathname === `/grey/En`) {
+	if (window.location.pathname === `/Fr` || window.location.pathname === `/En`) {
 		localStorage.setItem('lang', window.location.pathname);
 	} else {
 		var page = ``;
 		if (localStorage.getItem('lang') === null) {
 			if ((navigator.language || navigator.userLanguage).split('-')[0] === 'fr') {
-				page = `/grey/Fr`;
+				page = `/Fr`;
 				localStorage.setItem('lang', page);
 			} else {
-				page = `/grey/En`;
+				page = `/En`;
 				localStorage.setItem('lang', page);
 			}
 		} else {
