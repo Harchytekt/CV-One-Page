@@ -446,6 +446,13 @@ a.def:hover {
 	#flags {
 		float: unset;
 		justify-content: center;
+		height: 33.4px;
+	}
+
+	.flag1,
+	.flag2 {
+		width: 50px;
+		height: 33.4px;
 	}
 
 	.grid-container.infos {
