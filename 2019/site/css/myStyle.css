@@ -73,7 +73,7 @@ h1, h3 {
 }
 
 #flags {
-	margin-top: 70px;
+	margin-top: 20px;
 	display: flex;
 	height: 26.7px;
 	float: right;
@@ -83,6 +83,11 @@ h1, h3 {
 	width: 40px;
 	height: 26.7px;
 	z-index: 1;
+}
+
+#flags * img {
+	width: 40px;
+	height: 26.7px;
 }
 
 .flag1.fr img {
@@ -414,8 +419,9 @@ a.def:hover {
 	fill: #2AB77E;
 }
 
-#footer {
-	margin-bottom: 50px;
+.humans {
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -449,6 +455,7 @@ a.def:hover {
 		height: 33.4px;
 	}
 
+	#flags * img,
 	.flag1,
 	.flag2 {
 		width: 50px;
@@ -478,6 +485,11 @@ a.def:hover {
 }
 
 @media only screen and (max-width: 413px) {
+	.grid-container.infos * li,
+	.grid-container.infos * a {
+		font-size: .9rem;
+	}
+
 	.projects * .card-link {
 		padding: 5px 10px;
 	}
