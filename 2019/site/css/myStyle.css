@@ -323,7 +323,7 @@ hr {
 	border-radius: 20px;
 	padding: 5px 15px;
 	color: var(--main-color);
-	font-size: .9rem;
+	font-size: .8rem;
 }
 
 .projects * span.card-link.pjt,
