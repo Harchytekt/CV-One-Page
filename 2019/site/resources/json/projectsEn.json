@@ -2,6 +2,46 @@
 	"projects": [
 		{
 			"project": {
+				"title": "CV — Grey",
+				"subtitle": "CV, the sixth iteration",
+				"period": "Aug. 2019",
+				"description": [
+					{ "line": "This is the sixth version of the website, <i><strong>The Return of the</strong> One-Page CV</i>." },
+					{ "line": "It has been designed with one goal in mind: to be as neat in light mode than in dark mode." },
+					{ "line": "<i>There is no Light without the Dark</i>" }
+				],
+				"role": [
+					{ "name": "Frontend developer" }
+				],
+				"framework": [
+					{ "name": "Bootstrap" }
+				],
+				"tool": [
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "Jayson" },
+					{ "name": "Kodex" },
+					{ "name": "Sublime Text" }
+				],
+				"other": [
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2019"
+					},
+					{
+						"type": "site",
+						"url": "https://www.alexandre-ducobu.com/En"
+					}
+				]
+			}
+		},
+		{
+			"project": {
 				"title": "R-ESCue — Project",
 				"subtitle": "acADDemICT track, 2nd project",
 				"period": "Dec. 2018",

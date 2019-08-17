@@ -45,6 +45,10 @@
 			"description": "IDE de technologie Java destiné au développement de logiciels informatiques."
 		},
 		{
+			"title": "Jayson",
+			"description": "Un puissant visionneur de JSON pour iOS."
+		},
+		{
 			"title": "Java",
 			"description": "Langage de programmation orienté objet multiplateforme."
 		},
@@ -115,6 +119,10 @@
 		{
 			"title": "Spring Boot",
 			"description": "Framework libre pour construire et définir l'infrastructure d'une application java, dont il facilite le développement et les tests."
+		},
+		{
+			"title": "Sublime Text",
+			"description": "Un éditeur de texte générique codé en C++ et Python, disponible sur Windows, Mac et Linux."
 		},
 		{
 			"title": "Textastic",

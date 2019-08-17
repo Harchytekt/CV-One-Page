@@ -45,6 +45,10 @@
 			"description": "IDE of Java technology for computer software development."
 		},
 		{
+			"title": "Jayson",
+			"description": "A Powerful JSON Viewer for iOS."
+		},
+		{
 			"title": "Java",
 			"description": "Cross-platform object-oriented programming language."
 		},
@@ -115,6 +119,10 @@
 		{
 			"title": "Spring Boot",
 			"description": "Free framework to build and define the infrastructure of a java application, which facilitates its development and testing."
+		},
+		{
+			"title": "Sublime Text",
+			"description": "A sophisticated text editor for code, markup and prose."
 		},
 		{
 			"title": "Textastic",
