@@ -113,7 +113,7 @@
 					},
 					{
 						"type": "site",
-						"url": "https://www.alexandre-ducobu.com"
+						"url": "https://www.alexandre-ducobu.com/Summer/Fr"
 					}
 				]
 			}
@@ -126,7 +126,7 @@
 				"isForSchool": true,
 				"description": [
 					{ "line": "Un site permettant d'apprendre et de créer des cours à propos de n'importe quel sujet, développé à l'aide de Laravel." },
-					{ "line": "un jour, il proposera peut-être une application mobile compagnon." }
+					{ "line": "Un jour, il proposera peut-être une application mobile compagnon." }
 				],
 				"role": [
 					{"name": "Développeur full-stack" }
@@ -275,6 +275,39 @@
 		},
 		{
 			"project": {
+				"title": "CV — Holidays",
+				"subtitle": "CV, la troisième itération",
+				"period": "Juil. 2017 — Août. 2017",
+				"description": [
+					{ "line": "Ceci est la troisième version du site." },
+					{ "line": "Pendant les grandes vacances, j'ai créé cette nouvelle version pour régler quelques problèmes."},
+					{ "line": "Le principal étant l'affichage brouillon des projets." }
+				],
+				"role": [
+					{"name": "Développeur front-end" }
+				],
+				"tool": [
+					{ "name": "Atom" }
+				],
+				"other": [
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2016-2017/2_Holidays"
+					},
+					{
+						"type": "site",
+						"url": "http://alexandre-ducobu.com/Holidays/Fr"
+					}
+				]
+			}
+		},
+		{
+			"project": {
 				"title": "GameOfLife",
 				"period": "2017",
 				"description": [
@@ -407,6 +440,37 @@
 		},
 		{
 			"project": {
+				"title": "CV — Ébauche",
+				"subtitle": "CV, la première itération",
+				"period": "Juil. 2016",
+				"description": [
+					{ "line": "En dehors de l’école, je me suis entrainé en HTML/CSS dans la création de deux sites. " },
+					{ "line": "Le premier est sur Muse, l'autre est une ébauche de CV one-page, anticipation de l'année suivante." }
+				],
+				"role": [
+					{"name": "Développeur front-end" }
+				],
+				"tool": [
+					{ "name": "Textastic" }
+				],
+				"other": [
+					{ "name": "HTML" },
+					{ "name": "CSS" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016"
+					},
+					{
+						"type": "site",
+						"url": "http://alexandre-ducobu.com/draft"
+					}
+				]
+			}
+		},
+		{
+			"project": {
 				"title": "Site sur Muse",
 				"subtitle": "Vous avez dit Muser ? 🎶",
 				"period": "2016",
@@ -424,6 +488,12 @@
 				"other": [
 					{ "name": "HTML" },
 					{ "name": "CSS" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://gitlab.com/Harchytekt/site-muse"
+					}
 				]
 			}
 		},

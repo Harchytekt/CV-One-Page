@@ -89,7 +89,6 @@ $('#me').on('mouseleave', function() {
 });
 
 function getLanguage() {
-	// local = `/grey/Fr` | distant = `/Fr`
 	if (window.location.pathname === `/Fr` || window.location.pathname === `/En`) {
 		localStorage.setItem('lang', window.location.pathname);
 	} else {
