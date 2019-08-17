@@ -291,7 +291,7 @@
 		{
 			"project": {
 				"title": "IPv4- Delmotte",
-				"period": "2017",
+				"period": "Août 2017",
 				"description": [
 					{ "line": "Simple implémentation en Python de la <i>méthode Delmotte</i> facilitant la création d'un adressage IPv4." },
 					{ "line": "Ce projet personnel a été développé dans Pythonista pour iOS." }
@@ -317,7 +317,7 @@
 			"project": {
 				"title": "CV — Holidays",
 				"subtitle": "CV, la troisième itération",
-				"period": "Juil. 2017 — Août. 2017",
+				"period": "Juil. 2017 — Août 2017",
 				"description": [
 					{ "line": "Ceci est la troisième version du site." },
 					{ "line": "Pendant les grandes vacances, j'ai créé cette nouvelle version pour régler quelques problèmes."},

@@ -291,7 +291,7 @@
 		{
 			"project": {
 				"title": "IPv4- Delmotte",
-				"period": "2017",
+				"period": "Aug. 2017",
 				"description": [
 					{ "line": "Simple implementation in Python of the <i>Delmotte</i> method facilitating the creation of IPv4 addressing." },
 					{ "line": "This personal project was developed in Pythonista for iOS." }

@@ -143,7 +143,7 @@ function addOneLink(type, link) {
 	var icon = ``;
 
 	if (type === 'git') {
-		title = `${ lang === 'En' ? 'See on git' : 'Voir sur git' }`;
+		title = `${ lang === 'En' ? 'See the repo' : 'Voir le dépôt' }`;
 		text = `${ lang === 'En' ? 'git project' : 'Projet git' }`;
 		className = `pjt`;
 		icon = type;
