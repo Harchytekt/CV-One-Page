@@ -13,16 +13,16 @@
 	--backtotop-shadow-hover: #F4F4F4;
 	--period: #999;
 	--help-decoration-color: #777;
-	--me-age-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_balloon.svg');
-	--me-car-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_tyre.svg');
-	--me-linkedin-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_linkedin.svg');
-	--certificate-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_medal.svg');
-	--cursus-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_cursus.svg');
-	--git-list-image: url('https://www.alexandre-ducobu.com/resources/lists/light_git.svg');
-	--fr-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/light_fr_colour.svg');
-	--fr-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/light_fr_bw.svg');
-	--en-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/light_en_bw.svg');
-	--en-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/light_en_colour.svg');
+	--me-age-list-image: url('resources/lists/light_balloon.svg');
+	--me-car-list-image: url('resources/lists/light_tyre.svg');
+	--me-linkedin-list-image: url('resources/lists/light_linkedin.svg');
+	--certificate-list-image: url('resources/lists/light_medal.svg');
+	--cursus-list-image: url('resources/lists/light_cursus.svg');
+	--git-list-image: url('resources/lists/light_git.svg');
+	--fr-colour-image: url('resources/flags/light_fr_colour.svg');
+	--fr-bw-image: url('resources/flags/light_fr_bw.svg');
+	--en-bw-image: url('resources/flags/light_en_bw.svg');
+	--en-colour-image: url('resources/flags/light_en_colour.svg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,16 +40,16 @@
 		--backtotop-shadow-hover: black;
 		--period: #777;
 		--help-decoration-color: #999;
-		--me-age-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_balloon.svg');
-		--me-car-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_tyre.svg');
-		--me-linkedin-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_linkedin.svg');
-		--certificate-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_medal.svg');
-		--cursus-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_cursus.svg');
-		--git-list-image: url('https://www.alexandre-ducobu.com/resources/lists/dark_git.svg');
-		--fr-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_fr_colour.svg');
-		--fr-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_fr_bw.svg');
-		--en-bw-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_en_bw.svg');
-		--en-colour-image: url('https://www.alexandre-ducobu.com/resources/flags/dark_en_colour.svg');
+		--me-age-list-image: url('resources/lists/dark_balloon.svg');
+		--me-car-list-image: url('resources/lists/dark_tyre.svg');
+		--me-linkedin-list-image: url('resources/lists/dark_linkedin.svg');
+		--certificate-list-image: url('resources/lists/dark_medal.svg');
+		--cursus-list-image: url('resources/lists/dark_cursus.svg');
+		--git-list-image: url('resources/lists/dark_git.svg');
+		--fr-colour-image: url('resources/flags/dark_fr_colour.svg');
+		--fr-bw-image: url('resources/flags/dark_fr_bw.svg');
+		--en-bw-image: url('resources/flags/dark_en_bw.svg');
+		--en-colour-image: url('resources/flags/dark_en_colour.svg');
 	}
 }
 
@@ -235,6 +235,10 @@ hr {
 	color: var(--main-color);
 }
 
+.card:hover {
+	box-shadow: 0px 0px 10px 4px var(--card-shadow);
+}
+
 .card-link+.card-link {
 	margin-left: 1rem;
 }
@@ -252,8 +256,16 @@ hr {
 	color: var(--main-color);
 }
 
+.projects * .card:hover {
+	box-shadow: 0px 0px 10px 5px var(--card-shadow);
+}
+
 .projects * .card.active {
 	box-shadow: 0px 0px 10px 5px var(--card-shadow);
+}
+
+.projects * .card.active:hover {
+	box-shadow: 0px 0px 10px 7px var(--card-shadow);
 }
 
 .projects * .card-title {
