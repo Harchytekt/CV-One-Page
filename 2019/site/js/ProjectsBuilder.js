@@ -50,6 +50,7 @@ function toSvg() {
 		var imgURL = img.attr('src');
 		var imgHeight = img.attr('height');
 		var imgTitle = img.attr('title');
+		var imgAlt = img.attr('alt');
 
 		$.get(imgURL, function(data) {
 			// Get the SVG tag, ignore the rest
@@ -59,7 +60,7 @@ function toSvg() {
 			if (typeof imgID !== 'undefined') {
 				svg = svg.attr('id', imgID);
 			}
-			
+
 			svg = svg.attr('height', imgHeight);
 			svg = svg.attr('width', imgHeight);
 
@@ -68,11 +69,15 @@ function toSvg() {
 				svg = svg.attr('class', imgClass+' replaced-svg');
 			}
 
+			// Add alt
+			if (typeof imgAlt !== 'undefined') {
+				svg = svg.attr('alt', imgAlt);
+			}
+
 			// Add title
-			/* if (typeof imgTitle !== 'undefined') {
-				//svg = svg.attr('title', imgTitle);
-				svg.append(`<title>test</title>`);
-			} */
+			if (typeof imgTitle !== 'undefined') {
+				svg = svg.attr('title', imgTitle);
+			}
 
 			// Remove any invalid XML tags as per http://validator.w3.org
 			svg = svg.removeAttr('xmlns:a');

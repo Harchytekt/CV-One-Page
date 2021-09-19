@@ -5,6 +5,7 @@
 				"title": "CV — Grey",
 				"subtitle": "CV, the sixth iteration",
 				"period": "Aug. 2019",
+				"type": "personal",
 				"description": [
 					{ "line": "This is the sixth version of the website, <i><strong>The Return of the</strong> One-Page CV</i>." },
 					{ "line": "It has been designed with one goal in mind: to be as neat in light mode than in dark mode." },
@@ -45,6 +46,7 @@
 				"title": "R-ESCue — Project",
 				"subtitle": "acADDemICT track, 2nd project",
 				"period": "Dec. 2018",
+				"type": "work",
 				"description": [
 					{ "line": "Continuation of the development of a mobile web application to help parents find their lost children." },
 					{ "line": "This time, the group, <i>still multilingual</i>, was composed of 6 teams of five developers." }
@@ -85,6 +87,7 @@
 				"title": "TogethAir — Project",
 				"subtitle": "acADDemICT track, 1st project",
 				"period": "Nov. 2018",
+				"type": "work",
 				"description": [
 					{ "line": "Development of a flight tickets booking website by a group of six people." },
 					{ "line": "Given the multilingual nature of the project, the site was available in English, French and Dutch." }
@@ -123,6 +126,7 @@
 				"title": "CV — Summer",
 				"subtitle": "CV, the fifth iteration",
 				"period": "Jul. 2018",
+				"type": "personal",
 				"description": [
 					{ "line": "The objective of this new version is to simplify navigation within the site." },
 					{ "line": "Following the return of the navigation bar, I reworked the site according to the <a href=\"https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016\" title=\"See on GitHub\" target=\"_blank\">draft</a>." },
@@ -163,7 +167,7 @@
 				"title": "TFE — learnIT",
 				"subtitle": "End of studies work",
 				"period": "Sept. 2017 — May 2018",
-				"isForSchool": true,
+				"type": "school",
 				"description": [
 					{ "line": "A site to learn and create courses about any subject, developed using Laravel." },
 					{ "line": "One day, it may offer a mobile companion application." }
@@ -207,7 +211,7 @@
 				"title": "Internship — ReMaTo",
 				"subtitle": "Internship in a company, Realdolmen Sud",
 				"period": "Feb. — May 2018",
-				"isForSchool": true,
+				"type": "school",
 				"description": [
 					{ "line": "The internship took place in the offices of <i>Realdolmen South</i>, in Mons." },
 					{ "line": "Implementation of a first usable version of a resource management tool for <i>Realdolmen South</i>." }
@@ -252,6 +256,7 @@
 				"title": "CV — New Year",
 				"subtitle": "CV, the fourth iteration",
 				"period": "Dec. 2017 — Jan. 2018",
+				"type": "personal",
 				"description": [
 					{ "line": "This fourth version of the site is not intended to completely modify the site." },
 					{ "line": "Indeed, I developed this update to simplify the general display of the site." },
@@ -292,6 +297,7 @@
 			"project": {
 				"title": "IPv4- Delmotte",
 				"period": "Aug. 2017",
+				"type": "personal",
 				"description": [
 					{ "line": "Simple implementation in Python of the <i>Delmotte</i> method facilitating the creation of IPv4 addressing." },
 					{ "line": "This personal project was developed in Pythonista for iOS." }
@@ -317,6 +323,7 @@
 			"project": {
 				"title": "GameOfLife",
 				"period": "2017",
+				"type": "personal",
 				"description": [
 					{ "line": "Simple implementation of the \"Game of Life\" for the Terminal." },
 					{ "line": "It was coded in Java. Ant compiles it, executes it, generates the Javadoc and can delete all the files created." }
@@ -347,7 +354,7 @@
 				"title": "CV — Project",
 				"subtitle": "Second version, school version",
 				"period": "2017",
-				"isForSchool": true,
+				"type": "school",
 				"description": [
 					{ "line": "One-Page CV in HTML and CSS animated using JavaScript <i>(and jQuery)</i>." },
 					{ "line": "This is the project completed as part of the <i>Front end development</i> course in the second year at HeH." }
@@ -381,9 +388,9 @@
 				"title": "PongHAT",
 				"subtitle": "Also known as PyPong",
 				"period": "2017",
-				"isForSchool": true,
+				"type": "school",
 				"description": [
-					{ "line": "Pong game in Python 3for Raspberry Pi and Sense HAT." },
+					{ "line": "Pong game in Python 3 for Raspberry Pi and Sense HAT." },
 					{ "line": "This game, developed in pairs, allows you to play against a wall or against a weak <i>artificial intelligence</i>." }
 				],
 				"role": [
@@ -415,6 +422,7 @@
 			"project": {
 				"title": "ToolKit",
 				"period": "2017",
+				"type": "personal",
 				"description": [
 					{ "line": "Online manual written in English using Markdown." },
 					{ "line": "This one covers Cisco IOS, Markdown, SQL, Windows Server and Linux administration…" }
@@ -450,6 +458,7 @@
 				"title": "Web site about Muse",
 				"subtitle": "Did you say Muser? 🎶",
 				"period": "2016",
+				"type": "personal",
 				"description": [
 					{ "line": "To finish this school year while remaining in the creation of site, I had the idea of a site dedicated to Muse." },
 					{ "line": "This one includes the different albums of the band and, through their cover, allows to have access to more information." }
@@ -472,7 +481,7 @@
 				"title": "inComment",
 				"subtitle": "First web project",
 				"period": "2016",
-				"isForSchool": true,
+				"type": "school",
 				"description": [
 					{ "line": "Last project of the school year: a site in HTML5 and CSS3." },
 					{ "line": "It is responsive, compatible up to IE8 and available in two languages. In addition, it is validated by the W3C." }

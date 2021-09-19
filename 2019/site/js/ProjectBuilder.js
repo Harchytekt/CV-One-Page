@@ -17,10 +17,22 @@ function addOneProject(project) {
 }
 
 function addSummary() {
-	var summaryHtml = ``;
-	if (currentProject.isForSchool !== undefined && currentProject.isForSchool) {
-		summaryHtml += `<img src="resources/img/school.svg" class="svg school" height="64" title="Projet scolaire">`;
+	let icon;
+	let title;
+	if (currentProject.type !== undefined) {
+		icon = currentProject.type;
+		if (icon === "personal") {
+			title = lang === "En" ? "Personal project" : "Projet personnel";
+		} else if (icon === "school") {
+			title = lang === "En" ? "School project" : "Projet scolaire";
+		} else if (icon === "work") {
+			title = lang === "En" ? "Work related project" : "Projet lié au travail";
+		}
+	} else {
+		icon = "personal";
+		title = lang === "En" ? "Personal project" : "Projet personnel";
 	}
+	let summaryHtml = `<img src="resources/img/${icon}.svg" class="svg projectType" height="64" alt="${title}" title="${title}">`;
 
 	summaryHtml += `
 		<h5 class="card-title" title="${ currentProject.period !== undefined ? currentProject.period : currentProject.title }">${ currentProject.title }</h5>

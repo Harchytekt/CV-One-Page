@@ -281,7 +281,7 @@ hr {
 	font-size: .9rem;
 }
 
-.projects * .school {
+.projects * .projectType {
 	position: absolute;
 	top: 0;
 	right: 0;
