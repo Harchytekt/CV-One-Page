@@ -20,9 +20,11 @@
 	--cursus-list-image: url('resources/lists/light_cursus.svg');
 	--git-list-image: url('resources/lists/light_git.svg');
 	--fr-colour-image: url('resources/flags/light_fr_colour.svg');
+	--fr-colour-image-hover: url('resources/flags/light_fr_colour_hover.svg');
 	--fr-bw-image: url('resources/flags/light_fr_bw.svg');
 	--en-bw-image: url('resources/flags/light_en_bw.svg');
 	--en-colour-image: url('resources/flags/light_en_colour.svg');
+	--en-colour-image-hover: url('resources/flags/light_en_colour_hover.svg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,9 +49,11 @@
 		--cursus-list-image: url('resources/lists/dark_cursus.svg');
 		--git-list-image: url('resources/lists/dark_git.svg');
 		--fr-colour-image: url('resources/flags/dark_fr_colour.svg');
+		--fr-colour-image-hover: url('resources/flags/dark_fr_colour_hover.svg');
 		--fr-bw-image: url('resources/flags/dark_fr_bw.svg');
 		--en-bw-image: url('resources/flags/dark_en_bw.svg');
 		--en-colour-image: url('resources/flags/dark_en_colour.svg');
+		--en-colour-image-hover: url('resources/flags/dark_en_colour_hover.svg');
 	}
 }
 
@@ -115,7 +119,7 @@ h1, h3 {
 }
 
 .flag2.fr img:hover {
-	content: var(--fr-colour-image);
+	content: var(--fr-colour-image-hover);
 }
 
 .flag2.en img {
@@ -123,7 +127,7 @@ h1, h3 {
 }
 
 .flag2.en img:hover {
-	content: var(--en-colour-image);
+	content: var(--en-colour-image-hover);
 }
 
 hr {
