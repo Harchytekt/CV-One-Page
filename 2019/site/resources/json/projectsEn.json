@@ -339,7 +339,8 @@
 				],
 				"tool": [
 					{ "name": "Atom" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Terminal" }
 				],
 				"links": [
 					{
@@ -403,7 +404,8 @@
 					{ "name": "Atom" },
 					{ "name": "git" },
 					{ "name": "Raspberry Pi 3"},
-					{ "name": "Sense HAT"}
+					{ "name": "Sense HAT"},
+					{ "name": "Terminal" }
 
 				],
 				"links": [
