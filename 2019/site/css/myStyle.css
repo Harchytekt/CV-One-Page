@@ -72,10 +72,6 @@ h1, h3 {
 	color: var(--main-color);
 }
 
-.row#flagsParent {
-	display: inline-block;
-}
-
 #flags {
 	margin-top: 20px;
 	display: flex;
@@ -230,7 +226,7 @@ hr {
 }
 
 .row {
-	width: 100%;
+	display: block;
 }
 
 .card {
@@ -469,6 +465,7 @@ a.def:hover {
 		float: unset;
 		justify-content: center;
 		height: 33.4px;
+		width: 90vw;
 	}
 
 	#flags * img,
