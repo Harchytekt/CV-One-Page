@@ -434,6 +434,7 @@ a.def:hover {
 .humans {
 	margin-top: 30px;
 	margin-bottom: 20px;
+	display: flex;
 }
 
 @media only screen and (max-width: 1199px) {
