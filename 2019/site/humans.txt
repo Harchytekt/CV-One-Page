@@ -1,13 +1,12 @@
 /* TEAM */
 	Maker: Alexandre Ducobu
-	Site: https://www.alexandre-ducobu.com
 	Email: alexandre.ducobu@yahoo.be
 	Twitter: @Harchytekt
 	Location: Mons, Belgium.
 
 
 /* SITE */
-	Last update: 2019/08/17
+	Last update: 2021/10/01
 	Languages: English / French
 	Standards: HTML5, CSS3, JavaScript
 	Frameworks: Bootstrap V4, jQuery
