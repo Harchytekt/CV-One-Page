@@ -29,7 +29,7 @@
 					{ "name": "ReadyAPI" },
 					{ "name": "WAMP" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Groovy" },
 					{ "name": "JavaScript" },
 					{ "name": "PHP" },
@@ -54,7 +54,7 @@
 					{ "name": "git" },
 					{ "name": "IntelliJ IDEA" }
 				],
-				"other": [
+				"env": [
 					{ "name": "CSS" },
 					{ "name": "HTML" },
 					{ "name": "JavaScript" },
@@ -93,7 +93,7 @@
 					{ "name": "IntelliJ IDEA" },
 					{ "name": "Sequel Ace" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Groovy" },
 					{ "name": "SQL" }
 				],
@@ -108,12 +108,12 @@
 		{
 			"project": {
 				"title": "Chinese Blocks 中文",
-				"period": "Oct. 2017 — 15 Juin 2021",
+				"period": "Oct. 2017 — Juin 2021",
 				"type": "personal",
 				"description": [
-					{ "line": "Un simple programme qui affiche des simple program which displays mots composés en Mandarin dans le Terminal." },
+					{ "line": "Un simple programme qui affiche des mots composés en Mandarin dans le Terminal." },
 					{ "line": "Créé dans un premier temps pour tester Julia et mettre en oeuvre le pattern composite." },
-					{ "line": "Je l'ai étendu à deux autres languages : Groovy et Swift." }
+					{ "line": "Je l'ai étendu à deux autres langages : Groovy et Swift." }
 				],
 				"role": [
 					{ "name": "Développeur" }
@@ -125,7 +125,7 @@
 					{ "name": "Terminal" },
 					{ "name": "Xcode" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Groovy" },
 					{ "name": "Julia" },
 					{ "name": "Swift" }
@@ -142,25 +142,23 @@
 			"project": {
 				"title": "Sixième mission",
 				"subtitle": "Client n°4",
-				"period": "Avr. — Mai. 2020",
+				"period": "Avr. — Mai 2020",
 				"type": "work",
 				"description": [
 					{ "line": "Cette mission a consisté au développement de plusieurs modules Drupal pour le client." }
 				],
 				"role": [
-					{ "name": "Développeur full-stack" }
+					{ "name": "Développeur Drupal" }
 				],
-				"framework": [
-					{ "name": "Drupal" }
+				"env": [
+					{ "name": "Drupal" },
+					{ "name": "MySQL" }
 				],
 				"tool": [
 					{ "name": "git" },
 					{ "name": "IntelliJ IDEA" },
 					{ "name": "MailHog" },
 					{ "name": "WAMP" }
-				],
-				"other": [
-					{ "name": "MySQL" }
 				]
 			}
 		},
@@ -171,7 +169,7 @@
 				"period": "Janv. — Avr. 2020",
 				"type": "work",
 				"description": [
-					{ "line": "Cette mission a consisté à l'ajout de nouvelles fonctions et de corrections de bugs dans le framework de test développé plus tôt." },
+					{ "line": "Cette mission à temps partiel a consisté à l'ajout de nouvelles fonctions et de corrections de bugs dans le framework de test développé plus tôt." },
 					{ "line": "En plus de cela, j'ai fait de même pour le site interne basé, en partie, sur les données dudit framework." }
 				],
 				"role": [
@@ -186,7 +184,7 @@
 					{ "name": "Microsoft SSMS" },
 					{ "name": "ReadyAPI" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Groovy" },
 					{ "name": "JavaScript" },
 					{ "name": "PHP" },
@@ -223,7 +221,7 @@
 					{ "name": "JUnit" },
 					{ "name": "YouTrack" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Docker" },
 					{ "name": "Java" },
 					{ "name": "Ubuntu" }
@@ -254,19 +252,15 @@
 					{ "name": "Kodex" },
 					{ "name": "Sublime Text" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2019"
-					},
-					{
-						"type": "site",
-						"url": "https://www.alexandre-ducobu.com/Fr"
 					}
 				]
 			}
@@ -295,7 +289,7 @@
 					{ "name": "Microsoft SSMS" },
 					{ "name": "ReadyAPI" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Groovy" },
 					{ "name": "Transact-SQL" }
 				]
@@ -309,7 +303,7 @@
 				"type": "work",
 				"description": [
 					{ "line": "Il s'agit d'une mission de 10 jours à temps partiel." },
-					{ "line": "Elle a consisté à la création d'une applicqtion Spring contenant des appels REST afin de lier une ancienne application à Alfresco" }
+					{ "line": "Elle a consisté à la création d'une applicqtion Spring contenant des appels REST afin de lier une ancienne application à Alfresco." }
 				],
 				"role": [
 					{ "name": "Développeur back-end" }
@@ -327,7 +321,7 @@
 					{ "name": "MySQL Workbench" },
 					{ "name": "Swagger UI" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Java" },
 					{ "name": "MySQL" }
 				]
@@ -366,7 +360,7 @@
 					{ "name": "JUnit" },
 					{ "name": "YouTrack" }
 				],
-				"other": [
+				"env": [
 					{ "name": "Docker" },
 					{ "name": "Java" },
 					{ "name": "Ubuntu" }
@@ -387,6 +381,7 @@
 					{ "name": "Développeur front-end" }
 				],
 				"env": [
+					{ "name": "Docker" },
 					{ "name": "Java EE 8" }
 				],
 				"framework": [
@@ -409,7 +404,6 @@
 					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "name": "Docker" },
 					{ "name": "Mockito" }
 				]
 			}
@@ -428,8 +422,7 @@
 					{ "name": "Développeur front-end" },
 					{ "name": "git master" }
 				],
-				"env": [
-					{ "name": "Java EE 8" },
+				"framework": [
 					{ "name": "BootsFaces" },
 					{ "name": "Hibernate"}
 				],
@@ -444,11 +437,14 @@
 					{ "name": "git" },
 					{ "name": "IntelliJ IDEA" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
+					{ "name": "Java EE 8" },
 					{ "name": "JavaScript" },
-					{ "name": "MySQL" },
+					{ "name": "MySQL"}
+				],
+				"other": [
 					{ "name": "UML" }
 				]
 			}
@@ -477,19 +473,15 @@
 					{ "name": "Kodex" },
 					{ "name": "Working Copy" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/2_Summer"
-					},
-					{
-						"type": "site",
-						"url": "https://www.alexandre-ducobu.com/Summer/Fr"
 					}
 				]
 			}
@@ -507,9 +499,6 @@
 				"role": [
 					{"name": "Développeur full-stack" }
 				],
-				"env": [
-					{ "name": "PHP" }
-				],
 				"framework": [
 					{ "name": "Bootstrap" },
 					{ "name": "Laravel" },
@@ -520,11 +509,12 @@
 					{ "name": "git" },
 					{ "name": "MailHog" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" },
-					{ "name": "MySQL"}
+					{ "name": "MySQL"},
+					{ "name": "PHP" }
 				],
 				"links": [
 					{
@@ -552,7 +542,13 @@
 					{"name": "Développeur front-end" }
 				],
 				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "Java SE 8" },
+					{ "name": "JavaScript" },
+					{ "name": "MySQL"}
+				],
+				"framework": [
 					{ "name": "Bootstrap" },
 					{ "name": "Hibernate"},
 					{ "name": "Spring" }
@@ -569,10 +565,6 @@
 					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" },
-					{ "name": "JavaScript" },
-					{ "name": "MySQL"},
 					{ "name": "UML" }
 				],
 				"links": [
@@ -597,23 +589,18 @@
 				],
 				"tool": [
 					{ "name": "Atom" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "MacDown"}
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
 					{ "name": "JavaScript" },
-					{ "name": "MacDown"},
 					{ "name": "Markdown"}
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/ToolKit"
-					},
-					{
-						"type": "site",
-						"url": "http://toolkit.esy.es/"
 					}
 				]
 			}
@@ -643,19 +630,15 @@
 					{ "name": "Textastic" },
 					{ "name": "Working Copy" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/1_New%20Year"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/NewYear/Fr"
 					}
 				]
 			}
@@ -673,6 +656,7 @@
 					{ "name": "Développeur" }
 				],
 				"env": [
+					{ "name": "iOS" },
 					{ "name": "Python 3" }
 				],
 				"tool": [
@@ -734,7 +718,7 @@
 				"tool": [
 					{ "name": "Atom" }
 				],
-				"other": [
+				"env": [
 					{ "name": "HTML" },
 					{ "name": "CSS" },
 					{ "name": "JavaScript" }
@@ -743,10 +727,6 @@
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2016-2017/2_Holidays"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/Holidays/Fr"
 					}
 				]
 			}
@@ -768,19 +748,15 @@
 					{ "name": "Atom" },
 					{ "name": "git" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/ProjetBA2"
 					}
 				]
 			}
@@ -807,7 +783,6 @@
 					{ "name": "Raspberry Pi 3"},
 					{ "name": "Sense HAT"},
 					{ "name": "Terminal" }
-
 				],
 				"links": [
 					{
@@ -828,27 +803,24 @@
 				"period": "Juil. 2016",
 				"type": "personal",
 				"description": [
-					{ "line": "En dehors de l’école, je me suis entrainé en HTML/CSS dans la création de deux sites. " },
+					{ "line": "En dehors de l’école, je me suis entrainé en HTML/CSS dans la création de deux sites." },
 					{ "line": "Le premier est sur Muse, l'autre est une ébauche de CV one-page, anticipation de l'année suivante." }
 				],
 				"role": [
 					{"name": "Développeur front-end" }
 				],
 				"tool": [
+					{ "name": "git" },
 					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" }
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/draft"
 					}
 				]
 			}
@@ -867,12 +839,12 @@
 					{ "name" : "Développeur front-end" }
 				],
 				"tool": [
-					{ "name": "Textastic" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" }
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" }
 				],
 				"links": [
 					{
@@ -896,21 +868,17 @@
 					{"name": "Développeur front-end" }
 				],
 				"tool": [
-					{ "name": "Textastic" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" }
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://bitbucket.org/Harchytekt/project-html/src"
-					},
-					{
-						"type": "site",
-						"url": "http://incomments.esy.es/pages/indexFR.html"
 					}
 				]
 			}
