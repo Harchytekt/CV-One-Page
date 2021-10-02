@@ -2,6 +2,234 @@
 	"projects": [
 		{
 			"project": {
+				"title": "Seventh mission",
+				"subtitle": "Client n°2",
+				"period": "June 2020 — ...",
+				"type": "work",
+				"description": [
+					{ "line": "This mission consists of maintaining the internal website and the test framework." },
+					{ "line": "In addition, there is also the maintenance of Sanity Checks and DevOps processes." }
+				],
+				"role": [
+					{ "name": "DevOps/Tester" }
+				],
+				"build": [
+					{ "name": "Gradle" },
+					{ "name": "Jenkins" },
+					{ "name": "UCD" }
+				],
+				"tool": [
+					{ "name": "ELK Stack" },
+					{ "name": "git" },
+					{ "name": "GitLab" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Jira" },
+					{ "name": "Microsoft SSMS" },
+					{ "name": "Postman" },
+					{ "name": "ReadyAPI" },
+					{ "name": "WAMP" }
+				],
+				"env": [
+					{ "name": "Groovy" },
+					{ "name": "JavaScript" },
+					{ "name": "PHP" },
+					{ "name": "Transact-SQL" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Blog",
+				"subtitle": "Ongoing",
+				"period": "Sept. 2021 — ...",
+				"type": "personal",
+				"description": [
+					{ "line": "A simple blog based on posts written in Markdown." },
+					{ "line": "For the moment, the blog works statically (the post are PHP files)." }
+				],
+				"role": [
+					{ "name": "Full-stack developer" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" }
+				],
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" },
+					{ "name": "JavaScript" },
+					{ "name": "PHP" },
+					{ "name": "SASS" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/blog"
+					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "inTime (private)",
+				"subtitle": "Ongoing",
+				"period": "April 2020 — ...",
+				"type": "personal",
+				"description": [
+					{ "line": "A Time Tracking project to practice the development of a Spring app with Groovy." },
+					{ "line": "Currently, the time entries, projects, clients and workspaces can be created via REST calls." },
+					{ "line": "There is no security or user interface." }
+				],
+				"role": [
+					{ "name": "Backend developer" }
+				],
+				"framework": [
+					{ "name": "Hibernate" },
+					{ "name": "Spring Boot" }
+				],
+				"tool": [
+					{ "name": "Paw" },
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Sequel Ace" }
+				],
+				"env": [
+					{ "name": "Groovy" },
+					{ "name": "SQL" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/inTime"
+					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Chinese Blocks 中文",
+				"period": "Oct. 2017 — June 2021",
+				"type": "personal",
+				"description": [
+					{ "line": "A simple program which displays compound words in Mandarin in the Terminal." },
+					{ "line": "It was initially created to test Julia and implement the composite pattern." },
+					{ "line": "I extended it to two other languages: Groovy and Swift." }
+				],
+				"role": [
+					{ "name": "Developer" }
+				],
+				"tool": [
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Terminal" },
+					{ "name": "Xcode" }
+				],
+				"env": [
+					{ "name": "Groovy" },
+					{ "name": "Julia" },
+					{ "name": "Swift" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/Chinese-Blocks"
+					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Sixth mission",
+				"subtitle": "Client n°4",
+				"period": "Apr. — May 2020",
+				"type": "work",
+				"description": [
+					{ "line": "This mission consisted of the development of several Drupal modules for the client." }
+				],
+				"role": [
+					{ "name": "Drupal developer" }
+				],
+				"env": [
+					{ "name": "Drupal" },
+					{ "name": "MySQL" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "MailHog" },
+					{ "name": "WAMP" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Fifth mission",
+				"subtitle": "Client n°2",
+				"period": "Jan. — Apr. 2020",
+				"type": "work",
+				"description": [
+					{ "line": "This part time mission consisted in the addition of new features and bug fixes in the test framework developed earlier." },
+					{ "line": "Apart from that, I did the same for the internal site based, in part, on the data of the said framework." }
+				],
+				"role": [
+					{ "name": "Full-stack developer" }
+				],
+				"build": [
+					{ "name": "Gradle" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Microsoft SSMS" },
+					{ "name": "ReadyAPI" }
+				],
+				"env": [
+					{ "name": "Groovy" },
+					{ "name": "JavaScript" },
+					{ "name": "PHP" },
+					{ "name": "Transact-SQL" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Fourth mission",
+				"subtitle": "Client n°1",
+				"period": "Sept. 2019 — Apr. 2020",
+				"type": "work",
+				"description": [
+					{ "line": "This mission consisted in upgrading an application to Spring 5." },
+					{ "line": "In addition, its internal architecture has been updated and REST calls have been added." }
+				],
+				"role": [
+					{ "name": "Backend developer" }
+				],
+				"framework": [
+					{ "name": "Hibernate" },
+					{ "name": "Spring Boot" },
+					{ "name": "Struts" }
+				],
+				"meth": [
+					{ "name": "Agile" },
+					{ "name": "Scrum"}
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Jenkins" },
+					{ "name": "JUnit" },
+					{ "name": "YouTrack" }
+				],
+				"env": [
+					{ "name": "Docker" },
+					{ "name": "Java" },
+					{ "name": "Ubuntu" }
+				]
+			}
+		},
+		{
+			"project": {
 				"title": "CV — Grey",
 				"subtitle": "CV, the sixth iteration",
 				"period": "Aug. 2019",
@@ -24,20 +252,118 @@
 					{ "name": "Kodex" },
 					{ "name": "Sublime Text" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2019"
-					},
-					{
-						"type": "site",
-						"url": "https://www.alexandre-ducobu.com/En"
 					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Second mission",
+				"subtitle": "Client n°2",
+				"period": "May — Jul. 2019",
+				"type": "work",
+				"description": [
+					{ "line": "This is a part time 40-day mission." },
+					{ "line": "It concerned the development, in Groovy, of a test framework based on SoapUI and CSV files." },
+					{ "line": "The development was based on the existing code of a first functional version of the framework, and was supervised by the project manager." }
+				],
+				"role": [
+					{ "name": "Backend developer" }
+				],
+				"build": [
+					{ "name": "Gradle" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "JUnit" },
+					{ "name": "Microsoft SSMS" },
+					{ "name": "ReadyAPI" }
+				],
+				"env": [
+					{ "name": "Groovy" },
+					{ "name": "Transact-SQL" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "Third mission",
+				"subtitle": "Client n°3",
+				"period": "May — June 2019",
+				"type": "work",
+				"description": [
+					{ "line": "This is a part time 10-day mission." },
+					{ "line": "It consisted in the creation of a Spring application containing REST calls to link an old application to Alfresco." }
+				],
+				"role": [
+					{ "name": "Backend developer" }
+				],
+				"framework": [
+					{ "name": "Hibernate" },
+					{ "name": "Spring Boot" }
+				],
+				"build": [
+					{ "name": "Maven" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "MySQL Workbench" },
+					{ "name": "Swagger UI" }
+				],
+				"env": [
+					{ "name": "Java" },
+					{ "name": "MySQL" }
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "First mission",
+				"subtitle": "Client n°1",
+				"period": "Feb. — Mars 2019",
+				"type": "work",
+				"description": [
+					{ "line": "This is a one-month mission." },
+					{ "line": "EIt consisted in fixing bugs and adding new features in the applications developed by the client." }
+				],
+				"role": [
+					{ "name": "Full-stack developer" }
+				],
+				"framework": [
+					{ "name": "Hibernate" },
+					{ "name": "Struts" },
+					{ "name": "Vaadin" }
+				],
+				"meth": [
+					{ "name": "Agile" },
+					{ "name": "Scrum"}
+				],
+				"build": [
+					{ "name": "Jenkins" },
+					{ "name": "Maven" }
+				],
+				"tool": [
+					{ "name": "git" },
+					{ "name": "IntelliJ IDEA" },
+					{ "name": "Jenkins" },
+					{ "name": "JUnit" },
+					{ "name": "YouTrack" }
+				],
+				"env": [
+					{ "name": "Docker" },
+					{ "name": "Java" },
+					{ "name": "Ubuntu" }
 				]
 			}
 		},
@@ -55,6 +381,7 @@
 					{ "name": "Frontend developer" }
 				],
 				"env": [
+					{ "name": "Docker" },
 					{ "name": "Java EE 8" }
 				],
 				"framework": [
@@ -77,7 +404,6 @@
 					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "name": "Docker" },
 					{ "name": "Mockito" }
 				]
 			}
@@ -96,8 +422,7 @@
 					{ "name": "Frontend developer" },
 					{ "name": "git master" }
 				],
-				"env": [
-					{ "name": "Java EE 8" },
+				"framework": [
 					{ "name": "BootsFaces" },
 					{ "name": "Hibernate"}
 				],
@@ -112,11 +437,14 @@
 					{ "name": "git" },
 					{ "name": "IntelliJ IDEA" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
+					{ "name": "Java EE 8" },
 					{ "name": "JavaScript" },
-					{ "name": "MySQL" },
+					{ "name": "MySQL"}
+				],
+				"other": [
 					{ "name": "UML" }
 				]
 			}
@@ -145,19 +473,15 @@
 					{ "name": "Kodex" },
 					{ "name": "Working Copy" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/2_Summer"
-					},
-					{
-						"type": "site",
-						"url": "https://www.alexandre-ducobu.com/Summer/En"
 					}
 				]
 			}
@@ -175,9 +499,6 @@
 				"role": [
 					{"name": "Full-stack developer" }
 				],
-				"env": [
-					{ "name": "PHP" }
-				],
 				"framework": [
 					{ "name": "Bootstrap" },
 					{ "name": "Laravel" },
@@ -188,11 +509,12 @@
 					{ "name": "git" },
 					{ "name": "MailHog" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" },
-					{ "name": "MySQL"}
+					{ "name": "MySQL"},
+					{ "name": "PHP" }
 				],
 				"links": [
 					{
@@ -220,7 +542,13 @@
 					{"name": "Frontend developer" }
 				],
 				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "Java SE 8" },
+					{ "name": "JavaScript" },
+					{ "name": "MySQL"}
+				],
+				"framework": [
 					{ "name": "Bootstrap" },
 					{ "name": "Hibernate"},
 					{ "name": "Spring" }
@@ -237,16 +565,42 @@
 					{ "name": "IntelliJ IDEA" }
 				],
 				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" },
-					{ "name": "JavaScript" },
-					{ "name": "MySQL"},
 					{ "name": "UML" }
 				],
 				"links": [
 					{
 						"type": "report",
 						"url": "https://github.com/Harchytekt/Rapports/blob/master/2015-2018%20(HeH)/2017-2018/Stage%20en%20entreprise/Rapport.pdf"
+					}
+				]
+			}
+		},
+		{
+			"project": {
+				"title": "ToolKit",
+				"period": "2016 — 2018",
+				"type": "personal",
+				"description": [
+					{ "line": "Online manual written in English using Markdown." },
+					{ "line": "This one covers Cisco IOS, Markdown, SQL, Windows Server and Linux administration…" }
+				],
+				"role": [
+					{ "name": "Frontend developer" }
+				],
+				"tool": [
+					{ "name": "Atom" },
+					{ "name": "git" },
+					{ "name": "MacDown"}
+				],
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "JavaScript" },
+					{ "name": "Markdown"}
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/ToolKit"
 					}
 				]
 			}
@@ -276,19 +630,15 @@
 					{ "name": "Textastic" },
 					{ "name": "Working Copy" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2017-2018/1_New%20Year"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/NewYear/En"
 					}
 				]
 			}
@@ -306,10 +656,11 @@
 					{ "name": "Developer" }
 				],
 				"env": [
+					{ "name": "iOS" },
 					{ "name": "Python 3" }
 				],
 				"tool": [
-					{ "name": "Pythonista for iOS" }
+					{ "name": "Pythonista pour iOS" }
 				],
 				"links": [
 					{
@@ -322,7 +673,7 @@
 		{
 			"project": {
 				"title": "GameOfLife",
-				"period": "2017",
+				"period": "Aug. 2017",
 				"type": "personal",
 				"description": [
 					{ "line": "Simple implementation of the \"Game of Life\" for the Terminal." },
@@ -352,9 +703,39 @@
 		},
 		{
 			"project": {
+				"title": "CV — Holidays",
+				"subtitle": "CV, la troisième itération",
+				"period": "Juil. — Août 2017",
+				"type": "personal",
+				"description": [
+					{ "line": "Ceci est la troisième version du site." },
+					{ "line": "Pendant les grandes vacances, j'ai créé cette nouvelle version pour régler quelques problèmes."},
+					{ "line": "Le principal étant l'affichage brouillon des projets." }
+				],
+				"role": [
+					{"name": "Développeur front-end" }
+				],
+				"tool": [
+					{ "name": "Atom" }
+				],
+				"env": [
+					{ "name": "HTML" },
+					{ "name": "CSS" },
+					{ "name": "JavaScript" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2016-2017/2_Holidays"
+					}
+				]
+			}
+		},
+		{
+			"project": {
 				"title": "CV — Project",
 				"subtitle": "Second version, school version",
-				"period": "2017",
+				"period": "Mars — May 2017",
 				"type": "school",
 				"description": [
 					{ "line": "One-Page CV in HTML and CSS animated using JavaScript <i>(and jQuery)</i>." },
@@ -367,19 +748,15 @@
 					{ "name": "Atom" },
 					{ "name": "git" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
+					{ "name": "HTML" },
 					{ "name": "JavaScript" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/CV-One-Page/blob/master/2016-2017/1_Project"
-					},
-					{
-						"type": "site",
-						"url": "http://alexandre-ducobu.com/ProjetBA2/En"
 					}
 				]
 			}
@@ -388,7 +765,7 @@
 			"project": {
 				"title": "PongHAT",
 				"subtitle": "Also known as PyPong",
-				"period": "2017",
+				"period": "Mars — May 2017",
 				"type": "school",
 				"description": [
 					{ "line": "Pong game in Python 3 for Raspberry Pi and Sense HAT." },
@@ -406,7 +783,6 @@
 					{ "name": "Raspberry Pi 3"},
 					{ "name": "Sense HAT"},
 					{ "name": "Terminal" }
-
 				],
 				"links": [
 					{
@@ -422,35 +798,29 @@
 		},
 		{
 			"project": {
-				"title": "ToolKit",
-				"period": "2017",
+				"title": "CV — Draft",
+				"subtitle": "CV, the first iteration",
+				"period": "Jul. 2016",
 				"type": "personal",
 				"description": [
-					{ "line": "Online manual written in English using Markdown." },
-					{ "line": "This one covers Cisco IOS, Markdown, SQL, Windows Server and Linux administration…" }
+					{ "line": "Outside of school, I practiced HTML/CSS in the creation of two websites." },
+					{ "line": "The first is on Muse, the other is a draft for a one-page CV, in anticipation of the following year." }
 				],
 				"role": [
-					{ "name": "Frontend developer" }
+					{"name": "Frontend developer" }
 				],
 				"tool": [
-					{ "name": "Atom" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
+				"env": [
 					{ "name": "CSS" },
-					{ "name": "JavaScript" },
-					{ "name": "MacDown"},
-					{ "name": "Markdown"}
+					{ "name": "HTML" }
 				],
 				"links": [
 					{
 						"type": "git",
-						"url": "https://github.com/Harchytekt/ToolKit"
-					},
-					{
-						"type": "site",
-						"url": "http://toolkit.esy.es/"
+						"url": "https://github.com/Harchytekt/CV-One-Page/tree/master/2015-2016"
 					}
 				]
 			}
@@ -459,7 +829,7 @@
 			"project": {
 				"title": "Web site about Muse",
 				"subtitle": "Did you say Muser? 🎶",
-				"period": "2016",
+				"period": "June 2016",
 				"type": "personal",
 				"description": [
 					{ "line": "To finish this school year while remaining in the creation of site, I had the idea of a site dedicated to Muse." },
@@ -469,12 +839,18 @@
 					{ "name" : "Frontend developer" }
 				],
 				"tool": [
-					{ "name": "Textastic" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" }
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" }
+				],
+				"links": [
+					{
+						"type": "git",
+						"url": "https://gitlab.com/Harchytekt/site-muse"
+					}
 				]
 			}
 		},
@@ -482,7 +858,7 @@
 			"project": {
 				"title": "inComment",
 				"subtitle": "First web project",
-				"period": "2016",
+				"period": "May — June 2016",
 				"type": "school",
 				"description": [
 					{ "line": "Last project of the school year: a site in HTML5 and CSS3." },
@@ -492,21 +868,17 @@
 					{"name": "Frontend developer" }
 				],
 				"tool": [
-					{ "name": "Textastic" },
-					{ "name": "git" }
+					{ "name": "git" },
+					{ "name": "Textastic" }
 				],
-				"other": [
-					{ "name": "HTML" },
-					{ "name": "CSS" }
+				"env": [
+					{ "name": "CSS" },
+					{ "name": "HTML" }
 				],
 				"links": [
 					{
 						"type": "git",
 						"url": "https://bitbucket.org/Harchytekt/project-html/src"
-					},
-					{
-						"type": "site",
-						"url": "http://incomments.esy.es/pages/index.html"
 					}
 				]
 			}
