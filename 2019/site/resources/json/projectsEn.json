@@ -19,7 +19,7 @@
 					{ "name": "UCD" }
 				],
 				"tool": [
-					{ "name": "ELK Stack" },
+					{ "name": "Elastic Stack" },
 					{ "name": "git" },
 					{ "name": "GitLab" },
 					{ "name": "IntelliJ IDEA" },
@@ -65,6 +65,10 @@
 					{
 						"type": "git",
 						"url": "https://github.com/Harchytekt/blog"
+					},
+					{
+						"type": "site",
+						"url": "https://blog.alexandre-ducobu.be:8890"
 					}
 				]
 			}
@@ -73,7 +77,7 @@
 			"project": {
 				"title": "inTime (private)",
 				"subtitle": "Ongoing",
-				"period": "April 2020 — ...",
+				"period": "Apr. 2020 — ...",
 				"type": "personal",
 				"description": [
 					{ "line": "A Time Tracking project to practice the development of a Spring app with Groovy." },
